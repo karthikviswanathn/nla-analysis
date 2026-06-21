@@ -20,3 +20,8 @@ logs/
 *.npz
 *.out
 slurm-*.out
+
+# --- Local-only (kept on disk, not on GitHub) ---
+SNELLIUS_GPU.md
+download_weights.sh
+real_activation_demo.py
