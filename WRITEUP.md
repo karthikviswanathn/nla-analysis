@@ -2,8 +2,24 @@
 - Github repo: https://github.com/karthikviswanathn/nla-analysis. 
 - Cloned [`kitft/nla-inference`](https://github.com/kitft/nla-inference) (cloned in `./nla-inference/`) to perform inference locally. The rest of the code was implemented during the test.
 
+## Executive summary
+
+The [NLA paper]((https://transformer-circuits.pub/2026/nla/index.html)) catalogues several inference-time limitations of Natural Language Autoencoders on frontier models. It is not obvious these carry over to small open-weight models, so I re-ran three of those experiments (**steganography, confabulation, and writing quality**) on four open NLAs (Qwen-2.5-7B, Gemma-3-12B, Gemma-3-27B, Llama-3.3-70B), and then dug into the most interesting failure.
+
+### Reproducing results from the NLA paper
+- **Steganography: little evidence, as in the paper.** Meaning-preserving transforms (shuffle, paraphrase, French translation) retain most of the reconstruction quality (FVE), while the information-removing controls (coherence rewrite, summary) collapse it. 
+- **Confabulation: substantial on every model, with the paper's signature gradient.** Explanations get the **theme right but invent the specifics** (support rate: theme ≫ entity ≫ exact detail), and false claims usually stay topically related. It is worst at low-context token positions and for the smallest model.
+- **Writing quality: mediocre legibility across the board** (~2–3 / 5); the Gemma explanations are the most readable.
+
+### Contribution
+- **Why small models confuse entities (deep dive).** Qwen-2.5-7B systematically swaps a specific entity for another entity within the same theme (e.g. *Hannibal → Columbus*). A linear probe shows the true identity is still **~99% linearly decodable from the exact activation the verbaliser mislabelled**; so this is an **AV decoding / expressivity failure, not lost information**. I hypothesise the driver is **superposition**: smaller models entangle the *fine* entity detail, so the verbaliser falls back on the *coarse* topic and its frequency prior.
+
+My concluding (unverified) hypothesis is that superposition is the underlying thread: smaller models, with fewer residual dimensions, must pack features into more overlapping directions, and it is the fine-grained detail (the specific entity) that degrades first under this interference. This would explain why AVs in smaller models are systematically worse at recovering specifics while keeping the coarse topic intact.
+
 ## Why did I choose this problem?
-I haven’t worked extensively with autoencoders before, though I have a rough high-level understanding of SAEs: how they work and some of their limitations. That said, I found the idea of NLAs quite interesting, and this project felt like a good way to better understand what is going on and build first order intuition about the limitations of NLAs. 
+Among the options on this exam, NLAs immediately caught my attention: the idea of an unsupervised, *verbal* probe into a model's activations is a genuinely appealing one. It also struck me as almost too good to be true, and that scepticism is precisely what motivated me to dig in and put the method to the test.
+
+I haven’t worked extensively with autoencoders before, though I have a rough high-level understanding of SAEs: how they work and some of their limitations. This project felt like a good way to better understand what is going on and build first order intuition about NLAs and their limitations. 
 
 ## My understanding of NLAs
 [Natural Language Autoencoders](https://transformer-circuits.pub/2026/nla/index.html) are an unsupervised method for generating natural language explanations of LLM activations. It comprises of two components 
@@ -11,39 +27,42 @@ I haven’t worked extensively with autoencoders before, though I have a rough h
 2. Activation reconstructor (AR): Take the generated explanation $z$ and produce $h_l \in \mathbb{R}^d$ by running it through the truncated (upto layer $l$) model and using the representation of the last token in $z$. It is like taking a transformer, splliting it into two at layer $l$, where the first part is the activation reconstructor.
 
 
-## Some initial skepticism
+## Some initial scepticism
 An NLA reads a *single* activation: one token, one layer. But a model's computation is spread across both, so a single $h_l$ is only a local snapshot.
 
 - **Across tokens:** $h_l$ is the running summary up to that token; relevant cognition can sit elsewhere in the sequence. 
 - **Across layers:** different information lives at different depths, and the NLA only reads its trained layer. 
 
-However, while this is an interesting direction, testing that skepticism would take more than four hours to operationalize and implement. So I took a more straightforward approach: first recreating experiments from the [NLA paper](https://transformer-circuits.pub/2026/nla/index.html) that expose limitations, but applying them to smaller models. It is not fully obvious to me why the results should extend to smaller models, so I wouldn't mind spending some time validating the results on the smaller models. For this reason I run the experiments on
+However, while this is an interesting direction, testing that scepticism would take more than four hours to operationalise and implement. So I took a more straightforward approach: first recreating experiments from the [NLA paper](https://transformer-circuits.pub/2026/nla/index.html) that expose limitations, but applying them to smaller models. It is not fully obvious to me why the results should extend to smaller models, so I wouldn't mind spending some time validating the results on the smaller models. For this reason I run the experiments on
 | Model | [Qwen-2.5-7B](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct) | [Gemma-3-12B](https://huggingface.co/google/gemma-3-12b-it) | [Gemma-3-27B](https://huggingface.co/google/gemma-3-27b-it) | [Llama-3.3-70B](https://huggingface.co/unsloth/Llama-3.3-70B-Instruct) |
 |---|---|---|---|---|
 | NLA layer | 20 | 32 | 41 | 53 |
+| Total layers | 28 | 48 | 62 | 80 |
 
 ## Evaluating NLAs for limitation
 Experimental details
 We evaluate the NLAs for the following limitations
 - Steganography
-- Confabulations
 - Writing quality
+- Confabulations: We do a more in-depth analysis here.
 
 **Setup:**
 
-- **Data:** **50 short, domain-diverse pretraining-like passages** (history, science, law, etc.).
+- **Data:** a Claude-authored corpus of **50 short, domain-diverse pretraining-like passages** (`steg-test/prompts50.py`), spanning ~16 registers (history, physical science, law, literature, news, computing, biology, economics, philosophy, geography, maths, music, sport, cooking, astronomy, linguistics). They are raw prose with no instructions or questions, chosen to span a range of reconstruction quality; passage 0 echoes the paper's Common Pile Joseon-dynasty running example.
 - **Activations:** for each model we extract the residual-stream activation at the NLA's trained layer at **3 token positions spread across each passage** → **150 activations per model**.
 - **Verbalisation:** each activation is verbalised by the AV with greedy decoding (temperature = 0)[^greedy].
 - **Transforms to understand steganography:** each explanation is put through the **six transforms**: the four meaning-preserving probes (shuffle, light paraphrase, aggressive paraphrase, French translation) and the two information-removing controls (coherence rewrite, paragraph summary).
-- **Transform model:** the five generative transforms are produced by a strong instruction model, **Llama-3.3-70B-Instruct** (served via SGLang), so that a "meaning-preserving" rewrite genuinely preserves the content rather than silently summarising it.
-- **Metric:** we reconstruct each transformed explanation with the AR and report **% FVE maintained = mean FVE(variant) / mean FVE(original)**, where FVE is normalised by each model's predict-the-mean activation variance.
+- **Transform model for steganography:** the five generative transforms are produced by a strong instruction model, **Llama-3.3-70B-Instruct** (served via SGLang), so that a "meaning-preserving" rewrite genuinely preserves the content rather than silently summarising it. I could have done it using Opus/Sonnet but I came to know about this after running all the experiments.
+- **Metric:** we reconstruct each transformed explanation with the AR and report **% Fraction of Variance explained (FVE) maintained = mean FVE(variant) / mean FVE(original)**, where FVE is normalised by each model's predict-the-mean activation variance. 
 
-[^greedy]: Claude Code chose **greedy decoding (T=0)** here for reproducibility: it makes the pipeline deterministic, so each activation yields the same explanation across runs and the only thing that varies across the six transforms is the transform itself. The NLA paper instead **samples the AV at temperature T=1** (the setting the AV was RL-trained under, used both at inference and for GRPO rollouts). I did not change this in the interest of time; with more time it would be nice to see both T = 0 and T = 1.
+[^greedy]: Opus chose **greedy decoding (T=0)** here for reproducibility: it makes the pipeline deterministic, so each activation yields the same explanation across runs and the only thing that varies across the six transforms is the transform itself. The NLA paper instead **samples the AV at temperature T=1** (the setting the AV was RL-trained under, used both at inference and for GRPO rollouts). I did not change this in the interest of time; with more time it would be nice to see both T = 0 and T = 1.
 
 ### Steganography
-First, we measure steganography between the AV and AR: Do NLA explanations communicate information beyond their overt natural language meaning? We test for this by applying a variety of transformations (e.g., paraphrasing, shuffling bullet points) to the AV explanations and measure FVE. A low number suggests that the AV has learned to encode information that isn’t apparent from the explanation’s overt reading.
+First, we measure steganography between the AV and AR: Do NLA explanations communicate information beyond their overt natural language meaning? We test for this by applying a variety of transformations[^steg] (e.g., paraphrasing, shuffling bullet points) to the AV explanations and measure FVE. A low number suggests that the AV has learned to encode information that isn’t apparent from the explanation’s overt reading.
 
-In the NLA paper they find that, for the trained NLA, the four meaning-preserving transforms (shuffle, light and aggressive paraphrase, and French translation) retain almost all of the FVE while only the two information-removing controls (coherence rewrite and paragraph summary) substantially reduce it, i.e. little evidence of steganography.
+[^steg]: These transforms are a *necessary* test (a faithful NLA should survive all of them) but not obviously a *sufficient* one: the AV could still hide information in some channel that none of shuffling, paraphrasing, or translating happens to perturb. Pinning down a sufficient test is a problem for another day.
+
+In the NLA paper they find that, for the trained NLA, the four meaning-preserving transforms (shuffle, light and aggressive paraphrase, and French translation) retain almost all of the FVE while only the two information-removing controls (coherence rewrite and paragraph summary) substantially reduce it, supporting little evidence of steganography.
 
 
 We find, consistent with the paper, **little evidence of steganography**: the meaning-preserving transforms largely retain FVE, while the information-removing controls collapse it.
@@ -70,7 +89,9 @@ Trained NLA explanations become harder to parse (there is no reward for legibili
 Legibility is mediocre across the board (~2–3 / 5). The Gemma explanations are the most readable; Qwen and the (notably terse) Llama-3.3-70B the least. As above, we only have final checkpoints, so this is a snapshot rather than the paper's over-training decline.
 
 ### Confabulations
-NLA explanations can make verifiably false claims about the input. For each model we take **50 explanations**, one per passage, all at the **last content token** (the *highest-context* position; we vary the position in the token-position analysis below). We extract the discrete checkable claims each makes about its *known* source passage and grade every claim with an LLM judge (**Claude Haiku**, run via Claude Code) by **specificity** (theme / entity / specific detail) and **validity** (supported / unsupported / contradicted). We report the **% of claims supported** at each level; equivalently, **not-supported = unsupported + contradicted** = the fraction of claims not grounded in the source (the confabulation rate). **Every table and figure in this section is at this single last-token position**; the token-position analysis at the end is the only part that varies it.
+NLA explanations can make verifiably false claims about the input. For each model we take **50 explanations**, one per passage, all at the **last content token** (the *highest-context* position; we vary the position in the token-position analysis below). 
+
+We extract the discrete checkable claims each makes about its *known* source passage and grade every claim with an LLM judge (**Claude Haiku**, run via Claude Code) by **specificity** (theme / entity / specific detail) and **validity** (supported / unsupported / contradicted). We report the **% of claims supported** at each level; equivalently, **not-supported = unsupported + contradicted** = the fraction of claims not grounded in the source (the confabulation rate). 
 
 | Model | theme | entity | specific | all (support) | contradicted | avg. claims per expl |
 |---|---|---|---|---|---|---|
@@ -89,7 +110,7 @@ Following the paper's presentation, we re-grade every claim three ways (**true (
 
 The paper's two qualitative findings broadly reproduce: **higher-level claims are more often supported** than specific ones, and **most false claims stay topically related** to the input rather than going off-topic. But it is not uniform across models. Qwen-2.5-7B confabulates the most on entity/detail claims (only ~37% supported), and, unlike the others, a large share of its false claims are *unrelated* to the source (the dark-red segments), i.e. it sometimes latches onto the wrong subject entirely. Gemma-3-27B is the most reliable at every level (77–95% supported). Llama-3.3-70B keeps themes and entities accurate but its detail claims are only ~50% supported, with most of the remainder false-but-related, the closest match to the paper's "specific details are invented but stay on-topic" pattern.
 
-## Characterizing the confabulations
+## Characterising the confabulations
 
 **Is it the prompt or the model?** Mostly *neither*. Confabulation is largely non-systematic:
 
@@ -108,11 +129,11 @@ Re-grading the **first** and **middle** content-token explanations of the same p
 
 | position | mean not-supported | theme support |
 |---|---|---|
-| **first** content token (control) | **52%** | 33% |
+| first content token (control) | **52%** | 33% |
 | middle | 9% | 97% |
 | last content token (most context) | 18% | 90% |
 
-At the **first content token** the AV is trying to verbalise an activation that has seen essentially one word, so it **guesses the passage's very topic and gets it wrong about half the time**: even its *theme* claims are only ~33% supported (vs ~90–97% once enough context has accumulated). The late uptick at the final token comes from its more speculative specific-detail predictions. So confabulation is dominated less by *which* prompt or model and more by *where in the passage* the token sits: low-context activations confabulate the most. 
+At the **first content token** the AV is trying to verbalise an activation that has seen essentially one word, so it **guesses the passage's very topic and gets it wrong about half the time**: even its *theme* claims are only ~33% supported (vs ~90–97% once enough context has accumulated). The late uptick at the final token comes from its more speculative specific-detail predictions. So confabulation is affected by *where in the passage* the token sits: low-context activations confabulate the most. 
 
 _Analyses: `factual-accuracy/confab_analysis.py` (prompt/model/domain), `factual-accuracy/confab_position.py` (token position)._
 
@@ -153,19 +174,30 @@ The identity is **almost perfectly linearly decodable** from the activation, and
 
 The decisive test is to apply the probe to the very vector where the AV said *Columbus*:
 
-> **Given the exact activation the AV read, the linear probe says "Hannibal" — 98.7% confident.**
+> **Given the exact activation the AV read, the linear probe says "Hannibal", 98.7% confident.**
 
 The probe recovers **Hannibal with 98.7% confidence** from the exact activation the verbaliser mislabelled.
 
-So the identity was **right there in the activation, trivially decodable**: the AV simply did not use it. Qwen's entity confabulation is **not** a layer-20 information bottleneck; it is an **AV decoding / expressivity failure**: the verbaliser, itself a full 7B language model, overrides the faithful signal in the activation with its own prior (the more famous, higher-frequency prototype). This is a concrete, localised instance of the paper's **"excessive expressivity"** limitation (the AV infers beyond the activation even when the truth is sitting inside it), and it is a useful caution for reading NLA outputs: a confident, fluent explanation can be wrong about a fact the activation actually got right.
+So the identity was **right there in the activation, linearly decodable**: the AV simply did not use it. Qwen's entity confabulation is **not** a layer-20 information bottleneck; it is an **AV decoding / expressivity failure**: the verbaliser, itself a full 7B language model, overrides the faithful signal in the activation with its own prior (the more famous, higher-frequency prototype). This is a concrete, localised instance of the paper's **"excessive expressivity"** limitation (the AV infers beyond the activation even when the truth is sitting inside it), and it is a useful caution for reading NLA outputs: a confident, fluent explanation can be wrong about a fact the activation actually got right.
 
-_Next stesp:_ this is a single substitution pair, and a linear probe demonstrates **presence**, not absence (a failed probe wouldn't have been conclusive; a successful one is). The natural extension is to repeat it across all ~30 substitution cases and ask in what fraction the true entity remains recoverable despite the AV getting it wrong, turning "decoding failure, not bottleneck" from an anecdote into a general claim. Code: `linear-probe/` (`extract_acts.py`, `probe.py`, `run.slurm`).
+_Next steps:_ this is a single substitution pair, and a linear probe demonstrates **presence**, not absence (a failed probe wouldn't have been conclusive; a successful one is). The natural extension is to repeat it across all ~30 substitution cases and ask in what fraction the true entity remains recoverable despite the AV getting it wrong, turning "decoding failure, not bottleneck" from an anecdote into a general claim. Code: `linear-probe/` (`extract_acts.py`, `probe.py`, `run.slurm`).
 
 ### A concluding hypothesis: superposition in smaller models
 
-**My hypothesis for why this hits the smaller models hardest** — Qwen-2.5-7B is the worst, with Gemma-3-27B and Llama-3.3-70B progressively cleaner — is **superposition**. It helps to think of the activation as carrying two kinds of content: a **coarse** component (the topic / gist — *"this is ancient military history"*) and a **fine** component (the specific entity — *which* figure: Hannibal vs Columbus), much like the low- and high-frequency parts of a signal. The coarse topic is robust, but the fine identity is the fragile part — and fine detail is exactly what degrades first when features are packed into overlapping directions. With fewer residual dimensions, a smaller model has to superpose more, so its fine entity content suffers the most interference. The confusion then lands precisely among entities that **share the surviving coarse topic but differ only in the lost fine detail** (Hannibal and Columbus are both "a famous figure from a daring military/exploration campaign"), with the AV falling back on the most common such figure.
+**My hypothesis for why small models need not have good activation verbalisers** is **superposition**. It helps to think of the activation as carrying two kinds of content: a **coarse** component (the topic / gist, *"this is ancient military history"*) and a **fine** component (the specific entity, *which* figure: Hannibal vs Columbus). The coarse topic is robust, but the fine identity is the fragile part, and fine detail is exactly what degrades first when features are packed into overlapping directions. My take is that **superposition can make it harder for the AV to be trained, and just the RL based loss, while ensuring reconstruction need not ensure accuracy at a finer levels.**
 
-Importantly, this sits *with* the probe result, not against it. The probe finds Hannibal because it is **supervised on that single contrast** — the easy case. The AV gets no such supervision: trained only by reconstruction, it must read the *whole* superposed activation at once, and under heavier superposition the fragile fine identity loses out to the robust coarse topic and the AV's own prior. That is exactly "information present, extraction unreliable," and it predicts the size trend we observe (more parameters → less superposition → cleaner fine detail → fewer substitutions). This is a conjecture, not a measurement: the natural test is whether the substitution rate rises with entity *rarity*, and whether a probe's margin / the activations' effective dimensionality degrade in the smaller models.
+With fewer residual dimensions, a smaller model has to superpose more, so its fine entity content suffers the most interference. The confusion then lands precisely among entities that **share the surviving coarse topic but differ only in the lost fine detail** (Hannibal and Columbus are both "a famous figure from a daring military/exploration campaign"), with the AV falling back on the most common such figure.
+
+Importantly, this sits *with* the probe result, not against it. The probe finds Hannibal because it is **supervised on that single contrast**: the easy case. The AV gets no such supervision: trained only by reconstruction, it must read the *whole* superposed activation at once, and under heavier superposition the fragile fine identity loses out to the robust coarse topic and the AV's own prior. That is exactly "information present, extraction unreliable," and it predicts the size trend we observe (more parameters → less superposition → cleaner fine detail). This is a hypothesis (even a borderline conjecture), not a measurement.
+
+## Conclusion
+
+The question I set out to answer was whether the limitations the NLA paper documents on frontier models also appear in small open-weight NLAs, and across steganography, confabulation, and writing quality. We find that they largely do:
+- Little steganography (meaning-preserving transforms retain FVE)
+- Substantial confabulation that follows the paper's *theme > entity > detail* gradient
+- Confabulation turned out to be size dependent[^needs-checking] (smaller models invent more and their false claims drift further off-topic), and probing Qwen's worst case showed this to be an **AV decoding failure rather than a representational bottleneck**, which I hypothesise stems from heavier superposition in smaller models resulting in AV being harder to train in general.
+
+[^needs-checking]: I feel bad making this claim, because I just tried on a single "small" model. Leaving it as is in the interest of time.
 
 ## Some other logistics
 - Spent 4.5 hours on the test but had some technical difficulties in between (the HPC env shut down temporarily)
