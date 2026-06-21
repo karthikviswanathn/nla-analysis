@@ -1,0 +1,302 @@
+[
+ {
+  "pid": 0,
+  "token": "In",
+  "source": "In the third year of King Jungjong's reign, the Veritable Records of the Joseon dynasty noted a severe drought across the southern provinces, prompting the court to perform rain rituals.",
+  "explanation": "Formal English language structure with \"AI\" context suggesting a prompt or question format, implying a word or concept about technology or business.\n\nThe phrase \"In\" signals a prompt or question prompt beginning, likely a title or topic phrase about a specific concept or data, suggesting continuation of a list or article context about AI or sustainability.\n\nFinal token \"In\" opens a word or phrase mid-sentence (\"In\"), part of an incomplete prompt structure (\"Some questions about...\"), strongly expecting a noun phrase like \"the following article\" or \"AI ethics, what are the benefits\" or \"a certain field,\" or \"the following diagram\" or similar."
+ },
+ {
+  "pid": 1,
+  "token": "The",
+  "source": "The Treaty of Westphalia in 1648 ended the Thirty Years' War and entrenched the principle that sovereign states should not interfere in one another's internal affairs.",
+  "explanation": "Formal English language structure with \"A word puzzle\" header suggests a prompt or headline format, implying a word or article context about global affairs or technology.\n\nThe phrase \"The\" begins a second incomplete noun phrase, likely introducing another word or concept following a list or prompt format, possibly a puzzle or article title or a specific statistic about China or sustainability.\n\nFinal token \"The\" is an article beginning a new noun phrase mid-sentence (\"The\"), immediately requiring a noun or noun phrase like \"United Nations has announced\" or \"following facts about\" or \"student's IQ score\" or \"company's logo\" — a prompt or puzzle context expected next."
+ },
+ {
+  "pid": 2,
+  "token": "H",
+  "source": "Hannibal led his army, including a contingent of war elephants, across the Alps in 218 BC to strike at Rome from the north.",
+  "explanation": "Formal English language structure with \"Definition and facts about\" suggesting a headline or prompt format, implying a product or article context about AI or technology.\n\nThe text \"H\" is the start of a new word or question, likely a prompt or name, following \"A recent discovery about...\" — expects continuation like \"What is your favorite...\" or \"I have a question about...\"\n\nFinal token \"H\" is the opening letter of an incomplete word mid-sentence (\"H\"), part of a prompt or headline sequence, strongly expecting a word like \"What is\" or \"I am interested in\" or \"The following facts about\" or \"A famous company\" continuing the topic."
+ },
+ {
+  "pid": 3,
+  "token": "During",
+  "source": "During the Meiji Restoration, Japan dismantled the feudal domains and rapidly industrialised, importing foreign engineers to build railways and arsenals.",
+  "explanation": "Formal English language context with \"AI\" or \"unknown\" structure suggests a question prompt or list format about chemistry or technology terms.\n\nThe phrase \"During\" signals a question or prompt prompt, likely introducing a specific scenario or fact about a person or concept, implying a second question or context about a time period or event related to the given word \"Silence.\"\n\nFinal token \"During\" opens a temporal phrase (\"During\"), part of an incomplete question prompt structure (\"Some facts about\"), immediately expecting a noun phrase like \"a chemistry exam\" or \"the pandemic period, he...\" or \"my learning process,\" or \"the following quiz questions, the following facts.\""
+ },
+ {
+  "pid": 4,
+  "token": "The",
+  "source": "The Library of Alexandria amassed hundreds of thousands of scrolls before a series of fires and budget cuts gradually eroded its collection.",
+  "explanation": "Formal English language structure with \"A word puzzle\" header suggests a prompt or headline format, implying a word or article context about global affairs or technology.\n\nThe phrase \"The\" begins a second incomplete noun phrase, likely introducing another word or concept following a list or prompt format, possibly a puzzle or article title or a specific statistic about China or sustainability.\n\nFinal token \"The\" is an article beginning a new noun phrase mid-sentence (\"The\"), immediately requiring a noun or noun phrase like \"United Nations has announced\" or \"following facts about\" or \"student's IQ score\" or \"company's logo\" — a prompt or puzzle context expected next."
+ },
+ {
+  "pid": 5,
+  "token": "Mit",
+  "source": "Mitochondria generate ATP through oxidative phosphorylation across the inner membrane, coupling electron transport to a proton gradient.",
+  "explanation": "German-language context with formal structure (\"About the company\") suggests a translated or compound question format, likely a German product or technology term.\n\nThe phrase \"Mit\" is the start of a question or term, likely a German word or phrase following \"What are some questions,\" implying a new question or list item about sustainability or energy topic.\n\nFinal token \"Mit\" is the beginning of an incomplete word mid-sentence (\"Mit\"), part of a question prompt structure (\"Mit\"), strongly expecting a noun like \"der AI\" or \"was ist mein Budget?\" or \"a German company\" or \"some other similar questions\" continuing the query format."
+ },
+ {
+  "pid": 6,
+  "token": "A",
+  "source": "A black hole's event horizon marks the boundary beyond which the escape velocity exceeds the speed of light, so no signal can return to a distant observer.",
+  "explanation": "Formal English language structure with \"Definition\" header suggests a prompt or article format, likely a word or phrase challenge or puzzle context.\n\nThe phrase \"A\" begins a new word or sentence, implying an incomplete prompt or question follows, likely a specific topic or scenario about China or technology, continuing the context of a numerical or descriptive statement.\n\nFinal token \"A\" is the start of an incomplete noun phrase (\"A\"), part of a prompt sequence (\"A...\"), immediately requiring a noun or word like \"student\" or \"company has announced\" or \"following statement\" or \"math problem\" or \"my favorite number is...\" — a concrete prompt or example expected next."
+ },
+ {
+  "pid": 7,
+  "token": "When",
+  "source": "When supercooled water is disturbed, it can crystallise almost instantly as the metastable liquid releases its latent heat of fusion.",
+  "explanation": "Formal product description format with \"AI\" context suggesting a platform or article structure, implying a question or prompt about time management or cultural topics.\n\nThe phrase \"When\" begins a question prompt or list, likely a second question or example about a specific concept or event related to Google or similar, expecting continuation like \"a person is happy\" or \"Google's AI predicts.\"\n\nFinal token \"When\" opens a question prompt mid-sentence (\"When\"), part of an incomplete question structure (\"What...\"), strongly expecting a noun phrase or temporal context like \"do I use AI?\" or \"Google announces its holidays,\" or \"the following data is collected,\" continuing the query format."
+ },
+ {
+  "pid": 8,
+  "token": "Super",
+  "source": "Superconductors expel magnetic fields below a critical temperature, a phenomenon known as the Meissner effect that enables frictionless magnetic levitation.",
+  "explanation": "Formal English language context with a question format (\"What is the meaning of...\"), suggesting a headline or article title about a topic likely involving technology or innovation.\n\nThe phrase \"Super\" begins a word or phrase, likely a new question or label, possibly a named concept or list item following a prompt structure, implying continuation of a quiz or article context.\n\nFinal token \"Super\" is the start of an incomplete word mid-sentence (\"Super\"), part of a question or noun phrase beginning \"Super,\" immediately expecting a noun like \"hero\" or \"the following facts\" or \"AI is a great\" or \"My favorite\" or \"Climate change has changed my life.\""
+ },
+ {
+  "pid": 9,
+  "token": "The",
+  "source": "The half-life of carbon-14 is about 5,730 years, which allows archaeologists to date organic remains up to roughly fifty thousand years old.",
+  "explanation": "Formal English language structure with \"A word puzzle\" header suggests a prompt or headline format, implying a word or article context about global affairs or technology.\n\nThe phrase \"The\" begins a second incomplete noun phrase, likely introducing another word or concept following a list or prompt format, possibly a puzzle or article title or a specific statistic about China or sustainability.\n\nFinal token \"The\" is an article beginning a new noun phrase mid-sentence (\"The\"), immediately requiring a noun or noun phrase like \"United Nations has announced\" or \"following facts about\" or \"student's IQ score\" or \"company's logo\" — a prompt or puzzle context expected next."
+ },
+ {
+  "pid": 10,
+  "token": "The",
+  "source": "The treaty established a demilitarized zone along the river and obligated both signatories to submit their disputes to international arbitration.",
+  "explanation": "Formal English language structure with \"A word puzzle\" header suggests a prompt or headline format, implying a word or article context about global affairs or technology.\n\nThe phrase \"The\" begins a second incomplete noun phrase, likely introducing another word or concept following a list or prompt format, possibly a puzzle or article title or a specific statistic about China or sustainability.\n\nFinal token \"The\" is an article beginning a new noun phrase mid-sentence (\"The\"), immediately requiring a noun or noun phrase like \"United Nations has announced\" or \"following facts about\" or \"student's IQ score\" or \"company's logo\" — a prompt or puzzle context expected next."
+ },
+ {
+  "pid": 11,
+  "token": "Under",
+  "source": "Under the doctrine of adverse possession, a trespasser may acquire legal title to land if their occupation is open, continuous, and hostile for the statutory period.",
+  "explanation": "Formal product description or creative prompt format with \"AI\" context suggesting a question or list structure about \"innovation and creativity.\"\n\nThe phrase \"Under\" signals a new question or prompt prompt, likely a title or topic header, implying another question or scenario about a concept or system, possibly related to the given context of AI or technology.\n\nFinal token \"Under\" is the start of a word mid-sentence (\"Under\"), part of an incomplete question prompt structure (\"Questions: \"), strongly expecting a noun phrase like \"what conditions\" or \"the following rules,\" or \"the GDPR,\" or \"what is your daily life,\" continuing a list or scenario prompt."
+ },
+ {
+  "pid": 12,
+  "token": "The",
+  "source": "The appellate court remanded the case, holding that the trial judge had improperly excluded exculpatory evidence during the suppression hearing.",
+  "explanation": "Formal English language structure with \"A word puzzle\" header suggests a prompt or headline format, implying a word or article context about global affairs or technology.\n\nThe phrase \"The\" begins a second incomplete noun phrase, likely introducing another word or concept following a list or prompt format, possibly a puzzle or article title or a specific statistic about China or sustainability.\n\nFinal token \"The\" is an article beginning a new noun phrase mid-sentence (\"The\"), immediately requiring a noun or noun phrase like \"United Nations has announced\" or \"following facts about\" or \"student's IQ score\" or \"company's logo\" — a prompt or puzzle context expected next."
+ },
+ {
+  "pid": 13,
+  "token": "The",
+  "source": "The lighthouse keeper climbed the spiral stairs each dusk, lighting the lamp that had guided fishermen home for forty years.",
+  "explanation": "Formal English language structure with \"A word puzzle\" header suggests a prompt or headline format, implying a word or article context about global affairs or technology.\n\nThe phrase \"The\" begins a second incomplete noun phrase, likely introducing another word or concept following a list or prompt format, possibly a puzzle or article title or a specific statistic about China or sustainability.\n\nFinal token \"The\" is an article beginning a new noun phrase mid-sentence (\"The\"), immediately requiring a noun or noun phrase like \"United Nations has announced\" or \"following facts about\" or \"student's IQ score\" or \"company's logo\" — a prompt or puzzle context expected next."
+ },
+ {
+  "pid": 14,
+  "token": "She",
+  "source": "She folded the letter twice, pressed it beneath the loose floorboard, and resolved never to speak of the inheritance again.",
+  "explanation": "Formal English language context with a word puzzle or headline structure (\"A beautiful woman in China\"), suggesting a prompt or story about a Chinese woman's experience or achievement.\n\nThe phrase \"She\" begins a second word or name, likely a new sentence or question about the subject, implying a second item or scenario related to the woman's attributes or situation.\n\nFinal token \"She\" is the start of a noun phrase mid-sentence (\"She\"), part of an incomplete prompt or name context, immediately requiring a noun or verb phrase like \"is very happy\" or \"had a dream\" or \"the girl decided to...\" or \"This famous woman's...\"."
+ },
+ {
+  "pid": 15,
+  "token": "The",
+  "source": "The old market town woke slowly: shutters creaked open, a baker swept flour from his step, and pigeons wheeled above the empty square.",
+  "explanation": "Formal English language structure with \"A word puzzle\" header suggests a prompt or headline format, implying a word or article context about global affairs or technology.\n\nThe phrase \"The\" begins a second incomplete noun phrase, likely introducing another word or concept following a list or prompt format, possibly a puzzle or article title or a specific statistic about China or sustainability.\n\nFinal token \"The\" is an article beginning a new noun phrase mid-sentence (\"The\"), immediately requiring a noun or noun phrase like \"United Nations has announced\" or \"following facts about\" or \"student's IQ score\" or \"company's logo\" — a prompt or puzzle context expected next."
+ },
+ {
+  "pid": 16,
+  "token": "He",
+  "source": "He had always believed the river was patient, that it would carry away every grievance if you only waited long enough on its bank.",
+  "explanation": "Formal English language context with a vague phrase \"A Chinese person named 'He\" suggesting a prompt or article about a person or scenario, likely a word puzzle or headline.\n\nThe structure \"He\" begins a new word or name, likely a second example or question prompt continuing the sentence, implying a noun or question about the man's attributes or actions.\n\nFinal token \"He\" is the start of a name or noun phrase mid-sentence (\"He\"), part of an incomplete prompt or question structure (\"His...\"), strongly expecting a noun like \"was very happy\" or \"Mr. Smith is a...\" or \"This picture\" or \"the following sentences are about...\""
+ },
+ {
+  "pid": 17,
+  "token": "Central",
+  "source": "Central bankers signalled on Thursday that interest rates would remain elevated until inflation showed a durable return toward the two percent target.",
+  "explanation": "Formal English language structure with a question prompt format (\"What does 'Climate' mean?\"), suggesting a list or definition context about a specific term or concept.\n\nThe phrase \"Central\" is the opening word of a new word or phrase, likely a named concept or topic title, implying a second question or noun phrase follows, possibly a geopolitical or educational context.\n\nFinal token \"Central\" is the start of a word mid-sentence (\"Central\"), part of an incomplete noun phrase or question prompt structure (\"Central\"), strongly expecting a noun like \"Bank of China\" or \"Climate change is a...\" or \"the following points\" or \"States' focus has shifted,\" continuing a list."
+ },
+ {
+  "pid": 18,
+  "token": "Res",
+  "source": "Rescue crews worked through the night after the embankment collapsed, evacuating several hundred residents from the flooded lowland districts.",
+  "explanation": "Formal English language structure with \"Definition\" context suggesting a prompt or article format about a product or concept, likely a quiz or list item.\n\nThe word \"Res\" is the start of a word or phrase following \"Res,\" likely a new prompt or question prompt, implying continuation of a task or topic related to the AI or product description context.\n\nFinal token \"Res\" is a truncated word mid-sentence (\"Res\"), part of an incomplete prompt or question header (\"Answer: Res\"), strongly expecting a noun like \"ume your skills\" or \"This article discusses\" or \"The following questions\" or \"a specific number\" continuing a list or task format."
+ },
+ {
+  "pid": 19,
+  "token": "The",
+  "source": "The company's quarterly earnings beat analyst expectations, sending its shares up nearly nine percent in after-hours trading.",
+  "explanation": "Formal English language structure with \"A word puzzle\" header suggests a prompt or headline format, implying a word or article context about global affairs or technology.\n\nThe phrase \"The\" begins a second incomplete noun phrase, likely introducing another word or concept following a list or prompt format, possibly a puzzle or article title or a specific statistic about China or sustainability.\n\nFinal token \"The\" is an article beginning a new noun phrase mid-sentence (\"The\"), immediately requiring a noun or noun phrase like \"United Nations has announced\" or \"following facts about\" or \"student's IQ score\" or \"company's logo\" — a prompt or puzzle context expected next."
+ },
+ {
+  "pid": 20,
+  "token": "A",
+  "source": "A hash table offers average constant-time lookups by mapping keys to buckets, though collisions can degrade performance to linear in the worst case.",
+  "explanation": "Formal English language structure with \"Definition\" header suggests a prompt or article format, likely a word or phrase challenge or puzzle context.\n\nThe phrase \"A\" begins a new word or sentence, implying an incomplete prompt or question follows, likely a specific topic or scenario about China or technology, continuing the context of a numerical or descriptive statement.\n\nFinal token \"A\" is the start of an incomplete noun phrase (\"A\"), part of a prompt sequence (\"A...\"), immediately requiring a noun or word like \"student\" or \"company has announced\" or \"following statement\" or \"math problem\" or \"my favorite number is...\" — a concrete prompt or example expected next."
+ },
+ {
+  "pid": 21,
+  "token": "The",
+  "source": "The compiler performs dead-code elimination after constant propagation, removing branches that can never execute given the inferred value ranges.",
+  "explanation": "Formal English language structure with \"A word puzzle\" header suggests a prompt or headline format, implying a word or article context about global affairs or technology.\n\nThe phrase \"The\" begins a second incomplete noun phrase, likely introducing another word or concept following a list or prompt format, possibly a puzzle or article title or a specific statistic about China or sustainability.\n\nFinal token \"The\" is an article beginning a new noun phrase mid-sentence (\"The\"), immediately requiring a noun or noun phrase like \"United Nations has announced\" or \"following facts about\" or \"student's IQ score\" or \"company's logo\" — a prompt or puzzle context expected next."
+ },
+ {
+  "pid": 22,
+  "token": "TCP",
+  "source": "TCP guarantees ordered delivery by numbering segments and retransmitting any that go unacknowledged before a timeout expires.",
+  "explanation": "Technical question format with \"网络术语\" suggesting a Chinese-language context or quiz format, implying a question about networking concepts or protocols.\n\nThe phrase \"TCP\" signals a list or question about a specific protocol or concept, likely a multiple-choice or question prompt about TCP/IP or related networking topics, suggesting continuation with a specific protocol characteristic or performance question.\n\nFinal token \"TCP\" is the start of an incomplete term (\"TCP\"), part of a question header or list item structure (\"TCP\"), immediately expecting a specific protocol concept or attribute like \"三次握手\" or \"和UDP的区别\" or \"连接状态\" or \"协议的特性是...\" continuing the technical question."
+ },
+ {
+  "pid": 23,
+  "token": "Gradient",
+  "source": "Gradient descent updates each parameter in the direction that most steeply reduces the loss, scaled by a learning rate that must be tuned carefully.",
+  "explanation": "Structured AI format with \"Definition\" header suggests a prompt or article about machine learning concepts, likely a platform or blog context with a specific term or topic.\n\nThe phrase \"Gradient\" strongly implies a term or concept is being introduced, likely \"Gradient Descent\" or a related ML concept, suggesting a list or question format about optimization or data visualization attributes.\n\nFinal token \"Gradient\" is the start of a word mid-sentence (\"Gradient\"), part of an opening question or topic header pattern (\"Gradient\"), immediately expecting a noun like \"Descent\" or \"flow is a key concept\" or \"loss functions are...\" or \"learning rate\" or similar technical term."
+ },
+ {
+  "pid": 24,
+  "token": "The",
+  "source": "The pancreas secretes insulin in response to rising blood glucose, prompting cells throughout the body to take up sugar from the bloodstream.",
+  "explanation": "Formal English language structure with \"A word puzzle\" header suggests a prompt or headline format, implying a word or article context about global affairs or technology.\n\nThe phrase \"The\" begins a second incomplete noun phrase, likely introducing another word or concept following a list or prompt format, possibly a puzzle or article title or a specific statistic about China or sustainability.\n\nFinal token \"The\" is an article beginning a new noun phrase mid-sentence (\"The\"), immediately requiring a noun or noun phrase like \"United Nations has announced\" or \"following facts about\" or \"student's IQ score\" or \"company's logo\" — a prompt or puzzle context expected next."
+ },
+ {
+  "pid": 25,
+  "token": "CR",
+  "source": "CRISPR-Cas9 uses a guide RNA to direct a nuclease to a specific genomic sequence, where it introduces a double-strand break for editing.",
+  "explanation": "Technical Chinese/English context with a phrase \"某项数据\" suggesting a business or article title format, implying a question or term about a business scenario or acronym.\n\nThe text \"CR\" is the start of an acronym or term, likely a new section or keyword prompt, suggesting a structured list or abbreviation context follows, possibly a business report or Excel format.\n\nFinal token \"CR\" is the beginning of an acronym or word mid-sentence (\"CR\"), part of an incomplete phrase or question prompt structure (\"某个问题：CR\"), immediately expecting continuation like \"ISD\" or \"KPI\" or \"这个模型的三个问题\" or \"压力值\" or similar."
+ },
+ {
+  "pid": 26,
+  "token": "Ant",
+  "source": "Antibiotic resistance spreads when bacteria exchange plasmids carrying genes that inactivate or pump out the offending drug.",
+  "explanation": "Formal English language structure with \"What is\" format suggests a headline or question about a Chinese tech term, likely a product or concept related to AI or business context.\n\nThe phrase \"Ant\" is the start of a word or phrase, likely a named item or acronym in a list or question prompt, implying continuation of a specific example or topic about a Chinese company or concept.\n\nFinal token \"Ant\" is the beginning of a word mid-sentence (\"Ant\"), part of an incomplete question or noun phrase structure (\"Ant\"), strongly expecting a noun like \"Genius\" or \"AI model\" or \"I have a list of...\" or \"The following problems\" continuing the prompt."
+ },
+ {
+  "pid": 27,
+  "token": "The",
+  "source": "The immune system's memory cells persist for years after an infection, enabling a faster and stronger response upon re-exposure to the same pathogen.",
+  "explanation": "Formal English language structure with \"A word puzzle\" header suggests a prompt or headline format, implying a word or article context about global affairs or technology.\n\nThe phrase \"The\" begins a second incomplete noun phrase, likely introducing another word or concept following a list or prompt format, possibly a puzzle or article title or a specific statistic about China or sustainability.\n\nFinal token \"The\" is an article beginning a new noun phrase mid-sentence (\"The\"), immediately requiring a noun or noun phrase like \"United Nations has announced\" or \"following facts about\" or \"student's IQ score\" or \"company's logo\" — a prompt or puzzle context expected next."
+ },
+ {
+  "pid": 28,
+  "token": "When",
+  "source": "When a currency depreciates, exports become cheaper abroad while imported goods grow more expensive for domestic consumers.",
+  "explanation": "Formal product description format with \"AI\" context suggesting a platform or article structure, implying a question or prompt about time management or cultural topics.\n\nThe phrase \"When\" begins a question prompt or list, likely a second question or example about a specific concept or event related to Google or similar, expecting continuation like \"a person is happy\" or \"Google's AI predicts.\"\n\nFinal token \"When\" opens a question prompt mid-sentence (\"When\"), part of an incomplete question structure (\"What...\"), strongly expecting a noun phrase or temporal context like \"do I use AI?\" or \"Google announces its holidays,\" or \"the following data is collected,\" continuing the query format."
+ },
+ {
+  "pid": 29,
+  "token": "Compound",
+  "source": "Compound interest causes a balance to grow geometrically, so even modest annual returns accumulate substantially over several decades.",
+  "explanation": "Formal English language context with \"Definition\" header suggests a quiz or article format, implying a word or phrase prompt about chemistry or finance.\n\nThe phrase \"Compound\" strongly implies a new term or concept is being introduced, likely a compound interest or similar financial/educational term or a puzzle format, suggesting a list or question structure follows.\n\nFinal token \"Compound\" is the start of a word mid-phrase (\"Compound\"), part of an incomplete noun phrase or title (\"Compound\"), immediately expecting a specific noun like \"Interest\" or \"the following questions\" or \"Chemistry\" or \"a combination of\" or \"this quiz is about...\" continuing the prompt context."
+ },
+ {
+  "pid": 30,
+  "token": "A",
+  "source": "A liquidity trap arises when interest rates approach zero and monetary policy loses its power to stimulate additional borrowing.",
+  "explanation": "Formal English language structure with \"Definition\" header suggests a prompt or article format, likely a word or phrase challenge or puzzle context.\n\nThe phrase \"A\" begins a new word or sentence, implying an incomplete prompt or question follows, likely a specific topic or scenario about China or technology, continuing the context of a numerical or descriptive statement.\n\nFinal token \"A\" is the start of an incomplete noun phrase (\"A\"), part of a prompt sequence (\"A...\"), immediately requiring a noun or word like \"student\" or \"company has announced\" or \"following statement\" or \"math problem\" or \"my favorite number is...\" — a concrete prompt or example expected next."
+ },
+ {
+  "pid": 31,
+  "token": "Util",
+  "source": "Utilitarian ethics judges an action by the aggregate welfare it produces, which critics argue can license sacrificing the few for the many.",
+  "explanation": "Formal English language context with a question prompt structure (\"Can you provide an example of 'green energy' usage\"), suggesting a quiz or article format about a technical term or concept.\n\nThe word \"Util\" is the start of a word or phrase (\"Util\"), likely a new question or section header, implying a second prompt or term related to the company's or AI's capabilities.\n\nFinal token \"Util\" is a truncated word mid-sentence (\"Util\"), part of a prompt structure (\"Question: Util\"), strongly expecting a noun like \"ization\" or \"s these tools\" or \"This assignment is about...\" or \"A list of benefits\" or similar academic prompt continuation."
+ },
+ {
+  "pid": 32,
+  "token": "The",
+  "source": "The tragedy of the commons describes how individuals acting in self-interest can deplete a shared resource that none of them wishes to destroy.",
+  "explanation": "Formal English language structure with \"A word puzzle\" header suggests a prompt or headline format, implying a word or article context about global affairs or technology.\n\nThe phrase \"The\" begins a second incomplete noun phrase, likely introducing another word or concept following a list or prompt format, possibly a puzzle or article title or a specific statistic about China or sustainability.\n\nFinal token \"The\" is an article beginning a new noun phrase mid-sentence (\"The\"), immediately requiring a noun or noun phrase like \"United Nations has announced\" or \"following facts about\" or \"student's IQ score\" or \"company's logo\" — a prompt or puzzle context expected next."
+ },
+ {
+  "pid": 33,
+  "token": "Confirmation",
+  "source": "Confirmation bias leads people to seek and remember evidence that supports their existing beliefs while discounting what contradicts them.",
+  "explanation": "Formal or informal query structure (\"Confirmation\") suggests a prompt or UI element about a topic, likely a math or academic context with a question or task.\n\nThe phrase \"Confirmation\" signals a heading or label, implying a second word or phrase follows, likely \"of Order\" or \"Request\" or \"Question about scheduling\" or a numbered list of confirmatory actions.\n\nFinal token \"Confirmation\" is the start of a word or phrase mid-sentence (\"Confirmation\"), part of a prompt or title structure, strongly expecting a noun or verb continuation like \"of my subscription\" or \"Question format\" or \"of the following statement is required\" or \"and/or confirmation of...\"."
+ },
+ {
+  "pid": 34,
+  "token": "The",
+  "source": "The Atacama Desert is among the driest places on Earth, with some weather stations never having recorded a single drop of rain.",
+  "explanation": "Formal English language structure with \"A word puzzle\" header suggests a prompt or headline format, implying a word or article context about global affairs or technology.\n\nThe phrase \"The\" begins a second incomplete noun phrase, likely introducing another word or concept following a list or prompt format, possibly a puzzle or article title or a specific statistic about China or sustainability.\n\nFinal token \"The\" is an article beginning a new noun phrase mid-sentence (\"The\"), immediately requiring a noun or noun phrase like \"United Nations has announced\" or \"following facts about\" or \"student's IQ score\" or \"company's logo\" — a prompt or puzzle context expected next."
+ },
+ {
+  "pid": 35,
+  "token": "Plate",
+  "source": "Plate tectonics drives the slow drift of continents, building mountain ranges where plates collide and opening ocean basins where they separate.",
+  "explanation": "Formal English language structure with \"Definition\" or \"A word\" format suggests a word puzzle or food science context, likely a title or prompt about a specific term or phenomenon.\n\nThe phrase \"Plate\" is the opening word, likely beginning a new term or category name, implying a list or context about a specific product or phenomenon related to AI or chemistry.\n\nFinal token \"Plate\" is the start of a word mid-sentence (\"Plate\"), part of an incomplete noun phrase or title structure (\"Plate\"), strongly expecting continuation like \"Counting\" or \"Recognition\" or \"Marking\" or \"a food item\" or \"Detection\" — likely a puzzle term or topic."
+ },
+ {
+  "pid": 36,
+  "token": "Mon",
+  "source": "Monsoon winds reverse direction with the seasons, drenching the subcontinent in summer and leaving it parched through the winter months.",
+  "explanation": "Formal English language context with a phrase \"Some questions about\" suggesting a title or prompt format, likely a product or article about AI or technology.\n\nThe word \"Mon\" is the start of a word or phrase, likely a proper noun or question prompt beginning a list or example, implying continuation of a query or topic about a specific subject or language.\n\nFinal token \"Mon\" is a truncated word mid-sentence (\"Mon\"), part of an incomplete prompt or question structure (\"My\"), strongly expecting a noun like \"Daydream\" or \"Following are my\" or \"AI technology\" or \"a French company\" or similar topic-related phrase continuing the query format."
+ },
+ {
+  "pid": 37,
+  "token": "A",
+  "source": "A prime number has exactly two divisors, and Euclid proved more than two thousand years ago that the primes never run out.",
+  "explanation": "Formal English language structure with \"Definition\" header suggests a prompt or article format, likely a word or phrase challenge or puzzle context.\n\nThe phrase \"A\" begins a new word or sentence, implying an incomplete prompt or question follows, likely a specific topic or scenario about China or technology, continuing the context of a numerical or descriptive statement.\n\nFinal token \"A\" is the start of an incomplete noun phrase (\"A\"), part of a prompt sequence (\"A...\"), immediately requiring a noun or word like \"student\" or \"company has announced\" or \"following statement\" or \"math problem\" or \"my favorite number is...\" — a concrete prompt or example expected next."
+ },
+ {
+  "pid": 38,
+  "token": "The",
+  "source": "The Fibonacci sequence, in which each term is the sum of the two before it, approaches the golden ratio as the terms grow large.",
+  "explanation": "Formal English language structure with \"A word puzzle\" header suggests a prompt or headline format, implying a word or article context about global affairs or technology.\n\nThe phrase \"The\" begins a second incomplete noun phrase, likely introducing another word or concept following a list or prompt format, possibly a puzzle or article title or a specific statistic about China or sustainability.\n\nFinal token \"The\" is an article beginning a new noun phrase mid-sentence (\"The\"), immediately requiring a noun or noun phrase like \"United Nations has announced\" or \"following facts about\" or \"student's IQ score\" or \"company's logo\" — a prompt or puzzle context expected next."
+ },
+ {
+  "pid": 39,
+  "token": "A",
+  "source": "A function is continuous at a point if small changes in its input produce arbitrarily small changes in its output near that point.",
+  "explanation": "Formal English language structure with \"Definition\" header suggests a prompt or article format, likely a word or phrase challenge or puzzle context.\n\nThe phrase \"A\" begins a new word or sentence, implying an incomplete prompt or question follows, likely a specific topic or scenario about China or technology, continuing the context of a numerical or descriptive statement.\n\nFinal token \"A\" is the start of an incomplete noun phrase (\"A\"), part of a prompt sequence (\"A...\"), immediately requiring a noun or word like \"student\" or \"company has announced\" or \"following statement\" or \"math problem\" or \"my favorite number is...\" — a concrete prompt or example expected next."
+ },
+ {
+  "pid": 40,
+  "token": "A",
+  "source": "A fugue develops a single short theme by introducing it in one voice and then weaving it through the others at staggered intervals.",
+  "explanation": "Formal English language structure with \"Definition\" header suggests a prompt or article format, likely a word or phrase challenge or puzzle context.\n\nThe phrase \"A\" begins a new word or sentence, implying an incomplete prompt or question follows, likely a specific topic or scenario about China or technology, continuing the context of a numerical or descriptive statement.\n\nFinal token \"A\" is the start of an incomplete noun phrase (\"A\"), part of a prompt sequence (\"A...\"), immediately requiring a noun or word like \"student\" or \"company has announced\" or \"following statement\" or \"math problem\" or \"my favorite number is...\" — a concrete prompt or example expected next."
+ },
+ {
+  "pid": 41,
+  "token": "Imp",
+  "source": "Impressionist painters abandoned crisp outlines in favour of loose brushwork that captured the fleeting effects of light on a scene.",
+  "explanation": "Formal English language structure with \"Definition\" prompt format suggests a query or headline about a word or concept, likely a quiz or article context about AI or business.\n\nThe word \"Imp\" is the start of a word or phrase following \"Imp,\" likely a new prompt or question tag, implying a second item or continuation of a list or challenge about the given topic.\n\nFinal token \"Imp\" is a truncated word mid-sentence (\"Imp\"), part of a prompt or title structure (\"Imp...\"), immediately expecting a word like \"ression\" or \"The following statements are...\" or \"This AI tool\" or \"I want to...\" continuing a question or challenge format."
+ },
+ {
+  "pid": 42,
+  "token": "With",
+  "source": "With two minutes remaining, the midfielder threaded a pass through the defence, and the striker volleyed it into the top corner.",
+  "explanation": "Formal English language context with a question prompt structure (\"With\"), suggesting a creative or promotional article title or prompt about AI or technology trends.\n\nThe phrase \"With\" signals the start of a new prompt or question, likely introducing a specific topic or task related to the Chinese language or a list of skills, implying continuation of a prompt or question format.\n\nFinal token \"With\" opens a noun phrase mid-sentence (\"With\"), part of an incomplete prompt structure (\"With\"), immediately requiring a noun or noun phrase like \"the current economic situation,\" \"my new resume,\" or \"the following data,\" or \"AI's growing popularity, I am...\" continuing the prompt."
+ },
+ {
+  "pid": 43,
+  "token": "The",
+  "source": "The marathon's final miles punish the unprepared, as depleted glycogen forces runners to slow against what they call the wall.",
+  "explanation": "Formal English language structure with \"A word puzzle\" header suggests a prompt or headline format, implying a word or article context about global affairs or technology.\n\nThe phrase \"The\" begins a second incomplete noun phrase, likely introducing another word or concept following a list or prompt format, possibly a puzzle or article title or a specific statistic about China or sustainability.\n\nFinal token \"The\" is an article beginning a new noun phrase mid-sentence (\"The\"), immediately requiring a noun or noun phrase like \"United Nations has announced\" or \"following facts about\" or \"student's IQ score\" or \"company's logo\" — a prompt or puzzle context expected next."
+ },
+ {
+  "pid": 44,
+  "token": "To",
+  "source": "To temper chocolate, you gently heat it, cool it while stirring, and warm it again so the cocoa butter sets into a glossy, stable crystal form.",
+  "explanation": "Formal English language structure with \"A creative challenge\" suggesting a prompt or headline context, implying a list or question about technology or educational content.\n\nThe phrase \"To\" begins a new phrase or question, likely a prompt or task statement continuing the context about a student's skills or data, suggesting a second item or challenge about a topic or tool.\n\nFinal token \"To\" opens an incomplete verb phrase (\"To\"), part of a prompt or headline structure (\"To\"), immediately requiring a verb or noun phrase like \"enhance my knowledge,\" \"address the following,\" or \"a certain puzzle,\" or \"reduce carbon footprint,\" continuing the informal or playful tone."
+ },
+ {
+  "pid": 45,
+  "token": "B",
+  "source": "Bread rises because yeast ferments the dough's sugars, releasing carbon dioxide that is trapped by the elastic gluten network.",
+  "explanation": "Formal English language structure with \"What is\" format suggests a headline or prompt about a technology or concept, likely a Chinese company or product description context.\n\nThe text \"B\" is the start of a new word or phrase following \"B,\" likely a prompt or question prompt, possibly a new section or word game entry, expecting continuation like \"I want to learn about\" or \"The following facts.\"\n\nFinal token \"B\" is the opening letter of an incomplete word mid-sentence (\"B\"), part of a prompt or headline structure, strongly expecting a noun or word like \"I am\" or \"This article discusses\" or \"Some famous tech companies\" or similar."
+ },
+ {
+  "pid": 46,
+  "token": "A",
+  "source": "A comet's tail always points away from the Sun, pushed outward by the solar wind regardless of the direction the comet is travelling.",
+  "explanation": "Formal English language structure with \"Definition\" header suggests a prompt or article format, likely a word or phrase challenge or puzzle context.\n\nThe phrase \"A\" begins a new word or sentence, implying an incomplete prompt or question follows, likely a specific topic or scenario about China or technology, continuing the context of a numerical or descriptive statement.\n\nFinal token \"A\" is the start of an incomplete noun phrase (\"A\"), part of a prompt sequence (\"A...\"), immediately requiring a noun or word like \"student\" or \"company has announced\" or \"following statement\" or \"math problem\" or \"my favorite number is...\" — a concrete prompt or example expected next."
+ },
+ {
+  "pid": 47,
+  "token": "The",
+  "source": "The James Webb telescope observes in the infrared, peering through dust clouds to capture light from the universe's earliest galaxies.",
+  "explanation": "Formal English language structure with \"A word puzzle\" header suggests a prompt or headline format, implying a word or article context about global affairs or technology.\n\nThe phrase \"The\" begins a second incomplete noun phrase, likely introducing another word or concept following a list or prompt format, possibly a puzzle or article title or a specific statistic about China or sustainability.\n\nFinal token \"The\" is an article beginning a new noun phrase mid-sentence (\"The\"), immediately requiring a noun or noun phrase like \"United Nations has announced\" or \"following facts about\" or \"student's IQ score\" or \"company's logo\" — a prompt or puzzle context expected next."
+ },
+ {
+  "pid": 48,
+  "token": "Languages",
+  "source": "Languages in close contact often borrow vocabulary, so a single everyday word may carry traces of three or four older tongues.",
+  "explanation": "Formal/structured format with a \"Question\" prompt suggesting a bilingual or cultural context, likely a quiz or article about Google's language capabilities or a famous figure.\n\nThe phrase \"Languages\" begins a second word or topic header, implying a list or question about languages or language-related topics, likely continuing a prompt or question about language learning or translation.\n\nFinal token \"Languages\" is the start of a word or phrase (\"Languages\"), part of an incomplete question or topic header structure (\"Languages\"), immediately expecting a noun phrase like \"family\" or \"that I know\" or \"are...\" or \"such as English and Spanish\" or \"this question is about...\"."
+ },
+ {
+  "pid": 49,
+  "token": "T",
+  "source": "Tidal forces gradually slow the Earth's rotation, lengthening the day by a tiny fraction of a second each century.",
+  "explanation": "Formal English language structure with \"What does 'innovation' mean?\" suggesting a headline or prompt format, likely a product or article context about Tesla or similar tech company.\n\nThe \"T\" at the start of the second word \"T\" signals a new word or question prompt, likely a lettered list or another phrase, possibly a prompt or question about the topic or a related concept.\n\nFinal token \"T\" is the start of an incomplete word mid-sentence (\"T\"), part of a prompt or headline structure, immediately expecting a word like \"he is a\" or \"This article discusses\" or \"I have a question about...\" or \"AI technology\" or similar."
+ }
+]

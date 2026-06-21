@@ -1,0 +1,302 @@
+[
+ {
+  "pid": 0,
+  "token": "In",
+  "source": "In the third year of King Jungjong's reign, the Veritable Records of the Joseon dynasty noted a severe drought across the southern provinces, prompting the court to perform rain rituals.",
+  "explanation": "Q&A format established — likely a structured chat or interview pattern, possibly a bot or forum prompt-response pair.\n\nThe text is likely a question prompt for a new question, following a pattern of sequential questions or a specific domain context (possibly programming, math, or a specific topic).\n\n\"In\" opens a new question beginning with \"In\", likely a formal question stem like \"In a study...\" or \"In the context of...\" — \"In\" strongly predicts a noun phrase or sentence structure, likely a mathematical/logical question such as \"the game of chess, what is the probability...\" or \"a binary relation,\" or \"recent news, a new product...\" — a formal grammar or technical domain question"
+ },
+ {
+  "pid": 1,
+  "token": "The",
+  "source": "The Treaty of Westphalia in 1648 ended the Thirty Years' War and entrenched the principle that sovereign states should not interfere in one another's internal affairs.",
+  "explanation": "Q&A format established — likely a math help platform or test question prompt, expecting a question or problem to follow.\n\nThe pattern of a new question beginning suggests a structured numerical or mathematical question is incoming, likely a new scenario or problem.\n\n\"The\" opens a sentence or question stem, following a prompt prompt — \"The\" is the start of a noun phrase, likely \"The [organization/figure/quantity]...\" — possibly \"radius of a circle\" or similar mathematical object, e.g., \"The following equations...\" or \"The product of three consecutive integers...\" or a statistical/probability question about a company or population."
+ },
+ {
+  "pid": 2,
+  "token": "H",
+  "source": "Hannibal led his army, including a contingent of war elephants, across the Alps in 218 BC to strike at Rome from the north.",
+  "explanation": "Structured Q&A format established — likely a chat or forum prompt-response pattern, possibly a programming or math platform.\n\nThe text is likely a new question or prompt follows, continuing a pattern of questions with expected answers.\n\n\"H\" is the start of a new word or question, following a prompt delimiter — \"H\" likely begins a proper noun or question stem, possibly \"Hello\" or a specific topic like \"Hypothetical\" or a chemistry/physics problem.\n\n\"H\" strongly predicts a word like \"Hello,\" \"How,\" or a named subject like \"Halo\" or \"Hobby,\" likely a mathematical or logical question about a function or set."
+ },
+ {
+  "pid": 3,
+  "token": "During",
+  "source": "During the Meiji Restoration, Japan dismantled the feudal domains and rapidly industrialised, importing foreign engineers to build railways and arsenals.",
+  "explanation": "Q&A format established — likely a technical or academic question-answer platform (Stack Exchange, interview, etc.), expecting a question or answer prompt to follow.\n\nThe text is likely a new question or scenario beginning, following a pattern of short prompts or answers about programming/numbers.\n\n\"During\" opens a sentence or question, likely a noun phrase like \"During a pandemic...\" or \"During the development of...\" — \"During\" is the start of a question, probably a mathematical or logical puzzle, likely \"a game\" or \"the COVID-19 pandemic,\" or \"what is the value of a binary search algorithm,\" or a specific engineering/physics context like a statistical finding about a dog's weight."
+ },
+ {
+  "pid": 4,
+  "token": "The",
+  "source": "The Library of Alexandria amassed hundreds of thousands of scrolls before a series of fires and budget cuts gradually eroded its collection.",
+  "explanation": "Q&A format established — likely a math help platform or test question prompt, expecting a question or problem to follow.\n\nThe pattern of a new question beginning suggests a structured numerical or mathematical question is incoming, likely a new scenario or problem.\n\n\"The\" opens a sentence or question stem, following a prompt prompt — \"The\" is the start of a noun phrase, likely \"The [organization/figure/quantity]...\" — possibly \"radius of a circle\" or similar mathematical object, e.g., \"The following equations...\" or \"The product of three consecutive integers...\" or a statistical/probability question about a company or population."
+ },
+ {
+  "pid": 5,
+  "token": "Mit",
+  "source": "Mitochondria generate ATP through oxidative phosphorylation across the inner membrane, coupling electron transport to a proton gradient.",
+  "explanation": "Q&A format established — likely a technical or academic question-answer pattern, possibly a course or interview context with numbered questions.\n\nThe text is likely a bilingual or multilingual document, possibly German/English or similar, with a new question or topic beginning.\n\n\"Mit\" is the start of a word, likely a proper noun or acronym (e.g., \"Mitochondria\" or a named entity), following a prompt like \"Die Frage ist...\" — \"Mit\" strongly suggests a word like \"mitochondria,\" \"MIT,\" or a compound like \"Mitigating\" or a named AI system, likely a Harvard/CS-related term in a biology or physics context."
+ },
+ {
+  "pid": 6,
+  "token": "A",
+  "source": "A black hole's event horizon marks the boundary beyond which the escape velocity exceeds the speed of light, so no signal can return to a distant observer.",
+  "explanation": "Q&A format established — a structured question-answer pattern, likely a math help platform or test question, expecting a new question or problem to follow.\n\nThe text is likely a numerical or mathematical question, possibly a calculus, statistics, or geometry problem, following a pattern of discrete questions with answers expected.\n\n\"A\" opens a new question or sentence — \"Problem: A\" — likely a noun phrase like \"A box,\" \"A company,\" or \"A survey,\" or a formal mathematical subject like \"A circle with radius...\" or \"A sequence of numbers...\" — a specific scenario or object introducing a question about a quantity or proportion."
+ },
+ {
+  "pid": 7,
+  "token": "When",
+  "source": "When supercooled water is disturbed, it can crystallise almost instantly as the metastable liquid releases its latent heat of fusion.",
+  "explanation": "Q&A format established — likely a structured question-answer pattern, possibly a chat or forum prompt like Stack Exchange or similar.\n\nThe text is likely a new question or prompt following a pattern of unrelated content, signaling a shift to a new topic or question.\n\n\"When\" opens a question beginning with \"When\" — \"What is the birth date of Alan Turing?\"\n\nWhen\" — likely a conditional or factual question follows, possibly \"was the iPhone released\" or \"using a programming language, what...\" or \"does a person...?\" — a question about a specific scenario or comparison, likely a grammar/usage question about a named entity or concept."
+ },
+ {
+  "pid": 8,
+  "token": "Super",
+  "source": "Superconductors expel magnetic fields below a critical temperature, a phenomenon known as the Meissner effect that enables frictionless magnetic levitation.",
+  "explanation": "Q&A format established — likely a structured educational or technical question-answer pattern, possibly a programming course or game context.\n\nThe text is likely a prompt fragment or new question beginning, following a pattern of incomplete questions or answers about a topic (possibly AI, math, or a character-based game).\n\n\"Super\" is the start of a new word, likely a compound noun or proper noun — \"Super\" strongly predicts a word like \"Mario,\" \"Supercomputer,\" or \"Super Bowl,\" or a topic phrase like \"Superposition\" or \"Superior,\" likely a new section or question about a person's preferences, e.g., \"Super Mario\" or a business/financial term."
+ },
+ {
+  "pid": 9,
+  "token": "The",
+  "source": "The half-life of carbon-14 is about 5,730 years, which allows archaeologists to date organic remains up to roughly fifty thousand years old.",
+  "explanation": "Q&A format established — likely a math help platform or test question prompt, expecting a question or problem to follow.\n\nThe pattern of a new question beginning suggests a structured numerical or mathematical question is incoming, likely a new scenario or problem.\n\n\"The\" opens a sentence or question stem, following a prompt prompt — \"The\" is the start of a noun phrase, likely \"The [organization/figure/quantity]...\" — possibly \"radius of a circle\" or similar mathematical object, e.g., \"The following equations...\" or \"The product of three consecutive integers...\" or a statistical/probability question about a company or population."
+ },
+ {
+  "pid": 10,
+  "token": "The",
+  "source": "The treaty established a demilitarized zone along the river and obligated both signatories to submit their disputes to international arbitration.",
+  "explanation": "Q&A format established — likely a math help platform or test question prompt, expecting a question or problem to follow.\n\nThe pattern of a new question beginning suggests a structured numerical or mathematical question is incoming, likely a new scenario or problem.\n\n\"The\" opens a sentence or question stem, following a prompt prompt — \"The\" is the start of a noun phrase, likely \"The [organization/figure/quantity]...\" — possibly \"radius of a circle\" or similar mathematical object, e.g., \"The following equations...\" or \"The product of three consecutive integers...\" or a statistical/probability question about a company or population."
+ },
+ {
+  "pid": 11,
+  "token": "Under",
+  "source": "Under the doctrine of adverse possession, a trespasser may acquire legal title to land if their occupation is open, continuous, and hostile for the statutory period.",
+  "explanation": "Q&A format established — likely a chat or interview prompt-response pattern, possibly a programming or AI platform (Stack Exchange, Discord, etc.).\n\nThe text is likely a question prompt or sentence fragment beginning a new question, following a pattern of short prompts and answers.\n\n\"Under\" is the start of a word, likely a preposition or compound word beginning a question — \"Under\" follows a prompt prompt, likely \"Under what circumstances...\" or a domain-specific term like \"Under the new policy,\" or \"Understand\" — a word like \"what\" or a noun phrase like \"the GDPR\" or \"a mathematical concept\" expected immediately, possibly a definition or scenario about a specific topic."
+ },
+ {
+  "pid": 12,
+  "token": "The",
+  "source": "The appellate court remanded the case, holding that the trial judge had improperly excluded exculpatory evidence during the suppression hearing.",
+  "explanation": "Q&A format established — likely a math help platform or test question prompt, expecting a question or problem to follow.\n\nThe pattern of a new question beginning suggests a structured numerical or mathematical question is incoming, likely a new scenario or problem.\n\n\"The\" opens a sentence or question stem, following a prompt prompt — \"The\" is the start of a noun phrase, likely \"The [organization/figure/quantity]...\" — possibly \"radius of a circle\" or similar mathematical object, e.g., \"The following equations...\" or \"The product of three consecutive integers...\" or a statistical/probability question about a company or population."
+ },
+ {
+  "pid": 13,
+  "token": "The",
+  "source": "The lighthouse keeper climbed the spiral stairs each dusk, lighting the lamp that had guided fishermen home for forty years.",
+  "explanation": "Q&A format established — likely a math help platform or test question prompt, expecting a question or problem to follow.\n\nThe pattern of a new question beginning suggests a structured numerical or mathematical question is incoming, likely a new scenario or problem.\n\n\"The\" opens a sentence or question stem, following a prompt prompt — \"The\" is the start of a noun phrase, likely \"The [organization/figure/quantity]...\" — possibly \"radius of a circle\" or similar mathematical object, e.g., \"The following equations...\" or \"The product of three consecutive integers...\" or a statistical/probability question about a company or population."
+ },
+ {
+  "pid": 14,
+  "token": "She",
+  "source": "She folded the letter twice, pressed it beneath the loose floorboard, and resolved never to speak of the inheritance again.",
+  "explanation": "The text is likely a prompt or question format, possibly a language learning or programming context, expecting a sentence or word problem to follow.\n\nThe pattern may be a structured question or example, likely a grammar or logic exercise, following a pattern of incomplete sentences or character-based scenarios.\n\n\"She\" begins a new sentence or word, likely a proper noun or subject pronoun starting a sentence — \"She\" follows a prompt prompt, likely a name or character reference like \"She is...\" or \"She was...\" — possibly a mathematical or philosophical sentence about a person, e.g., \"gave him 300 dollars\" or \"is a genius\" or a sentence about sheep/animal behavior."
+ },
+ {
+  "pid": 15,
+  "token": "The",
+  "source": "The old market town woke slowly: shutters creaked open, a baker swept flour from his step, and pigeons wheeled above the empty square.",
+  "explanation": "Q&A format established — likely a math help platform or test question prompt, expecting a question or problem to follow.\n\nThe pattern of a new question beginning suggests a structured numerical or mathematical question is incoming, likely a new scenario or problem.\n\n\"The\" opens a sentence or question stem, following a prompt prompt — \"The\" is the start of a noun phrase, likely \"The [organization/figure/quantity]...\" — possibly \"radius of a circle\" or similar mathematical object, e.g., \"The following equations...\" or \"The product of three consecutive integers...\" or a statistical/probability question about a company or population."
+ },
+ {
+  "pid": 16,
+  "token": "He",
+  "source": "He had always believed the river was patient, that it would carry away every grievance if you only waited long enough on its bank.",
+  "explanation": "Technical or academic context likely a forum or Q&A format (Stack Exchange, Reddit, or similar), expecting a question or problem statement to follow.\n\nThe text is likely a language or math exercise, possibly a programming or logic question, with a pattern of short prompts or sentences expected.\n\n\"He\" begins a new word or sentence — \"He\" follows a prompt or question marker, likely a proper name or pronoun starting a sentence, possibly \"He is...\" or a mathematical object like \"Hello\" or a named theorem/character, likely a word like \"replaced,\" \"was,\" or a technical term like \"efficiency\" or \"binary relation\" in a physics/ML context."
+ },
+ {
+  "pid": 17,
+  "token": "Central",
+  "source": "Central bankers signalled on Thursday that interest rates would remain elevated until inflation showed a durable return toward the two percent target.",
+  "explanation": "Q&A format established — likely a math help platform or exam question, expecting a question or problem to follow.\n\nThe text is probably a structured question about probability/statistics, likely a new question or topic follows the prompt pattern.\n\n\"Central\" begins a word — \"Central\" follows a prompt line, likely a proper noun or technical term like \"Central Limit Theorem\" or a geographic/financial concept, possibly \"Central Bank\" or \"Central Angle,\" likely a question about a shape or location.\n\n\"Central\" is the start of a word, likely a noun phrase like \"Central Limit Theorem\" or a question about a city/organization, expecting continuation like \"Bank of...\" or a mathematical"
+ },
+ {
+  "pid": 18,
+  "token": "Res",
+  "source": "Rescue crews worked through the night after the embankment collapsed, evacuating several hundred residents from the flooded lowland districts.",
+  "explanation": "Technical Q&A format established — likely a programming or interview platform prompt, expecting a question or response about a topic like AI, ML, or CS.\n\nThe text is a prompt prompt, likely a new question or task follows, possibly a multi-part question about a specific topic.\n\n\"Res\" is the start of a word, likely a truncated word like \"Rescue,\" \"Research,\" or \"Resign,\" or a proper noun — \"Res\" begins a response or topic phrase, likely \"Responsible AI\" or a similar technical term, possibly a sentence like \"Resolve the following\" or a list of names/addresses, likely a programming exercise about a specific numerical value."
+ },
+ {
+  "pid": 19,
+  "token": "The",
+  "source": "The company's quarterly earnings beat analyst expectations, sending its shares up nearly nine percent in after-hours trading.",
+  "explanation": "Q&A format established — likely a math help platform or test question prompt, expecting a question or problem to follow.\n\nThe pattern of a new question beginning suggests a structured numerical or mathematical question is incoming, likely a new scenario or problem type.\n\n\"The\" opens a sentence or question stem, following a prompt prompt — \"The\" is the start of a noun phrase, likely \"The radius of a circle...\" or \"The following information...\" or similar, possibly a word like \"product,\" \"population,\" or \"function\" — a formal mathematical question about a company or geometric object is expected, likely a quadratic equation or ratio problem."
+ },
+ {
+  "pid": 20,
+  "token": "A",
+  "source": "A hash table offers average constant-time lookups by mapping keys to buckets, though collisions can degrade performance to linear in the worst case.",
+  "explanation": "Q&A format established — a structured question-answer pattern, likely a math help platform or test question, expecting a new question or problem to follow.\n\nThe text is likely a numerical or mathematical question, possibly a calculus, statistics, or geometry problem, following a pattern of discrete questions with answers expected.\n\n\"A\" opens a new question or sentence — \"Problem: A\" — likely a noun phrase like \"A box,\" \"A company,\" or \"A survey,\" or a formal mathematical subject like \"A circle with radius...\" or \"A sequence of numbers...\" — a specific scenario or object introducing a question about a quantity or proportion."
+ },
+ {
+  "pid": 21,
+  "token": "The",
+  "source": "The compiler performs dead-code elimination after constant propagation, removing branches that can never execute given the inferred value ranges.",
+  "explanation": "Q&A format established — likely a math help platform or test question prompt, expecting a question or problem to follow.\n\nThe pattern of a new question beginning suggests a structured numerical or mathematical question is incoming, likely a new scenario or problem.\n\n\"The\" opens a sentence or question stem, following a prompt prompt — \"The\" is the start of a noun phrase, likely \"The [organization/figure/quantity]...\" — possibly \"radius of a circle\" or similar mathematical object, e.g., \"The following equations...\" or \"The product of three consecutive integers...\" or a statistical/probability question about a company or population."
+ },
+ {
+  "pid": 22,
+  "token": "TCP",
+  "source": "TCP guarantees ordered delivery by numbering segments and retransmitting any that go unacknowledged before a timeout expires.",
+  "explanation": "Q&A format established — a pattern of questions and answers, likely a technical interview or exam context with informal structure.\n\nThe text is likely a new question or topic beginning, following a pattern of networking/IT questions (e.g., \"what is the purpose of...\").\n\n\"TCP\" is the start of a new term or acronym, likely a technical networking concept — \"TCP\" follows a prompt prompt, strongly predicting a continuation like \"and UDP\" or a specific TCP-related topic, likely \"IP\" or a protocol property like \"congestion control\" or \"handshake\" or \"segment\" — a question about TCP behavior or properties is expected next."
+ },
+ {
+  "pid": 23,
+  "token": "Gradient",
+  "source": "Gradient descent updates each parameter in the direction that most steeply reduces the loss, scaled by a learning rate that must be tuned carefully.",
+  "explanation": "Technical tutorial or educational format — likely a Q&A or ML/programming context, possibly a course or exam question.\n\nThe text is likely a prompt or question setup, expecting a definition or explanation of a concept, possibly in a structured format with numbered sections or mathematical content.\n\n\"Gradient\" is the start of a new word or term, likely a noun phrase like \"Gradient Descent\" or \"Gradient Boosting,\" following a prompt prompt — \"Gradient\" strongly predicts a technical ML term, likely \"Descent\" or a related concept like \"color palette\" or \"Gradient of a tensor/shape\" or \"Gradient norm\" in a definition context."
+ },
+ {
+  "pid": 24,
+  "token": "The",
+  "source": "The pancreas secretes insulin in response to rising blood glucose, prompting cells throughout the body to take up sugar from the bloodstream.",
+  "explanation": "Q&A format established — likely a math help platform or test question prompt, expecting a question or problem to follow.\n\nThe pattern of a new question beginning suggests a structured numerical or mathematical question is incoming, likely a new scenario or problem.\n\n\"The\" opens a sentence or question stem, following a prompt prompt — \"The\" is the start of a noun phrase, likely \"The [organization/figure/quantity]...\" — possibly \"radius of a circle\" or similar mathematical object, e.g., \"The following equations...\" or \"The product of three consecutive integers...\" or a statistical/probability question about a company or population."
+ },
+ {
+  "pid": 25,
+  "token": "CR",
+  "source": "CRISPR-Cas9 uses a guide RNA to direct a nuclease to a specific genomic sequence, where it introduces a double-strand break for editing.",
+  "explanation": "Q&A format established — likely a structured answer platform or chat prompt, expecting a question-response pattern with technical or factual content.\n\nThe text is likely a prompt for a new question or topic, following a pattern of short questions and answers about a specific subject (possibly AI, science, or a domain).\n\n\"CR\" is the start of an acronym or abbreviation, likely a technical term — \"CR\" follows a prompt prompt, possibly \"CRISPR\" or a similar domain-specific term like \"Critical Review\" or a structured data category, likely a noun phrase like \"criminal record\" or a mathematical/statistical concept."
+ },
+ {
+  "pid": 26,
+  "token": "Ant",
+  "source": "Antibiotic resistance spreads when bacteria exchange plasmids carrying genes that inactivate or pump out the offending drug.",
+  "explanation": "Pattern of question-answer format established — likely a structured educational or interview context, possibly a programming or math course.\n\nThe text is likely a prompt or question beginning a new topic, following a pattern of questions or a response block.\n\n\"Ant\" is the start of a word, likely a proper noun or subject noun beginning a new question or example — \"Ant\" follows a newline, likely a word like \"Ants,\" \"Antonym,\" or a mathematical object like \"Ant colony optimization\" or \"Antony,\" possibly a character name or a conditional sentence like \"If you are...\" — a noun or adjective starting a sentence about a person or object is expected immediately."
+ },
+ {
+  "pid": 27,
+  "token": "The",
+  "source": "The immune system's memory cells persist for years after an infection, enabling a faster and stronger response upon re-exposure to the same pathogen.",
+  "explanation": "Q&A format established — likely a math help platform or test question prompt, expecting a question or problem to follow.\n\nThe pattern of a new question beginning suggests a structured numerical or mathematical question is incoming, likely a new scenario or problem.\n\n\"The\" opens a sentence or question stem, following a prompt prompt — \"The\" is the start of a noun phrase, likely \"The [organization/figure/quantity]...\" — possibly \"radius of a circle\" or similar mathematical object, e.g., \"The following equations...\" or \"The product of three consecutive integers...\" or a statistical/probability question about a company or population."
+ },
+ {
+  "pid": 28,
+  "token": "When",
+  "source": "When a currency depreciates, exports become cheaper abroad while imported goods grow more expensive for domestic consumers.",
+  "explanation": "Q&A format established — likely a structured question-answer pattern, possibly a chat or forum prompt like Stack Exchange or similar.\n\nThe text is likely a new question or prompt following a pattern of unrelated content, signaling a shift to a new topic or question.\n\n\"When\" opens a question word, following a prompt prompt — \"When\" begins an interrogative sentence, likely a factual question about a person, event, or concept, possibly \"was the iPhone released?\" or \"does a programming language become obsolete?\" or \"using this technique, what are the benefits?\" — a conditional or temporal question expected, likely a specific scenario about a named entity or topic."
+ },
+ {
+  "pid": 29,
+  "token": "Compound",
+  "source": "Compound interest causes a balance to grow geometrically, so even modest annual returns accumulate substantially over several decades.",
+  "explanation": "Educational Q&A format established — a structured question-response pattern likely a math or engineering course, possibly a forum or test question.\n\nThe text is likely a numbered question or problem prompt, following a pattern of instructional content about percentages/interest rates, implying a new question or concept follows.\n\n\"Compound\" is the start of a word — likely \"Compound Interest\" or a compound noun like \"Compound Sentence\" or \"Compound shape,\" possibly a geometry or chemistry term, likely \"Interest\" or a noun phrase like \"A and B\" or \"Compound inequality\" — a question about a chemical compound or a statistical concept follows immediately."
+ },
+ {
+  "pid": 30,
+  "token": "A",
+  "source": "A liquidity trap arises when interest rates approach zero and monetary policy loses its power to stimulate additional borrowing.",
+  "explanation": "Q&A format established — a structured question-answer pattern, likely a math help platform or test question, expecting a new question or problem to follow.\n\nThe text is likely a numerical or analytical question, possibly a calculus, statistics, or geometry problem, following a pattern of discrete questions with answers expected.\n\n\"A\" opens a new question or sentence — \"Problem: A\" — likely a noun phrase like \"A box,\" \"A company,\" or \"A survey,\" or a formal mathematical subject like \"A circle with radius...\" or \"A sequence of numbers...\" — a specific scenario or object introducing a question about a quantity or comparison."
+ },
+ {
+  "pid": 31,
+  "token": "Util",
+  "source": "Utilitarian ethics judges an action by the aggregate welfare it produces, which critics argue can license sacrificing the few for the many.",
+  "explanation": "Technical tutorial or interview prompt format — likely a programming course, chat platform, or Q&A service (e.g., Stack Overflow), expecting a question or response about code/programming.\n\nThe text is likely a prompt or question beginning, following a pattern of structured requests or responses about a topic.\n\n\"Util\" is the start of a word, likely a truncated word like \"Utilize,\" \"Utility,\" or \"Utilization\" — beginning a sentence or question, probably \"Utilize a Python library to...\" or \"Utilizing blockchain technology in a real-world application,\" or a sentence like \"The current codebase is poorly optimized. Provide a better alternative,\" likely a utility function or framework-related question."
+ },
+ {
+  "pid": 32,
+  "token": "The",
+  "source": "The tragedy of the commons describes how individuals acting in self-interest can deplete a shared resource that none of them wishes to destroy.",
+  "explanation": "Q&A format established — likely a math help platform or test question prompt, expecting a question or problem to follow.\n\nThe pattern of a new question beginning suggests a structured numerical or mathematical question is incoming, likely a new scenario or problem.\n\n\"The\" opens a sentence or question stem, following a prompt prompt — \"The\" is the start of a noun phrase, likely \"The [organization/figure/quantity]...\" — possibly \"radius of a circle\" or similar mathematical object, e.g., \"The following equations...\" or \"The product of three consecutive integers...\" or a statistical/probability question about a company or population."
+ },
+ {
+  "pid": 33,
+  "token": "Confirmation",
+  "source": "Confirmation bias leads people to seek and remember evidence that supports their existing beliefs while discounting what contradicts them.",
+  "explanation": "Technical or academic context shift — likely a prompt-response format with numbered questions or a new topic, possibly a chat or code platform.\n\nThe text is likely a corrupted or incomplete sentence fragment, possibly a machine learning or programming context (e.g., \"Hello I am new to this\").\n\n\"Confirmation\" begins a new word or phrase — \"Confirmation\" follows a line break, likely a noun or topic header, possibly a formal term like \"Confirmation Bias\" or a ritual/religious concept, likely followed by a question or sentence like \"of a hypothesis\" or \"email\" or \"Number\" — a structured response prompt or definition is expected next, possibly a religious or legal term."
+ },
+ {
+  "pid": 34,
+  "token": "The",
+  "source": "The Atacama Desert is among the driest places on Earth, with some weather stations never having recorded a single drop of rain.",
+  "explanation": "Q&A format established — likely a math help platform or test question prompt, expecting a question or problem to follow.\n\nThe pattern of a new question beginning suggests a structured numerical or mathematical question is incoming, likely a new scenario or problem.\n\n\"The\" opens a sentence or question stem, following a prompt prompt — \"The\" is the start of a noun phrase, likely \"The [organization/figure/quantity]...\" — possibly \"radius of a circle\" or similar mathematical object, e.g., \"The following equations...\" or \"The product of three consecutive integers...\" or a statistical/probability question about a company or population."
+ },
+ {
+  "pid": 35,
+  "token": "Plate",
+  "source": "Plate tectonics drives the slow drift of continents, building mountain ranges where plates collide and opening ocean basins where they separate.",
+  "explanation": "Technical engineering or physics problem format — likely a structured question with numerical values, possibly a homework or exam prompt.\n\nThe text is likely a new question or scenario beginning, following a pattern of materials/structural engineering or mechanical properties context (e.g., steel, stress, heat).\n\n\"Plate\" is the start of a word, likely a noun phrase like \"Plate tectonics\" or a specific engineering object — \"Plate\" begins a sentence or question, likely \"Plate A has...\" or \"The plates are...\" or a definition like \"number of plates in a stack\" or a mathematical problem involving a plate (e.g., a license plate or metal plate with a limit), a noun phrase"
+ },
+ {
+  "pid": 36,
+  "token": "Mon",
+  "source": "Monsoon winds reverse direction with the seasons, drenching the subcontinent in summer and leaving it parched through the winter months.",
+  "explanation": "Q&A format established — likely a programming or math help platform, expecting a question or problem prompt to follow.\n\nThe text is probably a prompt for a new question, likely a word problem or puzzle involving names/characters, following a pattern of structured questions.\n\n\"Mon\" is the start of a word, likely a proper noun or abbreviation — \"Mon\" begins a sentence or scenario, probably \"Monday\" or a character name like \"Monica,\" or a mathematical term like \"Monomial,\" likely \"Monk and his wife\" or a hypothetical scenario like \"Monkeys are sharing...\" or a named entity in a cryptographic/ML context, possibly a new question about a binary tree or logic puzzle"
+ },
+ {
+  "pid": 37,
+  "token": "A",
+  "source": "A prime number has exactly two divisors, and Euclid proved more than two thousand years ago that the primes never run out.",
+  "explanation": "Q&A format established — a structured question-answer pattern, likely a math help platform or test question, expecting a new question or problem to follow.\n\nThe text is likely a numerical or mathematical question, possibly a calculus, statistics, or geometry problem, following a pattern of discrete questions with answers expected.\n\n\"A\" opens a new question or sentence — \"Problem: A\" — likely a noun phrase like \"A box,\" \"A company,\" or \"A survey,\" or a formal mathematical subject like \"A circle with radius...\" or \"A sequence of numbers...\" — a specific scenario or object introducing a question about a quantity or proportion."
+ },
+ {
+  "pid": 38,
+  "token": "The",
+  "source": "The Fibonacci sequence, in which each term is the sum of the two before it, approaches the golden ratio as the terms grow large.",
+  "explanation": "Q&A format established — likely a math help platform or test question prompt, expecting a question or problem to follow.\n\nThe pattern of a new question beginning suggests a structured numerical or mathematical question is incoming, likely a new scenario or problem.\n\n\"The\" opens a sentence or question stem, following a prompt prompt — \"The\" is the start of a noun phrase, likely \"The [organization/figure/quantity]...\" — possibly \"radius of a circle\" or similar mathematical object, e.g., \"The following equations...\" or \"The product of three consecutive integers...\" or a statistical/probability question about a company or population."
+ },
+ {
+  "pid": 39,
+  "token": "A",
+  "source": "A function is continuous at a point if small changes in its input produce arbitrarily small changes in its output near that point.",
+  "explanation": "Q&A format established — a structured question-answer pattern, likely a math help platform or test question, expecting a new question or problem to follow.\n\nThe text is likely a numerical or mathematical question, possibly a calculus, statistics, or geometry problem, following a pattern of discrete questions with answers expected.\n\n\"A\" opens a new question or sentence — \"Problem: A\" — likely a noun phrase like \"A box,\" \"A company,\" or \"A survey,\" or a formal mathematical subject like \"A circle with radius...\" or \"A sequence of numbers...\" — a specific scenario or object introducing a question about a quantity or proportion."
+ },
+ {
+  "pid": 40,
+  "token": "A",
+  "source": "A fugue develops a single short theme by introducing it in one voice and then weaving it through the others at staggered intervals.",
+  "explanation": "Q&A format established — a structured question-answer pattern, likely a math help platform or test question, expecting a new question or problem to follow.\n\nThe text is likely a numerical or mathematical question, possibly a calculus, statistics, or geometry problem, following a pattern of discrete questions with answers expected.\n\n\"A\" opens a new question or sentence — \"Problem: A\" — likely a noun phrase like \"A box,\" \"A company,\" or \"A survey,\" or a formal mathematical subject like \"A circle with radius...\" or \"A sequence of numbers...\" — a specific scenario or object introducing a question about a quantity or proportion."
+ },
+ {
+  "pid": 41,
+  "token": "Imp",
+  "source": "Impressionist painters abandoned crisp outlines in favour of loose brushwork that captured the fleeting effects of light on a scene.",
+  "explanation": "Technical or programming context established — likely a chat prompt or forum format (e.g., Python, math, or programming course), expecting a question or task response.\n\nThe text is likely a prompt for a wordplay or language-based question, following a pattern of informal requests with structured answers.\n\n\"Imp\" is the start of a word, likely a word like \"Impersonate,\" \"Import,\" or a new question beginning — \"Imp\" is a truncated token, probably a verb or noun like \"Impression\" or \"Implication,\" likely a probability/statistics question about a hypothetical scenario, e.g., \"Imp and elephant\" or \"Impose a limit,\" a short philosophical question about prime"
+ },
+ {
+  "pid": 42,
+  "token": "With",
+  "source": "With two minutes remaining, the midfielder threaded a pass through the defence, and the striker volleyed it into the top corner.",
+  "explanation": "Q&A format established — likely a structured question-answer pattern, possibly a chat or interview context with numbered questions.\n\nThe text is likely a prompt for a technical or general question, possibly a programming/ML domain question, following a pattern of incomplete or sequential questions.\n\n\"With\" opens a new question or sentence, likely a conditional or topical phrase — \"With\" follows a prompt prompt, strongly predicting a noun phrase like \"the rise of...\" or \"the following information...\" or \"recent changes in...\" — likely a mathematical or policy question about a specific topic, possibly a list-based answer about a product or algorithm, e.g., \"the current pandemic, what are the limitations of...\" or a specific"
+ },
+ {
+  "pid": 43,
+  "token": "The",
+  "source": "The marathon's final miles punish the unprepared, as depleted glycogen forces runners to slow against what they call the wall.",
+  "explanation": "Q&A format established — likely a math help platform or test question prompt, expecting a question or problem to follow.\n\nThe pattern of a new question beginning suggests a structured numerical or mathematical question is incoming, likely a new scenario or problem.\n\n\"The\" opens a sentence or question stem, following a prompt prompt — \"The\" is the start of a noun phrase, likely \"The [organization/figure/quantity]...\" — possibly \"radius of a circle\" or similar mathematical object, e.g., \"The following equations...\" or \"The product of three consecutive integers...\" or a statistical/probability question about a company or population."
+ },
+ {
+  "pid": 44,
+  "token": "To",
+  "source": "To temper chocolate, you gently heat it, cool it while stirring, and warm it again so the cocoa butter sets into a glossy, stable crystal form.",
+  "explanation": "Structured Q&A format established — likely a forum or chat platform (Stack Exchange, Reddit, or similar), with numbered questions and answers expected to follow.\n\nThe text is likely a new question or problem prompt, following a pattern of mathematical or technical questions with numerical answers.\n\n\"To\" opens a new sentence or question beginning, likely a formal mathematical prompt like \"To find...\" or \"To improve...\" — \"To\" follows a blank line, strongly predicting a verb phrase or question stem, likely something like \"solve a problem\" or \"calculate the probability of...\" or a geometric/programming context like \"find the largest prime factor of a number,\" or a sentence about a product launch or organizational goal."
+ },
+ {
+  "pid": 45,
+  "token": "B",
+  "source": "Bread rises because yeast ferments the dough's sugars, releasing carbon dioxide that is trapped by the elastic gluten network.",
+  "explanation": "Structured format pattern: likely a Q&A or problem-solving platform (e.g., Stack Exchange, chat), with a new question or answer expected to follow.\n\nThe text is empty or a prompt is being introduced, signaling a new question or scenario is beginning — likely a mathematical or technical question follows.\n\n\"B\" is the start of a word or identifier, likely a proper noun or variable name beginning a question, following the pattern of a prompt prompt — \"B\" could be a name like \"Bobby,\" \"Bacteria,\" or a mathematical object like \"Balls\" or a boolean question, likely a specific numerical problem about a product or algorithm."
+ },
+ {
+  "pid": 46,
+  "token": "A",
+  "source": "A comet's tail always points away from the Sun, pushed outward by the solar wind regardless of the direction the comet is travelling.",
+  "explanation": "Q&A format established — a structured question-answer pattern, likely a math help platform or test question, expecting a new question or problem to follow.\n\nThe text is likely a numerical or mathematical question, possibly a calculus, statistics, or geometry problem, following a pattern of discrete questions with answers expected.\n\n\"A\" opens a new question or sentence — \"Problem: A\" — likely a noun phrase like \"A box,\" \"A company,\" or \"A survey,\" or a formal mathematical subject like \"A circle with radius...\" or \"A sequence of numbers...\" — a specific scenario or object introducing a question about a quantity or proportion."
+ },
+ {
+  "pid": 47,
+  "token": "The",
+  "source": "The James Webb telescope observes in the infrared, peering through dust clouds to capture light from the universe's earliest galaxies.",
+  "explanation": "Q&A format established — likely a math help platform or test question prompt, expecting a question or problem to follow.\n\nThe pattern of a new question beginning suggests a structured numerical or mathematical question is incoming, likely a new scenario or problem.\n\n\"The\" opens a sentence or question stem, following a prompt prompt — \"The\" is the start of a noun phrase, likely \"The [organization/figure/quantity]...\" — possibly \"radius of a circle\" or similar mathematical object, e.g., \"The following equations...\" or \"The product of three consecutive integers...\" or a statistical/probability question about a company or population."
+ },
+ {
+  "pid": 48,
+  "token": "Languages",
+  "source": "Languages in close contact often borrow vocabulary, so a single everyday word may carry traces of three or four older tongues.",
+  "explanation": "Technical Q&A format established — likely a programming or chat platform question, expecting structured answers or a new question prompt.\n\nThe text is informal, likely a prompt fragment or incomplete question about language/programming, with a pattern of short answers expected (e.g., the age of a language).\n\n\"Languages\" begins a new word or section — \"Languages\" follows a prompt about a specific language, likely a topic category or list-based question, possibly \"Languages are...\" or a related concept like \"that use...\" or \"The evolution of languages\" or \"Language classification\" — a noun phrase likely followed by a question or data about language families, or a list of languages with similar properties."
+ },
+ {
+  "pid": 49,
+  "token": "T",
+  "source": "Tidal forces gradually slow the Earth's rotation, lengthening the day by a tiny fraction of a second each century.",
+  "explanation": "Pattern of question-answer format established — likely a structured prompt-response pattern with numbered or sequential questions, possibly a chat or AI model context.\n\nThe text is likely a new question or sentence beginning, following a pattern of short factual or logical questions (possibly a programming/word problem domain).\n\n\"T\" is the start of a new token, likely a proper noun or sentence beginning — \"T\" follows a prompt prompt, strongly predicting a word like \"The\" or a name, likely \"Terry\" or a conditional clause like \"The following statement is true about a polyhedron\" or \"Tensile\" or a named person/subject in a news or reasoning question."
+ }
+]

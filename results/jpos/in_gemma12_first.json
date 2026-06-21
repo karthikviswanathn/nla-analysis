@@ -1,0 +1,302 @@
+[
+ {
+  "pid": 0,
+  "token": "In",
+  "source": "In the third year of King Jungjong's reign, the Veritable Records of the Joseon dynasty noted a severe drought across the southern provinces, prompting the court to perform rain rituals.",
+  "explanation": "Academic/mathematical problem-solving context signals a question or prompt about a combinatorial puzzle involving a specific card game or logic problem.\n\nThe phrase \"In\" opens a new question or topic introduction, establishing a request for a mathematical/programming answer about a specific scenario involving a set of numbers.\n\nFinal token \"In\" begins a question prompt phrase (\"In...\"), immediately requiring a topic label or question header — likely \"the UK\" or \"a geometry problem\" or \"the following problem, find...\" or \"a chess puzzle\" or \"the Fibonacci sequence\" or \"a country where...\" or \"my answer, I want to...\" introducing a statement about the topic."
+ },
+ {
+  "pid": 1,
+  "token": "The",
+  "source": "The Treaty of Westphalia in 1648 ended the Thirty Years' War and entrenched the principle that sovereign states should not interfere in one another's internal affairs.",
+  "explanation": "Academic/educational context signals a math problem or textbook question format, expecting a problem statement or answer about a mathematical topic.\n\nThe phrase \"The\" begins a question prompt, establishing a topic introduction about a word problem involving a function or graph, likely a geometry or probability problem involving a company.\n\nFinal token \"The\" opens a question header or prompt phrase (\"The\"), immediately requiring a noun phrase — likely \"following table\" or \"sum of the digits of a number is...\" or \"company is given...\" or \"question asks that...\" or \"a rectangle has...\" or \"teacher wants to know the average rate of change\" — a topic introduction or problem statement."
+ },
+ {
+  "pid": 2,
+  "token": "Hann",
+  "source": "Hannibal led his army, including a contingent of war elephants, across the Alps in 218 BC to strike at Rome from the north.",
+  "explanation": "Structured document format with Q&A style prompts, suggesting a database/knowledge base entry for a German/Swedish AI/NLP topic.\n\nThe phrase \"Hann\" signals a standard Wikipedia/tutorial boilerplate phrase \"Hann er ein þrautlegur þrættur\" — a German/historical context likely referencing the database query.\n\nFinal token \"Hann\" opens a metadata/footer tag (\"Hann...\"), immediately expecting a category label or phrase like \"einn\" or \"Hann er...\" — likely \"by the company\" or \"the restaurant is...\" or \"this question\" or \"Hann kann vera þetta\" or \"a speech/acting guide for...\""
+ },
+ {
+  "pid": 3,
+  "token": "During",
+  "source": "During the Meiji Restoration, Japan dismantled the feudal domains and rapidly industrialised, importing foreign engineers to build railways and arsenals.",
+  "explanation": "Academic/educational Q&A format signals a question-answer or textbook response structure, establishing a problem statement about a physics/business topic.\n\nThe phrase \"During\" introduces a new question prompt, likely referencing a specific scenario or topic about the historical problem of the rate of heat transfer or a specific period.\n\nFinal token \"During\" opens a question header or topic sentence (\"During\"), immediately requiring a subject phrase — likely \"the summer months\" or \"a specific project, I was calculating...\" or \"the COVID-19 pandemic, a company...\" or \"my lecture, the book describes...\" or \"a certain time period, the process was...\" framing a question."
+ },
+ {
+  "pid": 4,
+  "token": "The",
+  "source": "The Library of Alexandria amassed hundreds of thousands of scrolls before a series of fires and budget cuts gradually eroded its collection.",
+  "explanation": "Academic/educational context signals a math problem or textbook question format, expecting a problem statement or answer about a mathematical topic.\n\nThe phrase \"The\" begins a question prompt, establishing a topic introduction about a word problem involving a function or graph, likely a geometry or probability problem involving a company.\n\nFinal token \"The\" opens a question header or prompt phrase (\"The\"), immediately requiring a noun phrase — likely \"following table\" or \"sum of the digits of a number is...\" or \"company is given...\" or \"question asks that...\" or \"a rectangle has...\" or \"teacher wants to know the average rate of change\" — a topic introduction or problem statement."
+ },
+ {
+  "pid": 5,
+  "token": "M",
+  "source": "Mitochondria generate ATP through oxidative phosphorylation across the inner membrane, coupling electron transport to a proton gradient.",
+  "explanation": "Academic/educational Q&A format signals a question-answer structure, with a prompt about a chemistry/physics topic requiring a response.\n\nThe phrase \"M\" begins a new question or topic prompt, likely introducing a task or problem statement about the text being written.\n\nFinal token \"M\" opens a new prompt question (\"M...\"), immediately expecting a question or topic label like \"write a poem\" or \"I am asked to explain...\" — likely \"My car is...\" or \"the following question\" or \"What is the difference between...\" or \"create a list of ethical guidelines\" or \"in a business context\" to set up a word problem."
+ },
+ {
+  "pid": 6,
+  "token": "A",
+  "source": "A black hole's event horizon marks the boundary beyond which the escape velocity exceeds the speed of light, so no signal can return to a distant observer.",
+  "explanation": "Mathematical problem-solving context: a word problem is being presented, expecting a geometry/probability question about a rectangle or circle.\n\nThe phrase \"A\" signals a new problem statement or question prompt, likely introducing a topic or scenario about the problem just described involving the sum of probabilities.\n\nFinal token \"A\" opens a new question header or problem statement (\"A...\"), immediately requiring a noun phrase like \"rectangle has...\" or \"company has...\" — likely \"student is given...\" or \"set of numbers\" or \"circular pool is...\" or \"two cars are traveling...\" or \"teacher asked the following question\" to introduce a problem statement or topic description."
+ },
+ {
+  "pid": 7,
+  "token": "When",
+  "source": "When supercooled water is disturbed, it can crystallise almost instantly as the metastable liquid releases its latent heat of fusion.",
+  "explanation": "Q&A forum format signals a new question or topic prompt, establishing a reference/educational post about a specific technical or literary subject.\n\nThe phrase \"When\" opens a question header or topic introduction, suggesting a new question or answer about the book \"The Art of Electronics\" or a practical guide to the concept of impedance.\n\nFinal token \"When\" begins a question prompt (\"When...\"), immediately requiring a topic phrase like \"is a person using...\" or \"comparing the two...\" or \"I was writing my review...\" or \"did you first encounter...\" or \"a user might need to calculate...\" — likely a question about timing or context of the subject matter."
+ },
+ {
+  "pid": 8,
+  "token": "Super",
+  "source": "Superconductors expel magnetic fields below a critical temperature, a phenomenon known as the Meissner effect that enables frictionless magnetic levitation.",
+  "explanation": "Educational Q&A format signals a chatbot/forum response, establishing a conversational AI context with a question about a specific topic.\n\nThe phrase \"Super\" begins a new prompt or topic introduction, suggesting a question or summary statement about the AI/ML/NLP domain, likely referencing the task of finding a new AI agent.\n\nFinal token \"Super\" opens a topic label or heading (\"Super\"), immediately expecting a category tag or question phrase like \"helpful\" or \"the following article\" — likely \"Mario\" or \"user is asked to...\" or \"ly recommend the following...\" or \"simple question: I need a list of...\" or \"cool/interesting topic/summary.\""
+ },
+ {
+  "pid": 9,
+  "token": "The",
+  "source": "The half-life of carbon-14 is about 5,730 years, which allows archaeologists to date organic remains up to roughly fifty thousand years old.",
+  "explanation": "Academic/educational context signals a math problem or textbook question format, expecting a problem statement or answer about a mathematical topic.\n\nThe phrase \"The\" begins a question prompt, establishing a topic introduction about a word problem involving a function or graph, likely a geometry or probability problem involving a company.\n\nFinal token \"The\" opens a question header or prompt phrase (\"The\"), immediately requiring a noun phrase — likely \"following table\" or \"sum of the digits of a number is...\" or \"company is given...\" or \"question asks that...\" or \"a rectangle has...\" or \"teacher wants to know the average rate of change\" — a topic introduction or problem statement."
+ },
+ {
+  "pid": 10,
+  "token": "The",
+  "source": "The treaty established a demilitarized zone along the river and obligated both signatories to submit their disputes to international arbitration.",
+  "explanation": "Academic/educational context signals a math problem or textbook question format, expecting a problem statement or answer about a mathematical topic.\n\nThe phrase \"The\" begins a question prompt, establishing a topic introduction about a word problem involving a function or graph, likely a geometry or probability problem involving a company.\n\nFinal token \"The\" opens a question header or prompt phrase (\"The\"), immediately requiring a noun phrase — likely \"following table\" or \"sum of the digits of a number is...\" or \"company is given...\" or \"question asks that...\" or \"a rectangle has...\" or \"teacher wants to know the average rate of change\" — a topic introduction or problem statement."
+ },
+ {
+  "pid": 11,
+  "token": "Under",
+  "source": "Under the doctrine of adverse possession, a trespasser may acquire legal title to land if their occupation is open, continuous, and hostile for the statutory period.",
+  "explanation": "Academic/educational Q&A format signals a question prompt, establishing a forum or textbook context requiring a response about a specific topic.\n\nThe phrase \"Under\" begins a new question or topic introduction, likely framing a request for a legal/financial explanation or a problem statement about the contract law topic.\n\nFinal token \"Under\" opens a question header or prompt phrase (\"Under...\"), immediately requiring a topic label or question phrase — likely \"the current US tax law\" or \"what circumstances\" or \"the Bitcoin/blockchain context, list the following...\" or \"a standard contract\" or \"my post, I am trying to explain...\" referencing the UK/US comparison."
+ },
+ {
+  "pid": 12,
+  "token": "The",
+  "source": "The appellate court remanded the case, holding that the trial judge had improperly excluded exculpatory evidence during the suppression hearing.",
+  "explanation": "Academic/educational context signals a math problem or textbook question format, expecting a problem statement or answer about a mathematical topic.\n\nThe phrase \"The\" begins a question prompt, establishing a topic introduction about a word problem involving a function or graph, likely a geometry or probability problem involving a company.\n\nFinal token \"The\" opens a question header or prompt phrase (\"The\"), immediately requiring a noun phrase — likely \"following table\" or \"sum of the digits of a number is...\" or \"company is given...\" or \"question asks that...\" or \"a rectangle has...\" or \"teacher wants to know the average rate of change\" — a topic introduction or problem statement."
+ },
+ {
+  "pid": 13,
+  "token": "The",
+  "source": "The lighthouse keeper climbed the spiral stairs each dusk, lighting the lamp that had guided fishermen home for forty years.",
+  "explanation": "Academic/educational context signals a math problem or textbook question format, expecting a problem statement or answer about a mathematical topic.\n\nThe phrase \"The\" begins a question prompt, establishing a topic introduction about a word problem involving a function or graph, likely a geometry or probability problem involving a company.\n\nFinal token \"The\" opens a question header or prompt phrase (\"The\"), immediately requiring a noun phrase — likely \"following table\" or \"sum of the digits of a number is...\" or \"company is given...\" or \"question asks that...\" or \"a rectangle has...\" or \"teacher wants to know the average rate of change\" — a topic introduction or problem statement."
+ },
+ {
+  "pid": 14,
+  "token": "She",
+  "source": "She folded the letter twice, pressed it beneath the loose floorboard, and resolved never to speak of the inheritance again.",
+  "explanation": "Grammatical/academic question format signals a Q&A or forum response, expecting a word/phrase answer or example about a literary topic.\n\nThe phrase \"She\" begins a new prompt or example sentence, likely introducing a character or scenario involving the girl's emotional state or a question about the text.\n\nFinal token \"She\" opens a new sentence fragment (\"She\"), requiring a subject verb phrase — likely \"was wearing a dress\" or \"said he was...\" or \"had finished the project\" or \"is a woman who...\" or \"refused to share the lyrics\" or \"entered the room with a smile\" — a new question or example about the topic."
+ },
+ {
+  "pid": 15,
+  "token": "The",
+  "source": "The old market town woke slowly: shutters creaked open, a baker swept flour from his step, and pigeons wheeled above the empty square.",
+  "explanation": "Academic/educational context signals a math problem or textbook question format, expecting a problem statement or answer about a mathematical topic.\n\nThe phrase \"The\" begins a question prompt, establishing a topic introduction about a word problem involving a function or graph, likely a geometry or probability problem involving a company.\n\nFinal token \"The\" opens a question header or prompt phrase (\"The\"), immediately requiring a noun phrase — likely \"following table\" or \"sum of the digits of a number is...\" or \"company is given...\" or \"question asks that...\" or \"a rectangle has...\" or \"teacher wants to know the average rate of change\" — a topic introduction or problem statement."
+ },
+ {
+  "pid": 16,
+  "token": "He",
+  "source": "He had always believed the river was patient, that it would carry away every grievance if you only waited long enough on its bank.",
+  "explanation": "Q&A forum format: user is asking for a question about a topic, expecting a response or answer about AI/NLP/data science.\n\nThe phrase \"He\" signals a new prompt or question beginning, likely introducing a person or scenario related to the text about the protagonist.\n\nFinal token \"He\" opens a new sentence fragment (\"He\"), requiring a subject verb phrase — likely \"was accused of...\" or \"said that...\" or \"is a man named...\" or \"has changed his mind\" or \"told me the answer is...\" or \"bought the car\" or \"was a jerk\" — a name or topic introduction to the context of the question."
+ },
+ {
+  "pid": 17,
+  "token": "Central",
+  "source": "Central bankers signalled on Thursday that interest rates would remain elevated until inflation showed a durable return toward the two percent target.",
+  "explanation": "Academic/educational document structure signals a prompt or worksheet format, establishing a business/financial writing context for a Spanish-language service description.\n\nThe phrase \"Central\" begins a topic sentence or introductory statement, suggesting a structured outline or summary of the text is being introduced.\n\nFinal token \"Central\" opens a topic heading or question phrase (\"Central...\"), immediately requiring a noun phrase like \"bank\" or \"the topic of...\" — likely \"to the problem is...\" or \"United States\" or \"location of the business is...\" or \"in the text is...\" or \"to the question of managing logistics\" — a declarative statement about the core claim."
+ },
+ {
+  "pid": 18,
+  "token": "Rescue",
+  "source": "Rescue crews worked through the night after the embankment collapsed, evacuating several hundred residents from the flooded lowland districts.",
+  "explanation": "Educational/forum content structure signals a Q&A or puzzle prompt format, establishing a word problem or trivia question about a math/logic topic.\n\nThe phrase \"Rescue\" introduces a new topic label or prompt phrase, suggesting a search/rescue or emergency scenario context typical in game/puzzle descriptions.\n\nFinal token \"Rescue\" opens a topic heading or prompt phrase (\"Rescue\"), immediately requiring a noun phrase like \"a dog from a fire\" or \"the mission of rescuing a stranded animal\" — likely \"me from a fire\" or \"a dog from a difficult situation\" or \"this article is about...\" or \"the following advice for...\" referencing a rescue/story."
+ },
+ {
+  "pid": 19,
+  "token": "The",
+  "source": "The company's quarterly earnings beat analyst expectations, sending its shares up nearly nine percent in after-hours trading.",
+  "explanation": "Academic/educational context signals a math problem or textbook question format, expecting a problem statement or answer about a mathematical topic.\n\nThe phrase \"The\" begins a question prompt, establishing a topic introduction about a word problem involving a function or graph, likely a geometry or probability problem involving a company.\n\nFinal token \"The\" opens a question header or prompt phrase (\"The\"), immediately requiring a noun phrase — likely \"following table\" or \"sum of the digits of a number is...\" or \"company is given...\" or \"question asks that...\" or \"a rectangle has...\" or \"teacher wants to know the average rate of change\" — a topic introduction or problem statement."
+ },
+ {
+  "pid": 20,
+  "token": "A",
+  "source": "A hash table offers average constant-time lookups by mapping keys to buckets, though collisions can degrade performance to linear in the worst case.",
+  "explanation": "Mathematical problem-solving context: a word problem is being presented, expecting a geometry/probability question about a rectangle or circle.\n\nThe phrase \"A\" signals a new problem statement or question prompt, likely introducing a topic or scenario about the problem just described involving the sum of probabilities.\n\nFinal token \"A\" opens a new question header or problem statement (\"A...\"), immediately requiring a noun phrase like \"rectangle has...\" or \"company has...\" — likely \"student is given...\" or \"set of numbers\" or \"circular pool is...\" or \"two cars are traveling...\" or \"teacher asked the following question\" to introduce a problem statement or topic description."
+ },
+ {
+  "pid": 21,
+  "token": "The",
+  "source": "The compiler performs dead-code elimination after constant propagation, removing branches that can never execute given the inferred value ranges.",
+  "explanation": "Academic/educational context signals a math problem or textbook question format, expecting a problem statement or answer about a mathematical topic.\n\nThe phrase \"The\" begins a question prompt, establishing a topic introduction about a word problem involving a function or graph, likely a geometry or probability problem involving a company.\n\nFinal token \"The\" opens a question header or prompt phrase (\"The\"), immediately requiring a noun phrase — likely \"following table\" or \"sum of the digits of a number is...\" or \"company is given...\" or \"question asks that...\" or \"a rectangle has...\" or \"teacher wants to know the average rate of change\" — a topic introduction or problem statement."
+ },
+ {
+  "pid": 22,
+  "token": "TCP",
+  "source": "TCP guarantees ordered delivery by numbering segments and retransmitting any that go unacknowledged before a timeout expires.",
+  "explanation": "Technical networking/systems textbook context signals a question about a specific topic, establishing a reference to Linux networking performance.\n\nThe phrase \"TCP\" introduces a topic question about TCP, implying a definition or explanation of TCP/IP protocol, likely referencing the paper's focus on socket programming or network performance.\n\nFinal token \"TCP\" opens a topic phrase (\"TCP\"), immediately requiring a subject noun or descriptor — likely \"socket\" or \"over UDP\" or \"is the reliable transport protocol\" or \"connection establishment\" or \"by the Nagle algorithm\" or \"TCP/IP stack\" — a specific networking topic label or question framing for the protocol or the \"slow start.\""
+ },
+ {
+  "pid": 23,
+  "token": "Gradient",
+  "source": "Gradient descent updates each parameter in the direction that most steeply reduces the loss, scaled by a learning rate that must be tuned carefully.",
+  "explanation": "Technical ML/neural network documentation context, establishing a definition of gradient descent and a mathematical concept.\n\nThe phrase \"Gradient\" signals a new topic introduction, likely a description of a visualization or method related to the gradient/gradient descent concept, suggesting a code block or mathematical explanation follows.\n\nFinal token \"Gradient\" opens a new topic phrase (\"Gradient\"), immediately expecting a noun phrase like \"of the gradient\" or a descriptor — likely \"painting\" or \"descent for the color gradient\" or \"of the mean squared error\" or \"is the sum of the gradient of...\" or \"in the image/network\" as a heading or definition of a gradient display."
+ },
+ {
+  "pid": 24,
+  "token": "The",
+  "source": "The pancreas secretes insulin in response to rising blood glucose, prompting cells throughout the body to take up sugar from the bloodstream.",
+  "explanation": "Academic/educational context signals a math problem or textbook question format, expecting a problem statement or answer about a mathematical topic.\n\nThe phrase \"The\" begins a question prompt, establishing a topic introduction about a word problem involving a function or graph, likely a geometry or probability problem involving a company.\n\nFinal token \"The\" opens a question header or prompt phrase (\"The\"), immediately requiring a noun phrase — likely \"following table\" or \"sum of the digits of a number is...\" or \"company is given...\" or \"question asks that...\" or \"a rectangle has...\" or \"teacher wants to know the average rate of change\" — a topic introduction or problem statement."
+ },
+ {
+  "pid": 25,
+  "token": "CR",
+  "source": "CRISPR-Cas9 uses a guide RNA to direct a nuclease to a specific genomic sequence, where it introduces a double-strand break for editing.",
+  "explanation": "Educational/academic writing context signals a prompt or question format, establishing a word-association or literary analysis task.\n\nThe phrase \"CR\" begins a new prompt or topic label, suggesting a question or instruction about a text/topic, likely a chatbot or AI/NLP domain context.\n\nFinal token \"CR\" opens a new prompt header (\"CR...\"), immediately expecting a topic keyword or question phrase like \"a critique\" or \"the assignment\" — likely \"CRISPR\" or \"is the most important aspect of the song\" or \"1. How does the text...\" or \"D: The prompt is asking for...\" or \"or similar genre classification.\""
+ },
+ {
+  "pid": 26,
+  "token": "Antib",
+  "source": "Antibiotic resistance spreads when bacteria exchange plasmids carrying genes that inactivate or pump out the offending drug.",
+  "explanation": "Educational/academic content structure: informational article format with a question-answer style, suggesting a biology/medical answer about antibiotic resistance.\n\nThe phrase \"Antib\" signals a new topic sentence or keyword heading, likely a search term or textbook excerpt title referencing the article's subject matter.\n\nFinal token \"Antib\" opens a new keyword/topic label (\"Antib...\"), immediately requiring a word like \"antibiotic\" or \"the human body\" to form a standard academic citation or topic phrase. Likely \"Antidepressants\" or \"viral infection\" or \"the bacterial cell\" or \"Antioxidant\" as a heading or citation phrase in a text."
+ },
+ {
+  "pid": 27,
+  "token": "The",
+  "source": "The immune system's memory cells persist for years after an infection, enabling a faster and stronger response upon re-exposure to the same pathogen.",
+  "explanation": "Academic/educational context signals a math problem or textbook question format, expecting a problem statement or answer about a mathematical topic.\n\nThe phrase \"The\" begins a question prompt, establishing a topic introduction about a word problem involving a function or graph, likely a geometry or probability problem involving a company.\n\nFinal token \"The\" opens a question header or prompt phrase (\"The\"), immediately requiring a noun phrase — likely \"following table\" or \"sum of the digits of a number is...\" or \"company is given...\" or \"question asks that...\" or \"a rectangle has...\" or \"teacher wants to know the average rate of change\" — a topic introduction or problem statement."
+ },
+ {
+  "pid": 28,
+  "token": "When",
+  "source": "When a currency depreciates, exports become cheaper abroad while imported goods grow more expensive for domestic consumers.",
+  "explanation": "Q&A forum format signals a new question or topic prompt, establishing a reference/educational post about a specific technical or literary subject.\n\nThe phrase \"When\" opens a question header or topic introduction, suggesting a new question or answer about the book \"The Art of Electronics\" or a practical guide to the concept of impedance.\n\nFinal token \"When\" begins a question prompt (\"When...\"), immediately requiring a topic phrase like \"is a person using...\" or \"comparing the two...\" or \"I was writing my review...\" or \"did you first encounter...\" or \"a user might need to calculate...\" — likely a question about timing or context of the subject matter."
+ },
+ {
+  "pid": 29,
+  "token": "Compound",
+  "source": "Compound interest causes a balance to grow geometrically, so even modest annual returns accumulate substantially over several decades.",
+  "explanation": "Educational/academic content structure: a chemistry problem or question is being posed, suggesting a textbook or worksheet format with a topic introduction.\n\nThe phrase \"Write a compound\" signals a topic label or question title, likely a chemistry topic heading or problem statement about a specific chemical concept.\n\nFinal token \"Compound\" opens a topic heading (\"Compound\"), immediately requiring a noun phrase — likely \"interest\" or \"the name of a compound\" or \"from the list of chemical formulas\" or \"A compound\" or \"noun phrase\" or \"the dissociation constant of the compound\" or \"by combining...\" — a standard chemistry question format for listing/naming a compound."
+ },
+ {
+  "pid": 30,
+  "token": "A",
+  "source": "A liquidity trap arises when interest rates approach zero and monetary policy loses its power to stimulate additional borrowing.",
+  "explanation": "Mathematical problem-solving context: a word problem is being presented, expecting a geometry/probability question about a rectangle or circle.\n\nThe phrase \"A\" signals a new problem statement or question prompt, likely introducing a topic or scenario about the problem just described involving the sum of probabilities.\n\nFinal token \"A\" opens a new question header or problem statement (\"A...\"), immediately requiring a noun phrase like \"rectangle has...\" or \"company has...\" — likely \"student is given...\" or \"set of numbers\" or \"circular pool is...\" or \"two cars are traveling...\" or \"teacher asked the following question\" to introduce a problem statement or topic description."
+ },
+ {
+  "pid": 31,
+  "token": "Ut",
+  "source": "Utilitarian ethics judges an action by the aggregate welfare it produces, which critics argue can license sacrificing the few for the many.",
+  "explanation": "Academic/technical question format signals a structured answer about programming, expecting a response about a specific topic.\n\nThe phrase \"Mi sono un programmatore e mi serve trovare la funzione che mi permette di...\" establishes a standard web search query boilerplate, suggesting a question or task description follows.\n\nFinal token \"Ut\" begins a prompt/question header (\"Ut...\"), immediately expecting a question or topic label like \"Utile per...\" or \"write a summary of the topic\" — likely \"I am looking for...\" or \"given the context of...\" or \"Please list the categories of music\" or \"utenti\" or \"a question about ethics/salary.\""
+ },
+ {
+  "pid": 32,
+  "token": "The",
+  "source": "The tragedy of the commons describes how individuals acting in self-interest can deplete a shared resource that none of them wishes to destroy.",
+  "explanation": "Academic/educational context signals a math problem or textbook question format, expecting a problem statement or answer about a mathematical topic.\n\nThe phrase \"The\" begins a question prompt, establishing a topic introduction about a word problem involving a function or graph, likely a geometry or probability problem involving a company.\n\nFinal token \"The\" opens a question header or prompt phrase (\"The\"), immediately requiring a noun phrase — likely \"following table\" or \"sum of the digits of a number is...\" or \"company is given...\" or \"question asks that...\" or \"a rectangle has...\" or \"teacher wants to know the average rate of change\" — a topic introduction or problem statement."
+ },
+ {
+  "pid": 33,
+  "token": "Confirmation",
+  "source": "Confirmation bias leads people to seek and remember evidence that supports their existing beliefs while discounting what contradicts them.",
+  "explanation": "Technical/academic forum post structure signals a Q&A or AI/NLP context, establishing a user seeking clarification or advice.\n\nThe phrase \"Confirmation\" begins a new topic label or heading, suggesting a document or question about a customer/business communication, likely referencing the email/order confirmation process.\n\nFinal token \"Confirmation\" opens a new heading or prompt phrase (\"Confirmation\"), immediately expecting a topic label or question word like \"of the offer\" or \"that the model is correct\" — likely \"letter\" or \"of the decision/purchase\" or \"bias/confirmation bias\" or \"This is the next step in the NLP/AI domain.\""
+ },
+ {
+  "pid": 34,
+  "token": "The",
+  "source": "The Atacama Desert is among the driest places on Earth, with some weather stations never having recorded a single drop of rain.",
+  "explanation": "Academic/educational context signals a math problem or textbook question format, expecting a problem statement or answer about a mathematical topic.\n\nThe phrase \"The\" begins a question prompt, establishing a topic introduction about a word problem involving a function or graph, likely a geometry or probability problem involving a company.\n\nFinal token \"The\" opens a question header or prompt phrase (\"The\"), immediately requiring a noun phrase — likely \"following table\" or \"sum of the digits of a number is...\" or \"company is given...\" or \"question asks that...\" or \"a rectangle has...\" or \"teacher wants to know the average rate of change\" — a topic introduction or problem statement."
+ },
+ {
+  "pid": 35,
+  "token": "Plate",
+  "source": "Plate tectonics drives the slow drift of continents, building mountain ranges where plates collide and opening ocean basins where they separate.",
+  "explanation": "Academic/technical textbook format: a question-answer structure with a homework problem, expecting a mathematical or engineering response about structural mechanics.\n\nThe phrase \"Plate\" signals a topic introduction, likely a textbook chapter or problem statement about plate mechanics, suggesting a question about the steel plate's properties or a recipe/recipe book context.\n\nFinal token \"Plate\" opens a question prompt (\"Plate\"), immediately requiring a topic label or title — likely \"plate of the following...\" or \"with the following properties\" or \"number of the dish\" or \"a steel plate is...\" or \"design of the truss\" or \"the ID of the plate\" as a citation/chapter heading."
+ },
+ {
+  "pid": 36,
+  "token": "Mon",
+  "source": "Monsoon winds reverse direction with the seasons, drenching the subcontinent in summer and leaving it parched through the winter months.",
+  "explanation": "Technical Q&A forum structure: answer format with informational content about a programming/business topic, expecting a question or topic introduction.\n\nThe phrase \"Mon entreprise est une société de développement de logiciel. Mon\" signals a new question or context, likely a personal/academic question about a French/C++ topic.\n\nFinal token \"Mon\" opens a new sentence fragment (\"Mon\"), immediately requiring a noun phrase — likely \"client\" or \"mon voyage\" or \"texte de la lettre de motivation\" or \"frère est un...\" or \"situation est...\" — likely a subject pronoun or topic introduction referencing the context of the question about the function/ownership/duration."
+ },
+ {
+  "pid": 37,
+  "token": "A",
+  "source": "A prime number has exactly two divisors, and Euclid proved more than two thousand years ago that the primes never run out.",
+  "explanation": "Mathematical problem-solving context: a word problem is being presented, expecting a geometry/probability question about a rectangle or circle.\n\nThe phrase \"A\" signals a new problem statement or question prompt, likely introducing a topic or scenario about the problem just described involving the sum of probabilities.\n\nFinal token \"A\" opens a new question header or problem statement (\"A...\"), immediately requiring a noun phrase like \"rectangle has...\" or \"company has...\" — likely \"student is given...\" or \"set of numbers\" or \"circular pool is...\" or \"two cars are traveling...\" or \"teacher asked the following question\" to introduce a problem statement or topic description."
+ },
+ {
+  "pid": 38,
+  "token": "The",
+  "source": "The Fibonacci sequence, in which each term is the sum of the two before it, approaches the golden ratio as the terms grow large.",
+  "explanation": "Academic/educational context signals a math problem or textbook question format, expecting a problem statement or answer about a mathematical topic.\n\nThe phrase \"The\" begins a question prompt, establishing a topic introduction about a word problem involving a function or graph, likely a geometry or probability problem involving a company.\n\nFinal token \"The\" opens a question header or prompt phrase (\"The\"), immediately requiring a noun phrase — likely \"following table\" or \"sum of the digits of a number is...\" or \"company is given...\" or \"question asks that...\" or \"a rectangle has...\" or \"teacher wants to know the average rate of change\" — a topic introduction or problem statement."
+ },
+ {
+  "pid": 39,
+  "token": "A",
+  "source": "A function is continuous at a point if small changes in its input produce arbitrarily small changes in its output near that point.",
+  "explanation": "Mathematical problem-solving context: a word problem is being presented, expecting a geometry/probability question about a rectangle or circle.\n\nThe phrase \"A\" signals a new problem statement or question prompt, likely introducing a topic or scenario about the problem just described involving the sum of probabilities.\n\nFinal token \"A\" opens a new question header or problem statement (\"A...\"), immediately requiring a noun phrase like \"rectangle has...\" or \"company has...\" — likely \"student is given...\" or \"set of numbers\" or \"circular pool is...\" or \"two cars are traveling...\" or \"teacher asked the following question\" to introduce a problem statement or topic description."
+ },
+ {
+  "pid": 40,
+  "token": "A",
+  "source": "A fugue develops a single short theme by introducing it in one voice and then weaving it through the others at staggered intervals.",
+  "explanation": "Mathematical problem-solving context: a word problem is being presented, expecting a geometry/probability question about a rectangle or circle.\n\nThe phrase \"A\" signals a new problem statement or question prompt, likely introducing a topic or scenario about the problem just described involving the sum of probabilities.\n\nFinal token \"A\" opens a new question header or problem statement (\"A...\"), immediately requiring a noun phrase like \"rectangle has...\" or \"company has...\" — likely \"student is given...\" or \"set of numbers\" or \"circular pool is...\" or \"two cars are traveling...\" or \"teacher asked the following question\" to introduce a problem statement or topic description."
+ },
+ {
+  "pid": 41,
+  "token": "Imp",
+  "source": "Impressionist painters abandoned crisp outlines in favour of loose brushwork that captured the fleeting effects of light on a scene.",
+  "explanation": "Academic/educational Q&A format signals a prompt structure, expecting a response about a technical topic involving cryptography/computer science.\n\nThe phrase \"Escreva uma função que calcule a área de um círculo. Imp\" establishes a standard prompt template, suggesting a question about a specific problem or topic.\n\nFinal token \"Imp\" begins a new prompt question (\"Imp...\"), immediately requiring a question or topic phrase like \"lement me\" or \"write a question about...\" — likely \"Impacting the UK tax system\" or \"describe the problem\" or \"or I need to explain how...\" or \"please list the practical implications of the theorem\" as a task/assignment instruction."
+ },
+ {
+  "pid": 42,
+  "token": "With",
+  "source": "With two minutes remaining, the midfielder threaded a pass through the defence, and the striker volleyed it into the top corner.",
+  "explanation": "Q&A / educational forum format signals a prompt or question about a technical/financial topic, establishing a request for a conceptual explanation.\n\nThe phrase \"With\" opens a new instructional or introductory statement, likely framing a hypothetical or assignment context about the topic of cryptocurrency/financial planning.\n\nFinal token \"With\" opens a question prompt (\"With...\"), requiring a topic phrase — likely \"the current information\" or \"reference to the Fibonacci sequence\" or \"a detailed description of the product\" or \"your upcoming release, I am...\" or \"the following constraints, explain...\" or \"the context of the US/UK...\" introducing a hypothetical scenario or summary statement."
+ },
+ {
+  "pid": 43,
+  "token": "The",
+  "source": "The marathon's final miles punish the unprepared, as depleted glycogen forces runners to slow against what they call the wall.",
+  "explanation": "Academic/educational context signals a math problem or textbook question format, expecting a problem statement or answer about a mathematical topic.\n\nThe phrase \"The\" begins a question prompt, establishing a topic introduction about a word problem involving a function or graph, likely a geometry or probability problem involving a company.\n\nFinal token \"The\" opens a question header or prompt phrase (\"The\"), immediately requiring a noun phrase — likely \"following table\" or \"sum of the digits of a number is...\" or \"company is given...\" or \"question asks that...\" or \"a rectangle has...\" or \"teacher wants to know the average rate of change\" — a topic introduction or problem statement."
+ },
+ {
+  "pid": 44,
+  "token": "To",
+  "source": "To temper chocolate, you gently heat it, cool it while stirring, and warm it again so the cocoa butter sets into a glossy, stable crystal form.",
+  "explanation": "Educational/academic Q&A format signals a prompt or question about a text/poem, establishing a forum or instructional context.\n\nThe phrase \"To\" introduces a new question or topic statement, likely a prompt or instruction about a problem/scenario involving the mathematical/logical reasoning context.\n\nFinal token \"To\" opens a question header or introductory phrase (\"To...\"), immediately requiring a topic label or question framing — likely \"calculate the average...\" or \"solve this problem\" or \"describe the poem in detail\" or \"me, what are the best practices...\" or \"avoid repeating the phrase\" or \"get a better understanding of...\" a question about a legal/ethical scenario."
+ },
+ {
+  "pid": 45,
+  "token": "Bread",
+  "source": "Bread rises because yeast ferments the dough's sugars, releasing carbon dioxide that is trapped by the elastic gluten network.",
+  "explanation": "Q&A / forum format signals a question about sourdough/bread baking, establishing a topic or prompt for a food/AI/knowledge domain.\n\nThe phrase \"The topic of Bread\" introduces a question about bread, likely a question about a specific topic or category, suggesting a food/bread context or a general question about the sourdough/dough.\n\nFinal token \"Bread\" opens a topic label or question header (\"Bread\"), immediately expecting a noun phrase like \"loaf\" or \"is a staple food\" or \"by the bakery\" or \"in the context of...\" or \"bread is used as...\" — likely a category tag or question title about the bread/scheduling context."
+ },
+ {
+  "pid": 46,
+  "token": "A",
+  "source": "A comet's tail always points away from the Sun, pushed outward by the solar wind regardless of the direction the comet is travelling.",
+  "explanation": "Mathematical problem-solving context: a word problem is being presented, expecting a geometry/probability question about a rectangle or circle.\n\nThe phrase \"A\" signals a new problem statement or question prompt, likely introducing a topic or scenario about the problem just described involving the sum of probabilities.\n\nFinal token \"A\" opens a new question header or problem statement (\"A...\"), immediately requiring a noun phrase like \"rectangle has...\" or \"company has...\" — likely \"student is given...\" or \"set of numbers\" or \"circular pool is...\" or \"two cars are traveling...\" or \"teacher asked the following question\" to introduce a problem statement or topic description."
+ },
+ {
+  "pid": 47,
+  "token": "The",
+  "source": "The James Webb telescope observes in the infrared, peering through dust clouds to capture light from the universe's earliest galaxies.",
+  "explanation": "Academic/educational context signals a math problem or textbook question format, expecting a problem statement or answer about a mathematical topic.\n\nThe phrase \"The\" begins a question prompt, establishing a topic introduction about a word problem involving a function or graph, likely a geometry or probability problem involving a company.\n\nFinal token \"The\" opens a question header or prompt phrase (\"The\"), immediately requiring a noun phrase — likely \"following table\" or \"sum of the digits of a number is...\" or \"company is given...\" or \"question asks that...\" or \"a rectangle has...\" or \"teacher wants to know the average rate of change\" — a topic introduction or problem statement."
+ },
+ {
+  "pid": 48,
+  "token": "Languages",
+  "source": "Languages in close contact often borrow vocabulary, so a single everyday word may carry traces of three or four older tongues.",
+  "explanation": "Q&A forum structure signals a question about NLP/linguistics topic, establishing a technical discussion context about multilingual/code documentation.\n\nThe phrase \"Languages\" introduces a new topic prompt, likely asking about the dataset or linguistic context, suggesting a question about language learning or translation.\n\nFinal token \"Languages\" opens a topic heading or question prompt (\"Languages\"), immediately expecting a subject noun phrase — likely \"that are supported\" or \"of programming\" or \"used in the project\" or \"like Python and French can cause...\" or \"listed above are...\" or \"with the same problem\" or \"in the NLP/linguistics domain\" — a topic label or question."
+ },
+ {
+  "pid": 49,
+  "token": "T",
+  "source": "Tidal forces gradually slow the Earth's rotation, lengthening the day by a tiny fraction of a second each century.",
+  "explanation": "Academic/educational Q&A format signals a textbook or homework question structure, expecting a question or prompt about a topic.\n\nThe phrase \"I am a programmer who wants to write a recommendation letter\" establishes a new question or prompt, likely a request for help or a topic summary.\n\nFinal token \"T\" opens a new question prompt (\"T\"), immediately expecting a topic label or question phrase like \"I am writing a...\" or \"Describe the following...\" — likely \"the text\" or \"What are the ethical considerations?\" or \"Please write a poem\" or \"or a user is asking for a summary of the animal behavior.\""
+ }
+]

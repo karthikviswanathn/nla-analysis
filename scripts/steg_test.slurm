@@ -17,9 +17,9 @@ export HF_HOME=/projects/gusr0688/.cache/huggingface
 export CUDA_HOME=/sw/arch/RHEL9/EB_production/2024/software/CUDA/12.6.0   # H100: deep_gemm import
 export REPO="$BASE/nla-inference"
 export TRANSFORM_MODEL=unsloth/Llama-3.3-70B-Instruct   # faithful paraphrase/translate (not weak Qwen-7B)
-export RESULTS="$BASE/logs/steg_${SLURM_JOB_ID}.json"
-export VEC_FILE="$BASE/logs/steg_${SLURM_JOB_ID}.npz"
-mkdir -p logs
+export RESULTS="$BASE/results/steg_${SLURM_JOB_ID}.json"
+export VEC_FILE="$BASE/results/steg_${SLURM_JOB_ID}.npz"
+mkdir -p logs results
 
 export CKPT_AV=$(python -c "from huggingface_hub import snapshot_download; print(snapshot_download('kitft/nla-qwen2.5-7b-L20-av'))")
 export CKPT_AR=$(python -c "from huggingface_hub import snapshot_download; print(snapshot_download('kitft/nla-qwen2.5-7b-L20-ar'))")

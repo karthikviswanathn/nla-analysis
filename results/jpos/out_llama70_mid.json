@@ -1,0 +1,402 @@
+[
+  {
+    "pid": 0,
+    "claims": [
+      {"specificity": "theme", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"}
+    ]
+  },
+  {
+    "pid": 1,
+    "claims": [
+      {"specificity": "theme", "verdict": "supported"},
+      {"specificity": "specific_detail", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"}
+    ]
+  },
+  {
+    "pid": 2,
+    "claims": [
+      {"specificity": "theme", "verdict": "unsupported"},
+      {"specificity": "entity", "verdict": "supported"},
+      {"specificity": "specific_detail", "verdict": "supported"}
+    ]
+  },
+  {
+    "pid": 3,
+    "claims": [
+      {"specificity": "theme", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"},
+      {"specificity": "specific_detail", "verdict": "supported"}
+    ]
+  },
+  {
+    "pid": 4,
+    "claims": [
+      {"specificity": "theme", "verdict": "unsupported"},
+      {"specificity": "entity", "verdict": "contradicted"},
+      {"specificity": "entity", "verdict": "supported"}
+    ]
+  },
+  {
+    "pid": 5,
+    "claims": [
+      {"specificity": "theme", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"},
+      {"specificity": "specific_detail", "verdict": "supported"}
+    ]
+  },
+  {
+    "pid": 6,
+    "claims": [
+      {"specificity": "theme", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"},
+      {"specificity": "specific_detail", "verdict": "supported"}
+    ]
+  },
+  {
+    "pid": 7,
+    "claims": [
+      {"specificity": "theme", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"},
+      {"specificity": "specific_detail", "verdict": "supported"}
+    ]
+  },
+  {
+    "pid": 8,
+    "claims": [
+      {"specificity": "theme", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"},
+      {"specificity": "specific_detail", "verdict": "supported"}
+    ]
+  },
+  {
+    "pid": 9,
+    "claims": [
+      {"specificity": "theme", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"},
+      {"specificity": "specific_detail", "verdict": "supported"}
+    ]
+  },
+  {
+    "pid": 10,
+    "claims": [
+      {"specificity": "theme", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"},
+      {"specificity": "specific_detail", "verdict": "supported"}
+    ]
+  },
+  {
+    "pid": 11,
+    "claims": [
+      {"specificity": "theme", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"},
+      {"specificity": "specific_detail", "verdict": "supported"}
+    ]
+  },
+  {
+    "pid": 12,
+    "claims": [
+      {"specificity": "theme", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"},
+      {"specificity": "specific_detail", "verdict": "supported"}
+    ]
+  },
+  {
+    "pid": 13,
+    "claims": [
+      {"specificity": "theme", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"},
+      {"specificity": "specific_detail", "verdict": "unsupported"}
+    ]
+  },
+  {
+    "pid": 14,
+    "claims": [
+      {"specificity": "theme", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"},
+      {"specificity": "specific_detail", "verdict": "supported"}
+    ]
+  },
+  {
+    "pid": 15,
+    "claims": [
+      {"specificity": "theme", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"},
+      {"specificity": "specific_detail", "verdict": "unsupported"}
+    ]
+  },
+  {
+    "pid": 16,
+    "claims": [
+      {"specificity": "theme", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"},
+      {"specificity": "specific_detail", "verdict": "unsupported"}
+    ]
+  },
+  {
+    "pid": 17,
+    "claims": [
+      {"specificity": "theme", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"},
+      {"specificity": "specific_detail", "verdict": "supported"}
+    ]
+  },
+  {
+    "pid": 18,
+    "claims": [
+      {"specificity": "theme", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"},
+      {"specificity": "specific_detail", "verdict": "unsupported"}
+    ]
+  },
+  {
+    "pid": 19,
+    "claims": [
+      {"specificity": "theme", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"},
+      {"specificity": "specific_detail", "verdict": "supported"}
+    ]
+  },
+  {
+    "pid": 20,
+    "claims": [
+      {"specificity": "theme", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"},
+      {"specificity": "specific_detail", "verdict": "supported"}
+    ]
+  },
+  {
+    "pid": 21,
+    "claims": [
+      {"specificity": "theme", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"},
+      {"specificity": "specific_detail", "verdict": "supported"}
+    ]
+  },
+  {
+    "pid": 22,
+    "claims": [
+      {"specificity": "theme", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"},
+      {"specificity": "specific_detail", "verdict": "supported"}
+    ]
+  },
+  {
+    "pid": 23,
+    "claims": [
+      {"specificity": "theme", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"},
+      {"specificity": "specific_detail", "verdict": "supported"}
+    ]
+  },
+  {
+    "pid": 24,
+    "claims": [
+      {"specificity": "theme", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"},
+      {"specificity": "specific_detail", "verdict": "supported"}
+    ]
+  },
+  {
+    "pid": 25,
+    "claims": [
+      {"specificity": "theme", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"},
+      {"specificity": "specific_detail", "verdict": "supported"}
+    ]
+  },
+  {
+    "pid": 26,
+    "claims": [
+      {"specificity": "theme", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"},
+      {"specificity": "specific_detail", "verdict": "unsupported"}
+    ]
+  },
+  {
+    "pid": 27,
+    "claims": [
+      {"specificity": "theme", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"},
+      {"specificity": "specific_detail", "verdict": "supported"}
+    ]
+  },
+  {
+    "pid": 28,
+    "claims": [
+      {"specificity": "theme", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"},
+      {"specificity": "specific_detail", "verdict": "supported"}
+    ]
+  },
+  {
+    "pid": 29,
+    "claims": [
+      {"specificity": "theme", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"},
+      {"specificity": "specific_detail", "verdict": "supported"}
+    ]
+  },
+  {
+    "pid": 30,
+    "claims": [
+      {"specificity": "theme", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"},
+      {"specificity": "specific_detail", "verdict": "supported"}
+    ]
+  },
+  {
+    "pid": 31,
+    "claims": [
+      {"specificity": "theme", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"},
+      {"specificity": "specific_detail", "verdict": "unsupported"}
+    ]
+  },
+  {
+    "pid": 32,
+    "claims": [
+      {"specificity": "theme", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"},
+      {"specificity": "specific_detail", "verdict": "supported"}
+    ]
+  },
+  {
+    "pid": 33,
+    "claims": [
+      {"specificity": "theme", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"},
+      {"specificity": "specific_detail", "verdict": "supported"}
+    ]
+  },
+  {
+    "pid": 34,
+    "claims": [
+      {"specificity": "theme", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"},
+      {"specificity": "specific_detail", "verdict": "supported"}
+    ]
+  },
+  {
+    "pid": 35,
+    "claims": [
+      {"specificity": "theme", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"},
+      {"specificity": "specific_detail", "verdict": "unsupported"}
+    ]
+  },
+  {
+    "pid": 36,
+    "claims": [
+      {"specificity": "theme", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"},
+      {"specificity": "specific_detail", "verdict": "supported"}
+    ]
+  },
+  {
+    "pid": 37,
+    "claims": [
+      {"specificity": "theme", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"},
+      {"specificity": "specific_detail", "verdict": "supported"}
+    ]
+  },
+  {
+    "pid": 38,
+    "claims": [
+      {"specificity": "theme", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"},
+      {"specificity": "specific_detail", "verdict": "supported"}
+    ]
+  },
+  {
+    "pid": 39,
+    "claims": [
+      {"specificity": "theme", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"},
+      {"specificity": "specific_detail", "verdict": "supported"}
+    ]
+  },
+  {
+    "pid": 40,
+    "claims": [
+      {"specificity": "theme", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"},
+      {"specificity": "specific_detail", "verdict": "supported"}
+    ]
+  },
+  {
+    "pid": 41,
+    "claims": [
+      {"specificity": "theme", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"},
+      {"specificity": "specific_detail", "verdict": "unsupported"}
+    ]
+  },
+  {
+    "pid": 42,
+    "claims": [
+      {"specificity": "theme", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"},
+      {"specificity": "specific_detail", "verdict": "supported"}
+    ]
+  },
+  {
+    "pid": 43,
+    "claims": [
+      {"specificity": "theme", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"},
+      {"specificity": "specific_detail", "verdict": "supported"}
+    ]
+  },
+  {
+    "pid": 44,
+    "claims": [
+      {"specificity": "theme", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"},
+      {"specificity": "specific_detail", "verdict": "supported"}
+    ]
+  },
+  {
+    "pid": 45,
+    "claims": [
+      {"specificity": "theme", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"},
+      {"specificity": "specific_detail", "verdict": "supported"}
+    ]
+  },
+  {
+    "pid": 46,
+    "claims": [
+      {"specificity": "theme", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"},
+      {"specificity": "specific_detail", "verdict": "supported"}
+    ]
+  },
+  {
+    "pid": 47,
+    "claims": [
+      {"specificity": "theme", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"},
+      {"specificity": "specific_detail", "verdict": "supported"}
+    ]
+  },
+  {
+    "pid": 48,
+    "claims": [
+      {"specificity": "theme", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"},
+      {"specificity": "specific_detail", "verdict": "unsupported"}
+    ]
+  },
+  {
+    "pid": 49,
+    "claims": [
+      {"specificity": "theme", "verdict": "supported"},
+      {"specificity": "entity", "verdict": "supported"},
+      {"specificity": "specific_detail", "verdict": "supported"}
+    ]
+  }
+]

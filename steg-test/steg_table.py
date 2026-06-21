@@ -32,7 +32,7 @@ KNOWN_BASELINE = {"qwen": 0.7335}
 
 
 def latest(model):
-    fs = sorted(glob.glob(os.path.join(BASE, "logs", f"grid_{model}_*.json")), key=os.path.getmtime)
+    fs = sorted(glob.glob(os.path.join(BASE, "results", f"grid_{model}_*.json")), key=os.path.getmtime)
     return fs[-1] if fs else None
 
 
@@ -56,7 +56,7 @@ def load(model):
 
 
 def main():
-    out = sys.argv[1] if len(sys.argv) > 1 else os.path.join(BASE, "figures", "steg_table.md")
+    out = sys.argv[1] if len(sys.argv) > 1 else os.path.join(BASE, "results", "steg_table.md")
     os.makedirs(os.path.dirname(out), exist_ok=True)
     data = {m: load(m) for m, _ in MODELS}
 

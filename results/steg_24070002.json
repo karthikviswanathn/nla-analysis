@@ -1,0 +1,919 @@
+{
+ "config": {
+  "model": "qwen",
+  "base_model": "Qwen/Qwen2.5-7B-Instruct",
+  "layer": 20,
+  "fve_baseline": 0.7335,
+  "d_model": 3584,
+  "note": "samples extracted via chat-template (not raw pretraining stream)",
+  "transform_model": "unsloth/Llama-3.3-70B-Instruct",
+  "max_new_mp": 512,
+  "mse_scale": 59.86651818838306
+ },
+ "samples": [
+  {
+   "id": 0,
+   "sample_text": "In the third year of King Jungjong's reign, the Veritable Records of the Joseon dynasty noted a severe drought across the southern provinces, prompting the court to perform rain rituals.",
+   "pos": 59,
+   "token": "Ġrituals",
+   "norm": 137.40577697753906,
+   "vec_index": 0,
+   "explanation": "Formal historical narrative structure with a translated headline suggesting a Chinese literary event context, implying a story about drought and imperial response.\n\nThe phrase \"Given the severe drought conditions, the emperor ordered the royal court to perform rain rituals\" strongly implies a sequence of actions or events, likely \"rituals\" or \"to seek divine intervention,\" suggesting the text is describing a historical event's ritualistic behavior.\n\nFinal token \"rituals\" ends mid-clause (\"performed rain rituals\"), part of a list or clause structure (\"when drought occurred, he performed rain rituals and conducted divination rituals\"), expecting continuation like \"and\" or \"to seek remedy\" or \"and other ceremonial practices.\"",
+   "variants": {
+    "original": "Formal historical narrative structure with a translated headline suggesting a Chinese literary event context, implying a story about drought and imperial response.\n\nThe phrase \"Given the severe drought conditions, the emperor ordered the royal court to perform rain rituals\" strongly implies a sequence of actions or events, likely \"rituals\" or \"to seek divine intervention,\" suggesting the text is describing a historical event's ritualistic behavior.\n\nFinal token \"rituals\" ends mid-clause (\"performed rain rituals\"), part of a list or clause structure (\"when drought occurred, he performed rain rituals and conducted divination rituals\"), expecting continuation like \"and\" or \"to seek remedy\" or \"and other ceremonial practices.\"",
+    "shuffle": "Final token \"rituals\" ends mid-clause (\"performed rain rituals\"), part of a list or clause structure (\"when drought occurred, he performed rain rituals and conducted divination rituals\"), expecting continuation like \"and\" or \"to seek remedy\" or \"and other ceremonial practices.\"\n\nFormal historical narrative structure with a translated headline suggesting a Chinese literary event context, implying a story about drought and imperial response.\n\nThe phrase \"Given the severe drought conditions, the emperor ordered the royal court to perform rain rituals\" strongly implies a sequence of actions or events, likely \"rituals\" or \"to seek divine intervention,\" suggesting the text is describing a historical event's ritualistic behavior.",
+    "paraphrase": "The historical narrative is presented in a formal structure, with a translated headline that indicates a context related to a Chinese literary event, which in turn suggests a narrative about a drought and the imperial response to it.\n\nThe statement \"Given the severe drought conditions, the emperor ordered the royal court to perform rain rituals\" clearly implies a series of actions or events, probably involving \"rituals\" or attempts \"to seek divine intervention,\" indicating that the text is portraying the ritualistic behavior associated with a historical event.\n\nThe last token \"rituals\" concludes in the middle of a clause (\"performed rain rituals\"), as part of a list or a clause structure (\"when drought occurred, he performed rain rituals and conducted divination rituals\"), anticipating a continuation such as \"and\" or \"to seek remedy\" or \"and other ceremonial practices.\"",
+    "translate_fr": "Structure narrative historique formelle avec un titre traduit suggérant un contexte d'événement littéraire chinois, impliquant une histoire sur la sécheresse et la réponse impériale.\n\nLa phrase \"Étant donné les conditions de sécheresse sévère, l'empereur a ordonné à la cour royale d'effectuer des rituels de pluie\" implique fortement une séquence d'actions ou d'événements, probablement des \"rituels\" ou \"pour demander l'intervention divine\", suggérant que le texte décrit un comportement rituel d'un événement historique.\n\nLe jeton final \"rituels\" se termine en milieu de clause (\"a effectué des rituels de pluie\"), faisant partie d'une structure de liste ou de clause (\"lorsqu'une sécheresse survenait, il effectuait des rituels de pluie et conduisait des rituels de divination\"), attendant une continuation comme \"et\" ou \"pour demander un remède\" ou \"et d'autres pratiques cérémonielles\".",
+    "backtranslate_en": "Structure of a formal historical narrative with a translated title suggesting a context of a Chinese literary event, involving a story about drought and imperial response.\n\nThe phrase \"Étant donné les conditions de sécheresse sévère, l'empereur a ordonné à la cour royale d'effectuer des rituels de pluie\" strongly implies a sequence of actions or events, probably \"rituels\" or \"to ask for divine intervention\", suggesting that the text describes a ritual behavior of a historical event.\n\nThe final token \"rituels\" ends in the middle of a clause (\"a effectué des rituels de pluie\"), being part of a list structure or clause (\"lorsqu'une sécheresse survenait, il effectuait des rituels de pluie et conduisait des rituels de divination\"), waiting for a continuation like \"et\" or \"to ask for a remedy\" or \"and other ceremonial practices\".",
+    "coherence": "The text describes a historical event in which the emperor, in response to severe drought conditions, orders the royal court to perform rain rituals as a form of divine intervention.",
+    "summary": "The text describes a historical event where an emperor responds to a severe drought by ordering the royal court to perform rain rituals. This implies a sequence of actions to seek divine intervention. The narrative is set in a Chinese literary context and appears to be part of a larger story or list of events."
+   },
+   "variants_meta": {
+    "original": {
+     "chars": 732,
+     "words": 103,
+     "paras": 3,
+     "orig_paras": 3,
+     "len_ratio": 1.0,
+     "word_ratio": 1.0
+    },
+    "shuffle": {
+     "chars": 732,
+     "words": 103,
+     "paras": 3,
+     "orig_paras": 3,
+     "len_ratio": 1.0,
+     "word_ratio": 1.0
+    },
+    "paraphrase": {
+     "chars": 882,
+     "words": 135,
+     "paras": 3,
+     "orig_paras": 3,
+     "len_ratio": 1.205,
+     "word_ratio": 1.311
+    },
+    "translate_fr": {
+     "chars": 892,
+     "words": 126,
+     "paras": 3,
+     "orig_paras": 3,
+     "len_ratio": 1.219,
+     "word_ratio": 1.223
+    },
+    "backtranslate_en": {
+     "chars": 835,
+     "words": 132,
+     "paras": 3,
+     "orig_paras": 3,
+     "len_ratio": 1.141,
+     "word_ratio": 1.282
+    },
+    "coherence": {
+     "chars": 182,
+     "words": 30,
+     "paras": 1,
+     "orig_paras": 3,
+     "len_ratio": 0.249,
+     "word_ratio": 0.291
+    },
+    "summary": {
+     "chars": 311,
+     "words": 55,
+     "paras": 1,
+     "orig_paras": 3,
+     "len_ratio": 0.425,
+     "word_ratio": 0.534
+    }
+   },
+   "scores": {
+    "original": {
+     "mse": 0.07166191190481186,
+     "cos": 0.9641690254211426,
+     "fve": 0.9023014152626969
+    },
+    "shuffle": {
+     "mse": 0.13502570986747742,
+     "cos": 0.9324871301651001,
+     "fve": 0.815915869301326
+    },
+    "paraphrase": {
+     "mse": 0.09432106465101242,
+     "cos": 0.9528393745422363,
+     "fve": 0.871409591477829
+    },
+    "translate_fr": {
+     "mse": 0.3147222697734833,
+     "cos": 0.8426387310028076,
+     "fve": 0.5709307842215634
+    },
+    "backtranslate_en": {
+     "mse": 0.2364507019519806,
+     "cos": 0.8817745447158813,
+     "fve": 0.6776404881363591
+    },
+    "coherence": {
+     "mse": 0.7379366755485535,
+     "cos": 0.6310316920280457,
+     "fve": -0.006048637421340652
+    },
+    "summary": {
+     "mse": 0.8305367231369019,
+     "cos": 0.5847316980361938,
+     "fve": -0.13229273774628747
+    }
+   }
+  },
+  {
+   "id": 1,
+   "sample_text": "In the third year of King Jungjong's reign, the Veritable Records of the Joseon dynasty noted a severe drought across the southern provinces, prompting the court to perform rain rituals.",
+   "pos": 60,
+   "token": ".",
+   "norm": 113.66189575195312,
+   "vec_index": 1,
+   "explanation": "Structured historical prompt format with a question prompt (\"A hypothetical scenario about a 16th-century Chinese emperor\"), implying a literary or academic context requiring factual details about a historical event.\n\nThe phrase \"A record states that a drought occurred, and the emperor ordered a moon ceremony to pray for rain. The kingdom also initiated a ban on hunting.\" suggests an enumerated list or question about the event's actions or outcomes.\n\nFinal token \"rain. \" closes a clause mid-sentence (\"The emperor ordered a moon ceremony and the deity's intervention to stop droughts. The kingdom initiated a fasting period.\"), strongly expecting \"What evidence supports this?\" or \"This event was likely followed by...\"",
+   "variants": {
+    "original": "Structured historical prompt format with a question prompt (\"A hypothetical scenario about a 16th-century Chinese emperor\"), implying a literary or academic context requiring factual details about a historical event.\n\nThe phrase \"A record states that a drought occurred, and the emperor ordered a moon ceremony to pray for rain. The kingdom also initiated a ban on hunting.\" suggests an enumerated list or question about the event's actions or outcomes.\n\nFinal token \"rain. \" closes a clause mid-sentence (\"The emperor ordered a moon ceremony and the deity's intervention to stop droughts. The kingdom initiated a fasting period.\"), strongly expecting \"What evidence supports this?\" or \"This event was likely followed by...\"",
+    "shuffle": "Final token \"rain. \" closes a clause mid-sentence (\"The emperor ordered a moon ceremony and the deity's intervention to stop droughts. The kingdom initiated a fasting period.\"), strongly expecting \"What evidence supports this?\" or \"This event was likely followed by...\"\n\nStructured historical prompt format with a question prompt (\"A hypothetical scenario about a 16th-century Chinese emperor\"), implying a literary or academic context requiring factual details about a historical event.\n\nThe phrase \"A record states that a drought occurred, and the emperor ordered a moon ceremony to pray for rain. The kingdom also initiated a ban on hunting.\" suggests an enumerated list or question about the event's actions or outcomes.",
+    "paraphrase": "The utilization of a structured historical prompt format, incorporating a question prompt such as \"A hypothetical scenario about a 16th-century Chinese emperor,\" indicates a context that is either literary or academic in nature, necessitating the inclusion of factual information pertaining to a specific historical event.\n\nThe expression \"A record states that a drought occurred, and the emperor ordered a moon ceremony to pray for rain. The kingdom also initiated a ban on hunting\" implies the presence of an enumerated list or a query regarding the actions taken or the outcomes resulting from the event.\n\nThe final token \"rain. \" serves to conclude a clause in the midst of a sentence, specifically (\"The emperor ordered a moon ceremony and the deity's intervention to stop droughts. The kingdom initiated a fasting period.\"), thereby generating a strong expectation for a follow-up inquiry, such as \"What evidence supports this?\" or \"This event was likely followed by...\"",
+    "translate_fr": "Format de prompt historique structuré avec un prompt de question (\"Un scénario hypothétique sur un empereur chinois du 16e siècle\"), impliquant un contexte littéraire ou académique nécessitant des détails factuels sur un événement historique.\n\nLa phrase \"Un document indique qu'une sécheresse s'est produite, et l'empereur a ordonné une cérémonie de la lune pour prier pour la pluie. Le royaume a également initié une interdiction de chasse.\" suggère une liste énumérée ou une question sur les actions ou les résultats de l'événement.\n\nLe jeton final \"pluie. \" ferme une clause en milieu de phrase (\"L'empereur a ordonné une cérémonie de la lune et l'intervention de la divinité pour arrêter les sécheresses. Le royaume a initié une période de jeûne.\"), fortement attendant \"Quelles preuves soutiennent cela?\" ou \"Cet événement a probablement été suivi de...\"",
+    "backtranslate_en": "Format of a structured historical prompt with a question prompt (\"A hypothetical scenario about a 16th-century Chinese emperor\"), involving a literary or academic context requiring factual details about a historical event.\n\nThe phrase \"A document indicates that a drought occurred, and the emperor ordered a moon ceremony to pray for rain. The kingdom also initiated a hunting ban.\" suggests an enumerated list or a question about the actions or outcomes of the event.\n\nThe final token \"rain.\" closes a clause in the middle of a sentence (\"The emperor ordered a moon ceremony and the intervention of the deity to stop the droughts. The kingdom initiated a period of fasting.\"), strongly expecting \"What evidence supports this?\" or \"This event was probably followed by...\"",
+    "coherence": "A 16th-century Chinese emperor responded to a drought by ordering a moon ceremony to pray for rain and implementing a ban on hunting, actions that were recorded as part of the kingdom's efforts to address the drought.",
+    "summary": "A 16th-century Chinese emperor ordered a moon ceremony to pray for rain during a drought. The kingdom also initiated a ban on hunting and possibly a fasting period. The event's actions and outcomes are expected to be analyzed or questioned."
+   },
+   "variants_meta": {
+    "original": {
+     "chars": 724,
+     "words": 109,
+     "paras": 3,
+     "orig_paras": 3,
+     "len_ratio": 1.0,
+     "word_ratio": 1.0
+    },
+    "shuffle": {
+     "chars": 724,
+     "words": 109,
+     "paras": 3,
+     "orig_paras": 3,
+     "len_ratio": 1.0,
+     "word_ratio": 1.0
+    },
+    "paraphrase": {
+     "chars": 976,
+     "words": 152,
+     "paras": 3,
+     "orig_paras": 3,
+     "len_ratio": 1.348,
+     "word_ratio": 1.394
+    },
+    "translate_fr": {
+     "chars": 859,
+     "words": 132,
+     "paras": 3,
+     "orig_paras": 3,
+     "len_ratio": 1.186,
+     "word_ratio": 1.211
+    },
+    "backtranslate_en": {
+     "chars": 771,
+     "words": 122,
+     "paras": 3,
+     "orig_paras": 3,
+     "len_ratio": 1.065,
+     "word_ratio": 1.119
+    },
+    "coherence": {
+     "chars": 217,
+     "words": 37,
+     "paras": 1,
+     "orig_paras": 3,
+     "len_ratio": 0.3,
+     "word_ratio": 0.339
+    },
+    "summary": {
+     "chars": 240,
+     "words": 40,
+     "paras": 1,
+     "orig_paras": 3,
+     "len_ratio": 0.331,
+     "word_ratio": 0.367
+    }
+   },
+   "scores": {
+    "original": {
+     "mse": 0.11134044826030731,
+     "cos": 0.9443299174308777,
+     "fve": 0.8482066145053752
+    },
+    "shuffle": {
+     "mse": 0.12631870806217194,
+     "cos": 0.9368406534194946,
+     "fve": 0.8277863557434602
+    },
+    "paraphrase": {
+     "mse": 0.11553522199392319,
+     "cos": 0.9422323107719421,
+     "fve": 0.8424877682427768
+    },
+    "translate_fr": {
+     "mse": 0.27444157004356384,
+     "cos": 0.8627793788909912,
+     "fve": 0.6258465302746232
+    },
+    "backtranslate_en": {
+     "mse": 0.11875103414058685,
+     "cos": 0.9406247735023499,
+     "fve": 0.8381035662705019
+    },
+    "coherence": {
+     "mse": 0.7091102600097656,
+     "cos": 0.6454451084136963,
+     "fve": 0.03325117926412324
+    },
+    "summary": {
+     "mse": 0.4141552150249481,
+     "cos": 0.7929224967956543,
+     "fve": 0.43537121332658746
+    }
+   }
+  },
+  {
+   "id": 2,
+   "sample_text": "Mitochondria generate ATP through oxidative phosphorylation across the inner membrane, coupling electron transport to a proton gradient.",
+   "pos": 44,
+   "token": "Ġgradient",
+   "norm": 125.3782958984375,
+   "vec_index": 2,
+   "explanation": "Scientific/educational format with a structured biology definition, implying a quoted passage about ATP generation via ATP synthase.\n\nThe phrase \"The proton motive force is a process where ATP is generated via chemiosmosis, creating an electrochemical gradient that drives a proton gradient\" suggests a familiar scientific phrase pattern describing the chemiosmotic mechanism, implying the second part completes the definition of ATP production.\n\nFinal token \"gradient\" ends mid-phrase (\"a proton gradient\"), part of a list (\"using an electrochemical potential and a proton gradient to create a proton gradient\"), strongly expecting \"that is stored\" or \"and then used\" or \"structure\" or \"called chemiosmosis.\"",
+   "variants": {
+    "original": "Scientific/educational format with a structured biology definition, implying a quoted passage about ATP generation via ATP synthase.\n\nThe phrase \"The proton motive force is a process where ATP is generated via chemiosmosis, creating an electrochemical gradient that drives a proton gradient\" suggests a familiar scientific phrase pattern describing the chemiosmotic mechanism, implying the second part completes the definition of ATP production.\n\nFinal token \"gradient\" ends mid-phrase (\"a proton gradient\"), part of a list (\"using an electrochemical potential and a proton gradient to create a proton gradient\"), strongly expecting \"that is stored\" or \"and then used\" or \"structure\" or \"called chemiosmosis.\"",
+    "shuffle": "Final token \"gradient\" ends mid-phrase (\"a proton gradient\"), part of a list (\"using an electrochemical potential and a proton gradient to create a proton gradient\"), strongly expecting \"that is stored\" or \"and then used\" or \"structure\" or \"called chemiosmosis.\"\n\nScientific/educational format with a structured biology definition, implying a quoted passage about ATP generation via ATP synthase.\n\nThe phrase \"The proton motive force is a process where ATP is generated via chemiosmosis, creating an electrochemical gradient that drives a proton gradient\" suggests a familiar scientific phrase pattern describing the chemiosmotic mechanism, implying the second part completes the definition of ATP production.",
+    "paraphrase": "A formal academic structure is utilized, incorporating a detailed definition of biology, which includes a referenced excerpt discussing the production of ATP through the agency of ATP synthase.\n\nThe expression \"The proton motive force is a process where ATP is generated via chemiosmosis, creating an electrochemical gradient that drives a proton gradient\" conforms to a recognizable pattern of scientific terminology, describing the mechanism of chemiosmosis, and implies that the latter portion of the statement serves to complete the description of the process by which ATP is produced.\n\nFinal token \"gradient\" concludes in the middle of a phrase (\"a proton gradient\"), as part of an enumeration (\"using an electrochemical potential and a proton gradient to create a proton gradient\"), giving rise to a strong anticipation of a continuation such as \"that is stored\" or \"and then used\" or \"structure\" or \"called chemiosmosis.\"",
+    "translate_fr": "---\n\nFormat scientifique/éducatif avec une définition structurée de la biologie, impliquant un passage cité sur la génération d'ATP via l'ATP synthase.\n\nLa phrase \"The proton motive force is a process where ATP is generated via chemiosmosis, creating an electrochemical gradient that drives a proton gradient\" suggère un motif de phrase scientifique familier décrivant le mécanisme chimiosmotique, impliquant que la deuxième partie complète la définition de la production d'ATP.\n\n \n\nLe jeton final \"gradient\" se termine en milieu de phrase (\"a proton gradient\"), faisant partie d'une liste (\"using an electrochemical potential and a proton gradient to create a proton gradient\"), fortement attendant \"that is stored\" ou \"and then used\" ou \"structure\" ou \"called chemiosmosis\".",
+    "backtranslate_en": "Scientific/educational format with a structured definition of biology, involving a quoted passage on the generation of ATP via ATP synthase.\n\nThe phrase \"The proton motive force is a process where ATP is generated via chemiosmosis, creating an electrochemical gradient that drives a proton gradient\" suggests a familiar scientific phrase pattern describing the chemiosmotic mechanism, implying that the second part completes the definition of ATP production.\n\n \n\nThe final token \"gradient\" ends in the middle of a sentence (\"a proton gradient\"), being part of a list (\"using an electrochemical potential and a proton gradient to create a proton gradient\"), strongly expecting \"that is stored\" or \"and then used\" or \"structure\" or \"called chemiosmosis\".",
+    "coherence": "The proton motive force is a process where ATP is generated via chemiosmosis, creating an electrochemical gradient that drives a proton gradient, which is then used to produce ATP through the action of ATP synthase.",
+    "summary": "The proton motive force is a process that generates ATP via chemiosmosis. This process creates an electrochemical gradient that drives a proton gradient. The gradient is a key component of ATP production through chemiosmosis."
+   },
+   "variants_meta": {
+    "original": {
+     "chars": 709,
+     "words": 100,
+     "paras": 3,
+     "orig_paras": 3,
+     "len_ratio": 1.0,
+     "word_ratio": 1.0
+    },
+    "shuffle": {
+     "chars": 709,
+     "words": 100,
+     "paras": 3,
+     "orig_paras": 3,
+     "len_ratio": 1.0,
+     "word_ratio": 1.0
+    },
+    "paraphrase": {
+     "chars": 928,
+     "words": 141,
+     "paras": 3,
+     "orig_paras": 3,
+     "len_ratio": 1.309,
+     "word_ratio": 1.41
+    },
+    "translate_fr": {
+     "chars": 776,
+     "words": 112,
+     "paras": 4,
+     "orig_paras": 3,
+     "len_ratio": 1.094,
+     "word_ratio": 1.12
+    },
+    "backtranslate_en": {
+     "chars": 752,
+     "words": 111,
+     "paras": 3,
+     "orig_paras": 3,
+     "len_ratio": 1.061,
+     "word_ratio": 1.11
+    },
+    "coherence": {
+     "chars": 215,
+     "words": 35,
+     "paras": 1,
+     "orig_paras": 3,
+     "len_ratio": 0.303,
+     "word_ratio": 0.35
+    },
+    "summary": {
+     "chars": 225,
+     "words": 34,
+     "paras": 1,
+     "orig_paras": 3,
+     "len_ratio": 0.317,
+     "word_ratio": 0.34
+    }
+   },
+   "scores": {
+    "original": {
+     "mse": 0.1773635596036911,
+     "cos": 0.9113186001777649,
+     "fve": 0.758195556095854
+    },
+    "shuffle": {
+     "mse": 0.32159891724586487,
+     "cos": 0.8392007350921631,
+     "fve": 0.5615556683764624
+    },
+    "paraphrase": {
+     "mse": 0.3723079264163971,
+     "cos": 0.8138462901115417,
+     "fve": 0.49242273153865435
+    },
+    "translate_fr": {
+     "mse": 0.26919934153556824,
+     "cos": 0.8654005527496338,
+     "fve": 0.6329933994061783
+    },
+    "backtranslate_en": {
+     "mse": 0.25343698263168335,
+     "cos": 0.8732815980911255,
+     "fve": 0.6544826412655987
+    },
+    "coherence": {
+     "mse": 0.5923852324485779,
+     "cos": 0.7038078904151917,
+     "fve": 0.1923855045009164
+    },
+    "summary": {
+     "mse": 0.7946649193763733,
+     "cos": 0.6026679277420044,
+     "fve": -0.08338775647767305
+    }
+   }
+  },
+  {
+   "id": 3,
+   "sample_text": "Mitochondria generate ATP through oxidative phosphorylation across the inner membrane, coupling electron transport to a proton gradient.",
+   "pos": 45,
+   "token": ".",
+   "norm": 115.29129028320312,
+   "vec_index": 3,
+   "explanation": "Structured scientific format with a prompt or question format (\"A molecule of ATP\"), suggesting a quiz or definition context about biological chemistry concepts.\n\nThe phrase \"The mitochondria's role in energy conversion is described as: ATP synthesis is a process where carbon dioxide and water combine. \" implies an incomplete or quoted statement, likely continuing with a second question or elaboration about the mechanism or concept.\n\nFinal token \"energy. \" closes a quoted definition clause (\"ATP and chloroplasts work together: 'Carbon dioxide and water form life.' This molecule's function...\"), strongly expecting continuation like \"What does this mean?\" or \"This statement explains...\" or \"The other components of the cycle.\"",
+   "variants": {
+    "original": "Structured scientific format with a prompt or question format (\"A molecule of ATP\"), suggesting a quiz or definition context about biological chemistry concepts.\n\nThe phrase \"The mitochondria's role in energy conversion is described as: ATP synthesis is a process where carbon dioxide and water combine. \" implies an incomplete or quoted statement, likely continuing with a second question or elaboration about the mechanism or concept.\n\nFinal token \"energy. \" closes a quoted definition clause (\"ATP and chloroplasts work together: 'Carbon dioxide and water form life.' This molecule's function...\"), strongly expecting continuation like \"What does this mean?\" or \"This statement explains...\" or \"The other components of the cycle.\"",
+    "shuffle": "Final token \"energy. \" closes a quoted definition clause (\"ATP and chloroplasts work together: 'Carbon dioxide and water form life.' This molecule's function...\"), strongly expecting continuation like \"What does this mean?\" or \"This statement explains...\" or \"The other components of the cycle.\"\n\nStructured scientific format with a prompt or question format (\"A molecule of ATP\"), suggesting a quiz or definition context about biological chemistry concepts.\n\nThe phrase \"The mitochondria's role in energy conversion is described as: ATP synthesis is a process where carbon dioxide and water combine. \" implies an incomplete or quoted statement, likely continuing with a second question or elaboration about the mechanism or concept.",
+    "paraphrase": "The presentation is set up in a structured scientific format, typically used to pose a question or prompt, as seen in the example \"A molecule of ATP\", which suggests that the context is a quiz or a definition-related inquiry about concepts related to biological chemistry.\n\nThe statement \"The mitochondria's role in energy conversion is described as: ATP synthesis is a process where carbon dioxide and water combine\" appears to be a partial or quoted statement, likely intended to be followed by an additional question or further elaboration regarding the underlying mechanism or concept being discussed.\n\n \nThe last part \"energy\" serves as the concluding token of a quoted definition (\"ATP and chloroplasts work together: 'Carbon dioxide and water form life.' This molecule's function...\"), creating a strong anticipation of a continuation, such as \"What is the implication of this?\" or \"This statement serves to explain...\" or \"The other elements that make up the cycle\".",
+    "translate_fr": "Format scientifique structuré avec un format de question ou de prompt (\"Une molécule d'ATP\"), suggérant un contexte de quiz ou de définition sur les concepts de chimie biologique.\n\nLa phrase \"Le rôle des mitochondries dans la conversion d'énergie est décrit comme : la synthèse de l'ATP est un processus où le dioxyde de carbone et l'eau se combinent.\" implique une déclaration incomplète ou citée, probablement se poursuivant avec une deuxième question ou une élaboration sur le mécanisme ou le concept.\n\nLe jeton final \"énergie.\" ferme une clause de définition citée (\"L'ATP et les chloroplastes travaillent ensemble : 'Le dioxyde de carbone et l'eau forment la vie.' La fonction de cette molécule...\"), fortement attendant une suite comme \"Qu'est-ce que cela signifie?\" ou \"Cette déclaration explique...\" ou \"Les autres composants du cycle.\"",
+    "backtranslate_en": "A structured scientific format with a question or prompt format (\"A molecule of ATP\"), suggesting a context of quiz or definition on biological chemistry concepts.\n\nThe phrase \"The role of mitochondria in energy conversion is described as: the synthesis of ATP is a process where carbon dioxide and water combine\" implies an incomplete or quoted statement, probably continuing with a second question or an elaboration on the mechanism or concept.\n\nThe final token \"energy\" closes a quoted definition clause (\"ATP and chloroplasts work together: 'Carbon dioxide and water form life.' The function of this molecule...\"), strongly awaiting a follow-up such as \"What does this mean?\" or \"This statement explains...\" or \"The other components of the cycle.\"",
+    "coherence": "The text is written in a structured scientific format, suggesting a quiz or definition context about biological chemistry concepts, specifically describing the role of mitochondria in energy conversion through ATP synthesis.",
+    "summary": "The text appears to be a quiz or definition about biological chemistry concepts, specifically ATP and energy conversion. It mentions the mitochondria's role in ATP synthesis and the combination of carbon dioxide and water. The text seems to be setting up for a continuation or follow-up question about the concept."
+   },
+   "variants_meta": {
+    "original": {
+     "chars": 733,
+     "words": 107,
+     "paras": 3,
+     "orig_paras": 3,
+     "len_ratio": 1.0,
+     "word_ratio": 1.0
+    },
+    "shuffle": {
+     "chars": 733,
+     "words": 107,
+     "paras": 3,
+     "orig_paras": 3,
+     "len_ratio": 1.0,
+     "word_ratio": 1.0
+    },
+    "paraphrase": {
+     "chars": 974,
+     "words": 152,
+     "paras": 3,
+     "orig_paras": 3,
+     "len_ratio": 1.329,
+     "word_ratio": 1.421
+    },
+    "translate_fr": {
+     "chars": 844,
+     "words": 130,
+     "paras": 3,
+     "orig_paras": 3,
+     "len_ratio": 1.151,
+     "word_ratio": 1.215
+    },
+    "backtranslate_en": {
+     "chars": 751,
+     "words": 116,
+     "paras": 3,
+     "orig_paras": 3,
+     "len_ratio": 1.025,
+     "word_ratio": 1.084
+    },
+    "coherence": {
+     "chars": 224,
+     "words": 31,
+     "paras": 1,
+     "orig_paras": 3,
+     "len_ratio": 0.306,
+     "word_ratio": 0.29
+    },
+    "summary": {
+     "chars": 314,
+     "words": 50,
+     "paras": 1,
+     "orig_paras": 3,
+     "len_ratio": 0.428,
+     "word_ratio": 0.467
+    }
+   },
+   "scores": {
+    "original": {
+     "mse": 0.11977607011795044,
+     "cos": 0.9401118755340576,
+     "fve": 0.8367061075419899
+    },
+    "shuffle": {
+     "mse": 0.12360439449548721,
+     "cos": 0.9381978511810303,
+     "fve": 0.831486851403562
+    },
+    "paraphrase": {
+     "mse": 0.21320630609989166,
+     "cos": 0.893397331237793,
+     "fve": 0.709330189366201
+    },
+    "translate_fr": {
+     "mse": 0.30601510405540466,
+     "cos": 0.8469926118850708,
+     "fve": 0.5828014941303277
+    },
+    "backtranslate_en": {
+     "mse": 0.15434741973876953,
+     "cos": 0.92282634973526,
+     "fve": 0.7895740698857948
+    },
+    "coherence": {
+     "mse": 0.4790630340576172,
+     "cos": 0.7604686617851257,
+     "fve": 0.3468806624981361
+    },
+    "summary": {
+     "mse": 0.30729347467422485,
+     "cos": 0.84635329246521,
+     "fve": 0.581058657567519
+    }
+   }
+  },
+  {
+   "id": 4,
+   "sample_text": "The treaty established a demilitarized zone along the river and obligated both signatories to submit their disputes to international arbitration.",
+   "pos": 47,
+   "token": "Ġarbitration",
+   "norm": 133.21067810058594,
+   "vec_index": 4,
+   "explanation": "Formal diplomatic or historical sentence structure with quoted clause (\"A treaty declared that any disputes between nations would be resolved by mutual withdrawal and mandatory arbitration\"), implying a specific international agreement context.\n\nThe phrase \"The treaty stipulated that disputes would be submitted to international arbitration\" suggests a list or clause completion describing a second condition, likely \"instead of war\" or \"rather than,\" with \"arbitration\" completing the phrase.\n\nFinal token \"arbitration\" ends mid-clause (\"be subject to international arbitration\"), part of a parallel list structure (\"countries agreed to submit disputes to international arbitration\"), expecting continuation like \"rather than\" or \"and not\" or \"in perpetuity.\"",
+   "variants": {
+    "original": "Formal diplomatic or historical sentence structure with quoted clause (\"A treaty declared that any disputes between nations would be resolved by mutual withdrawal and mandatory arbitration\"), implying a specific international agreement context.\n\nThe phrase \"The treaty stipulated that disputes would be submitted to international arbitration\" suggests a list or clause completion describing a second condition, likely \"instead of war\" or \"rather than,\" with \"arbitration\" completing the phrase.\n\nFinal token \"arbitration\" ends mid-clause (\"be subject to international arbitration\"), part of a parallel list structure (\"countries agreed to submit disputes to international arbitration\"), expecting continuation like \"rather than\" or \"and not\" or \"in perpetuity.\"",
+    "shuffle": "Final token \"arbitration\" ends mid-clause (\"be subject to international arbitration\"), part of a parallel list structure (\"countries agreed to submit disputes to international arbitration\"), expecting continuation like \"rather than\" or \"and not\" or \"in perpetuity.\"\n\nFormal diplomatic or historical sentence structure with quoted clause (\"A treaty declared that any disputes between nations would be resolved by mutual withdrawal and mandatory arbitration\"), implying a specific international agreement context.\n\nThe phrase \"The treaty stipulated that disputes would be submitted to international arbitration\" suggests a list or clause completion describing a second condition, likely \"instead of war\" or \"rather than,\" with \"arbitration\" completing the phrase.",
+    "paraphrase": "The utilization of formal diplomatic or historical sentence structures that incorporate quoted clauses, such as \"A treaty declared that any disputes between nations would be resolved by mutual withdrawal and mandatory arbitration,\" inherently implies a specific context related to international agreements.\n\nThe expression \"The treaty stipulated that disputes would be submitted to international arbitration\" implies the existence of a list or a clause that requires completion, describing a secondary condition that is likely to be introduced by phrases such as \"instead of war\" or \"rather than,\" with the term \"arbitration\" serving as the completion of the phrase.\n\nThe final token \"arbitration\" concludes mid-clause, as seen in \"be subject to international arbitration,\" which is part of a parallel list structure, exemplified by phrases like \"countries agreed to submit disputes to international arbitration,\" and anticipates a continuation, such as \"rather than,\" \"and not,\" or \"in perpetuity.\"",
+    "translate_fr": "La structure de phrase diplomatique ou historique formelle avec une clause citée (« Un traité a déclaré que tout litige entre les nations serait résolu par retrait mutuel et arbitrage obligatoire »), impliquant un contexte d'accord international spécifique.\n\nLa phrase « Le traité stipulait que les différends seraient soumis à l'arbitrage international » suggère une liste ou une complétion de clause décrivant une deuxième condition, probablement « au lieu de la guerre » ou « plutôt que », avec « l'arbitrage » complétant la phrase.\n\nLe jeton final « arbitrage » se termine en milieu de clause (« être soumis à l'arbitrage international »), faisant partie d'une structure de liste parallèle (« les pays ont accepté de soumettre les différends à l'arbitrage international »), attendant une continuation comme « plutôt que » ou « et non » ou « à perpétuité ».",
+    "backtranslate_en": "The structure of the diplomatic or historical formal sentence with a quoted clause (\"A treaty declared that any dispute between nations would be resolved by mutual withdrawal and mandatory arbitration\"), implying a context of specific international agreement.\n\nThe sentence \"The treaty stipulated that disputes would be submitted to international arbitration\" suggests a list or completion of a clause describing a second condition, probably \"instead of war\" or \"rather than\", with \"arbitration\" completing the sentence.\n\nThe final token \"arbitration\" ends in the middle of a clause (\"be submitted to international arbitration\"), being part of a parallel list structure (\"the countries agreed to submit disputes to international arbitration\"), awaiting a continuation such as \"rather than\" or \"and not\" or \"perpetually\".",
+    "coherence": "A treaty stipulated that disputes between nations would be submitted to international arbitration, implying a specific international agreement context where countries agreed to resolve conflicts through mutual withdrawal and mandatory arbitration rather than war.",
+    "summary": "The text describes the structure of formal diplomatic sentences, often involving international agreements and arbitration. These sentences typically imply a specific context, such as resolving disputes between nations. The phrase often ends with \"arbitration\", suggesting a continuation like \"rather than war\"."
+   },
+   "variants_meta": {
+    "original": {
+     "chars": 761,
+     "words": 102,
+     "paras": 3,
+     "orig_paras": 3,
+     "len_ratio": 1.0,
+     "word_ratio": 1.0
+    },
+    "shuffle": {
+     "chars": 761,
+     "words": 102,
+     "paras": 3,
+     "orig_paras": 3,
+     "len_ratio": 1.0,
+     "word_ratio": 1.0
+    },
+    "paraphrase": {
+     "chars": 999,
+     "words": 144,
+     "paras": 3,
+     "orig_paras": 3,
+     "len_ratio": 1.313,
+     "word_ratio": 1.412
+    },
+    "translate_fr": {
+     "chars": 860,
+     "words": 142,
+     "paras": 3,
+     "orig_paras": 3,
+     "len_ratio": 1.13,
+     "word_ratio": 1.392
+    },
+    "backtranslate_en": {
+     "chars": 820,
+     "words": 118,
+     "paras": 3,
+     "orig_paras": 3,
+     "len_ratio": 1.078,
+     "word_ratio": 1.157
+    },
+    "coherence": {
+     "chars": 263,
+     "words": 34,
+     "paras": 1,
+     "orig_paras": 3,
+     "len_ratio": 0.346,
+     "word_ratio": 0.333
+    },
+    "summary": {
+     "chars": 310,
+     "words": 41,
+     "paras": 1,
+     "orig_paras": 3,
+     "len_ratio": 0.407,
+     "word_ratio": 0.402
+    }
+   },
+   "scores": {
+    "original": {
+     "mse": 0.09963483363389969,
+     "cos": 0.9501823782920837,
+     "fve": 0.8641651893198368
+    },
+    "shuffle": {
+     "mse": 0.1756400614976883,
+     "cos": 0.9121800065040588,
+     "fve": 0.7605452467652511
+    },
+    "paraphrase": {
+     "mse": 0.18522728979587555,
+     "cos": 0.9073863625526428,
+     "fve": 0.7474747242046687
+    },
+    "translate_fr": {
+     "mse": 0.5966566205024719,
+     "cos": 0.701671838760376,
+     "fve": 0.18656220790392375
+    },
+    "backtranslate_en": {
+     "mse": 0.10465233772993088,
+     "cos": 0.947674036026001,
+     "fve": 0.8573246929380629
+    },
+    "coherence": {
+     "mse": 0.655204713344574,
+     "cos": 0.6723976731300354,
+     "fve": 0.10674204043002866
+    },
+    "summary": {
+     "mse": 0.6078943014144897,
+     "cos": 0.6960530877113342,
+     "fve": 0.17124157953034802
+    }
+   }
+  },
+  {
+   "id": 5,
+   "sample_text": "The treaty established a demilitarized zone along the river and obligated both signatories to submit their disputes to international arbitration.",
+   "pos": 48,
+   "token": ".",
+   "norm": 106.7829818725586,
+   "vec_index": 5,
+   "explanation": "Formal language structure with \"Question\" format suggests a prompt or quiz item about a geopolitical treaty, implying a sentence describing a treaty's clauses or outcomes.\n\nThe phrase \"The agreement states that the country will reduce emissions and establish a trade agreement. The sentence 'The treaty prohibits certain actions and established a partnership.' \" signals a second clause or question about the treaty's specific details.\n\nFinal token \"agreement. \" closes a quoted clause (\"The treaty states that the country banned certain activities and the treaty and environmental protection clause. It established a partnership...\"), strongly expecting continuation like \"What does this mean?\" or \"This treaty also\" or \"The following details are:\".",
+   "variants": {
+    "original": "Formal language structure with \"Question\" format suggests a prompt or quiz item about a geopolitical treaty, implying a sentence describing a treaty's clauses or outcomes.\n\nThe phrase \"The agreement states that the country will reduce emissions and establish a trade agreement. The sentence 'The treaty prohibits certain actions and established a partnership.' \" signals a second clause or question about the treaty's specific details.\n\nFinal token \"agreement. \" closes a quoted clause (\"The treaty states that the country banned certain activities and the treaty and environmental protection clause. It established a partnership...\"), strongly expecting continuation like \"What does this mean?\" or \"This treaty also\" or \"The following details are:\".",
+    "shuffle": "Final token \"agreement. \" closes a quoted clause (\"The treaty states that the country banned certain activities and the treaty and environmental protection clause. It established a partnership...\"), strongly expecting continuation like \"What does this mean?\" or \"This treaty also\" or \"The following details are:\".\n\nFormal language structure with \"Question\" format suggests a prompt or quiz item about a geopolitical treaty, implying a sentence describing a treaty's clauses or outcomes.\n\nThe phrase \"The agreement states that the country will reduce emissions and establish a trade agreement. The sentence 'The treaty prohibits certain actions and established a partnership.' \" signals a second clause or question about the treaty's specific details.",
+    "paraphrase": "The utilization of a formal language structure in a \"Question\" format indicates that the given text is likely a prompt or a quiz item related to a geopolitical treaty, suggesting that the sentence in question is describing specific clauses or outcomes of the treaty.\n\nThe expression \"The agreement states that the country will reduce emissions and establish a trade agreement. The sentence 'The treaty prohibits certain actions and established a partnership.' \" serves as a signal for a second clause or question that delves into the specific details of the treaty, providing more insight into its provisions.\n\nFinal token \"agreement. \" brings to a close a quoted clause (\"The treaty states that the country banned certain activities and the treaty and environmental protection clause. It established a partnership...\"), creating a strong expectation for continuation, such as \"What does this mean?\" or \"This treaty also\" or \"The following details are:\", which would further elaborate on the treaty's implications or additional stipulations.",
+    "translate_fr": "La structure de langage formel avec un format de \"Question\" suggère une invitation ou un élément de quiz sur un traité géopolitique, impliquant une phrase décrivant les clauses ou les résultats d'un traité.\n\nLa phrase \"The agreement states that the country will reduce emissions and establish a trade agreement. The sentence 'The treaty prohibits certain actions and established a partnership.' \" indique une deuxième clause ou question sur les détails spécifiques du traité.\n\nLe jeton final \"agreement. \" ferme une clause citée (\"The treaty states that the country banned certain activities and the treaty and environmental protection clause. It established a partnership...\"), attendant fortement une suite comme \"Qu'est-ce que cela signifie?\" ou \"Ce traité également\" ou \"Les détails suivants sont :\".",
+    "backtranslate_en": "The formal language structure with a \"Question\" format suggests an invitation or a quiz element on a geopolitical treaty, implying a phrase describing the clauses or outcomes of a treaty.\n\nThe phrase \"The agreement states that the country will reduce emissions and establish a trade agreement. The sentence 'The treaty prohibits certain actions and established a partnership.' \" indicates a second clause or question about the specific details of the treaty.\n\nThe final token \"agreement. \" closes a quoted clause (\"The treaty states that the country banned certain activities and the treaty and environmental protection clause. It established a partnership...\"), strongly awaiting a follow-up such as \"What does this mean?\" or \"This treaty also\" or \"The following details are:\".",
+    "coherence": "The text describes a geopolitical treaty, outlining its clauses and outcomes, including the reduction of emissions, establishment of a trade agreement, prohibition of certain actions, and formation of a partnership, with the structure suggesting a prompt or quiz item that may be followed by additional details or questions about the treaty.",
+    "summary": "A sentence describes a treaty's clauses or outcomes, implying a prompt or quiz item about a geopolitical treaty. The treaty's details include reducing emissions, establishing trade agreements, and prohibiting certain actions. The text expects continuation, such as further explanation or additional details about the treaty."
+   },
+   "variants_meta": {
+    "original": {
+     "chars": 750,
+     "words": 109,
+     "paras": 3,
+     "orig_paras": 3,
+     "len_ratio": 1.0,
+     "word_ratio": 1.0
+    },
+    "shuffle": {
+     "chars": 750,
+     "words": 109,
+     "paras": 3,
+     "orig_paras": 3,
+     "len_ratio": 1.0,
+     "word_ratio": 1.0
+    },
+    "paraphrase": {
+     "chars": 1041,
+     "words": 160,
+     "paras": 3,
+     "orig_paras": 3,
+     "len_ratio": 1.388,
+     "word_ratio": 1.468
+    },
+    "translate_fr": {
+     "chars": 804,
+     "words": 121,
+     "paras": 3,
+     "orig_paras": 3,
+     "len_ratio": 1.072,
+     "word_ratio": 1.11
+    },
+    "backtranslate_en": {
+     "chars": 778,
+     "words": 119,
+     "paras": 3,
+     "orig_paras": 3,
+     "len_ratio": 1.037,
+     "word_ratio": 1.092
+    },
+    "coherence": {
+     "chars": 341,
+     "words": 51,
+     "paras": 1,
+     "orig_paras": 3,
+     "len_ratio": 0.455,
+     "word_ratio": 0.468
+    },
+    "summary": {
+     "chars": 324,
+     "words": 45,
+     "paras": 1,
+     "orig_paras": 3,
+     "len_ratio": 0.432,
+     "word_ratio": 0.413
+    }
+   },
+   "scores": {
+    "original": {
+     "mse": 0.1143457293510437,
+     "cos": 0.9428272843360901,
+     "fve": 0.8441094351042349
+    },
+    "shuffle": {
+     "mse": 0.1303338259458542,
+     "cos": 0.934833288192749,
+     "fve": 0.8223124390649568
+    },
+    "paraphrase": {
+     "mse": 0.1428336352109909,
+     "cos": 0.9285837411880493,
+     "fve": 0.8052711176400942
+    },
+    "translate_fr": {
+     "mse": 0.18887002766132355,
+     "cos": 0.9055651426315308,
+     "fve": 0.7425084830793135
+    },
+    "backtranslate_en": {
+     "mse": 0.11023666709661484,
+     "cos": 0.944881796836853,
+     "fve": 0.8497114286344719
+    },
+    "coherence": {
+     "mse": 0.6100980043411255,
+     "cos": 0.6949511170387268,
+     "fve": 0.1682372128955345
+    },
+    "summary": {
+     "mse": 0.23288080096244812,
+     "cos": 0.8835597634315491,
+     "fve": 0.682507428817385
+    }
+   }
+  },
+  {
+   "id": 6,
+   "sample_text": "The lighthouse keeper climbed the spiral stairs each dusk, lighting the lamp that had guided fishermen home for forty years.",
+   "pos": 45,
+   "token": "Ġyears",
+   "norm": 112.90866088867188,
+   "vec_index": 6,
+   "explanation": "Narrative momentum: a literary or descriptive prose format with a title (\"The old clock\") suggesting a story about a rural town's clock.\n\nThe phrase \"An elderly man had stopped his clock, now rusting for forty years\" establishes a specific claim about a long-standing tradition or legacy, implying a character's history or the clock's function as a town landmark.\n\nFinal token \"years\" ends an incomplete clause (\"for forty years\"), part of a quoted description (\"a farmer who had kept the clock that had served his village for forty years\"), strongly expecting continuation like \".\" or \"and\" or \"before,\" or \"a legacy,\" completing the historical context about the clock's service.",
+   "variants": {
+    "original": "Narrative momentum: a literary or descriptive prose format with a title (\"The old clock\") suggesting a story about a rural town's clock.\n\nThe phrase \"An elderly man had stopped his clock, now rusting for forty years\" establishes a specific claim about a long-standing tradition or legacy, implying a character's history or the clock's function as a town landmark.\n\nFinal token \"years\" ends an incomplete clause (\"for forty years\"), part of a quoted description (\"a farmer who had kept the clock that had served his village for forty years\"), strongly expecting continuation like \".\" or \"and\" or \"before,\" or \"a legacy,\" completing the historical context about the clock's service.",
+    "shuffle": "Final token \"years\" ends an incomplete clause (\"for forty years\"), part of a quoted description (\"a farmer who had kept the clock that had served his village for forty years\"), strongly expecting continuation like \".\" or \"and\" or \"before,\" or \"a legacy,\" completing the historical context about the clock's service.\n\nNarrative momentum: a literary or descriptive prose format with a title (\"The old clock\") suggesting a story about a rural town's clock.\n\nThe phrase \"An elderly man had stopped his clock, now rusting for forty years\" establishes a specific claim about a long-standing tradition or legacy, implying a character's history or the clock's function as a town landmark.",
+    "paraphrase": "The concept of narrative momentum is exemplified in a literary or descriptive prose format, as evidenced by a title such as \"The old clock\", which implies a story revolving around a clock in a rural town setting.\n\nThe statement \"An elderly man had stopped his clock, now rusting for forty years\" introduces a specific assertion regarding a long-established tradition or legacy, suggesting a character's backstory or the clock's role as a prominent landmark in the town.\n\nThe final token \"years\" concludes an incomplete clause (\"for forty years\"), which is part of a quoted descriptive phrase (\"a farmer who had kept the clock that had served his village for forty years\"), creating a strong anticipation of continuation, such as a period \".\", a conjunction \"and\", a preposition \"before\", or a noun \"a legacy\", thereby completing the historical context surrounding the clock's service.",
+    "translate_fr": "Élan narratif : un format de prose littéraire ou descriptive avec un titre (« The old clock ») suggérant une histoire sur l'horloge d'une ville rurale.\n\nLa phrase « An elderly man had stopped his clock, now rusting for forty years » établit une affirmation spécifique sur une tradition ou un héritage de longue date, impliquant l'histoire d'un personnage ou la fonction de l'horloge en tant que monument de la ville.\n\nLe jeton final \"years\" termine une proposition incomplète (\"for forty years\"), faisant partie d'une description citée (\"a farmer who had kept the clock that had served his village for forty years\"), fortement attendant une continuation comme \".\" ou \"and\" ou \"before,\" ou \"a legacy,\" complétant le contexte historique sur le service de l'horloge.",
+    "backtranslate_en": "Narrative thrust: a format of literary or descriptive prose with a title (\"The old clock\") suggesting a story about the clock of a rural town.\n\nThe phrase \"An elderly man had stopped his clock, now rusting for forty years\" establishes a specific statement about a long-standing tradition or heritage, implying the story of a character or the function of the clock as a monument of the town.\n\nThe final token \"years\" completes an incomplete sentence (\"for forty years\"), being part of a quoted description (\"a farmer who had kept the clock that had served his village for forty years\"), strongly expecting a continuation such as \".\" or \"and\" or \"before,\" or \"a legacy,\" completing the historical context about the service of the clock.",
+    "coherence": "Narrative momentum is established through a literary prose format with a title, \"The old clock\", which suggests a story about a rural town's clock. The description introduces an elderly man who had stopped his clock, which has been rusting for forty years, implying a character's history or the clock's significance as a town landmark that had served the village for decades.",
+    "summary": "The text describes a literary format with a title \"The old clock\" that suggests a story about a rural town's clock. A key phrase establishes a claim about a long-standing tradition or legacy, implying a character's history or the clock's significance. The description ends abruptly, expecting continuation to complete the historical context about the clock."
+   },
+   "variants_meta": {
+    "original": {
+     "chars": 680,
+     "words": 108,
+     "paras": 3,
+     "orig_paras": 3,
+     "len_ratio": 1.0,
+     "word_ratio": 1.0
+    },
+    "shuffle": {
+     "chars": 680,
+     "words": 108,
+     "paras": 3,
+     "orig_paras": 3,
+     "len_ratio": 1.0,
+     "word_ratio": 1.0
+    },
+    "paraphrase": {
+     "chars": 884,
+     "words": 141,
+     "paras": 3,
+     "orig_paras": 3,
+     "len_ratio": 1.3,
+     "word_ratio": 1.306
+    },
+    "translate_fr": {
+     "chars": 763,
+     "words": 124,
+     "paras": 3,
+     "orig_paras": 3,
+     "len_ratio": 1.122,
+     "word_ratio": 1.148
+    },
+    "backtranslate_en": {
+     "chars": 734,
+     "words": 123,
+     "paras": 3,
+     "orig_paras": 3,
+     "len_ratio": 1.079,
+     "word_ratio": 1.139
+    },
+    "coherence": {
+     "chars": 375,
+     "words": 61,
+     "paras": 1,
+     "orig_paras": 3,
+     "len_ratio": 0.551,
+     "word_ratio": 0.565
+    },
+    "summary": {
+     "chars": 357,
+     "words": 55,
+     "paras": 1,
+     "orig_paras": 3,
+     "len_ratio": 0.525,
+     "word_ratio": 0.509
+    }
+   },
+   "scores": {
+    "original": {
+     "mse": 0.16908761858940125,
+     "cos": 0.9154562950134277,
+     "fve": 0.7694783659312867
+    },
+    "shuffle": {
+     "mse": 0.2122911959886551,
+     "cos": 0.8938544392585754,
+     "fve": 0.7105777832465507
+    },
+    "paraphrase": {
+     "mse": 0.20808514952659607,
+     "cos": 0.8959574103355408,
+     "fve": 0.7163119979187511
+    },
+    "translate_fr": {
+     "mse": 0.21384812891483307,
+     "cos": 0.8930758237838745,
+     "fve": 0.7084551753035677
+    },
+    "backtranslate_en": {
+     "mse": 0.1682266891002655,
+     "cos": 0.915886402130127,
+     "fve": 0.7706520939328351
+    },
+    "coherence": {
+     "mse": 0.8041073679924011,
+     "cos": 0.5979466438293457,
+     "fve": -0.09626089705848817
+    },
+    "summary": {
+     "mse": 0.8705129027366638,
+     "cos": 0.5647438168525696,
+     "fve": -0.18679332343103439
+    }
+   }
+  },
+  {
+   "id": 7,
+   "sample_text": "The lighthouse keeper climbed the spiral stairs each dusk, lighting the lamp that had guided fishermen home for forty years.",
+   "pos": 46,
+   "token": ".",
+   "norm": 107.7359390258789,
+   "vec_index": 7,
+   "explanation": "Formal literary or descriptive prompt structure suggests a bilingual or literary context, likely a word problem or story prompt about a daily routine or historical figure.\n\nThe phrase \"A wise old tree had been standing in the town square for many years, diligently watering the garden every day.\" implies an incomplete sentence or narrative setup, likely continuing with a poetic or descriptive clause about the character's daily duty.\n\nFinal token \"day. \" closes a quoted description (\"The man who tended the tree for many years and wrote the poem every morning. He walked the streets...\"), strongly expecting continuation like \"His life was...\" or \"Each day he...\" or \"This sentence describes his devotion,\" completing the prompt.",
+   "variants": {
+    "original": "Formal literary or descriptive prompt structure suggests a bilingual or literary context, likely a word problem or story prompt about a daily routine or historical figure.\n\nThe phrase \"A wise old tree had been standing in the town square for many years, diligently watering the garden every day.\" implies an incomplete sentence or narrative setup, likely continuing with a poetic or descriptive clause about the character's daily duty.\n\nFinal token \"day. \" closes a quoted description (\"The man who tended the tree for many years and wrote the poem every morning. He walked the streets...\"), strongly expecting continuation like \"His life was...\" or \"Each day he...\" or \"This sentence describes his devotion,\" completing the prompt.",
+    "shuffle": "Final token \"day. \" closes a quoted description (\"The man who tended the tree for many years and wrote the poem every morning. He walked the streets...\"), strongly expecting continuation like \"His life was...\" or \"Each day he...\" or \"This sentence describes his devotion,\" completing the prompt.\n\nFormal literary or descriptive prompt structure suggests a bilingual or literary context, likely a word problem or story prompt about a daily routine or historical figure.\n\nThe phrase \"A wise old tree had been standing in the town square for many years, diligently watering the garden every day.\" implies an incomplete sentence or narrative setup, likely continuing with a poetic or descriptive clause about the character's daily duty.",
+    "paraphrase": "The structure of a formal literary or descriptive prompt typically implies a context that is either bilingual or literary in nature, often presenting a word problem or a narrative prompt that revolves around a daily routine or a historical figure.\n\nThe sentence \"A wise old tree had been standing in the town square for many years, diligently watering the garden every day.\" appears to be incomplete, setting up a narrative that would likely be followed by a poetic or descriptive phrase elaborating on the character's daily responsibilities.\n\nFinal token \"day. \" concludes a quoted descriptive passage (\"The man who tended the tree for many years and wrote the poem every morning. He walked the streets...\"), creating a strong anticipation for a continuation such as \"His life was...\" or \"Each day he...\" or \"This sentence describes his devotion,\" thereby completing the prompt.",
+    "translate_fr": "La structure formelle de la prompt littéraire ou descriptive suggère un contexte bilingue ou littéraire, probablement un problème de mots ou une invite de story sur une routine quotidienne ou une figure historique.\n\nLa phrase \"A wise old tree had been standing in the town square for many years, diligently watering the garden every day.\" implique une phrase incomplète ou un montage narratif, probablement se poursuivant avec une clause poétique ou descriptive sur le devoir quotidien du personnage.\n\nLe jeton final \"day. \" ferme une description citée (\"The man who tended the tree for many years and wrote the poem every morning. He walked the streets...\"), fortement attendant une suite comme \"His life was...\" ou \"Each day he...\" ou \"This sentence describes his devotion,\" complétant ainsi la prompt.",
+    "backtranslate_en": "The formal structure of the literary or descriptive prompt suggests a bilingual or literary context, probably a word problem or a story prompt about a daily routine or a historical figure.\n\nThe phrase \"A wise old tree had been standing in the town square for many years, diligently watering the garden every day.\" implies an incomplete sentence or a narrative montage, probably continuing with a poetic or descriptive clause about the character's daily duty.\n\nThe final token \"day. \" closes a quoted description (\"The man who tended the tree for many years and wrote the poem every morning. He walked the streets...\"), strongly expecting a follow-up like \"His life was...\" or \"Each day he...\" or \"This sentence describes his devotion,\" thus completing the prompt.",
+    "coherence": "The given phrase appears to be a narrative setup, likely from a literary or descriptive prompt, which describes a daily routine or scene, such as a character tending to a tree or garden, and expects continuation to complete the story or thought.",
+    "summary": "The text describes a literary prompt structure that suggests a descriptive or story-based context. The given phrase sets up a narrative about a daily routine, likely to be continued with a poetic or descriptive clause. The prompt expects a continuation that completes the story or description."
+   },
+   "variants_meta": {
+    "original": {
+     "chars": 732,
+     "words": 115,
+     "paras": 3,
+     "orig_paras": 3,
+     "len_ratio": 1.0,
+     "word_ratio": 1.0
+    },
+    "shuffle": {
+     "chars": 732,
+     "words": 115,
+     "paras": 3,
+     "orig_paras": 3,
+     "len_ratio": 1.0,
+     "word_ratio": 1.0
+    },
+    "paraphrase": {
+     "chars": 879,
+     "words": 141,
+     "paras": 3,
+     "orig_paras": 3,
+     "len_ratio": 1.201,
+     "word_ratio": 1.226
+    },
+    "translate_fr": {
+     "chars": 804,
+     "words": 128,
+     "paras": 3,
+     "orig_paras": 3,
+     "len_ratio": 1.098,
+     "word_ratio": 1.113
+    },
+    "backtranslate_en": {
+     "chars": 763,
+     "words": 124,
+     "paras": 3,
+     "orig_paras": 3,
+     "len_ratio": 1.042,
+     "word_ratio": 1.078
+    },
+    "coherence": {
+     "chars": 245,
+     "words": 42,
+     "paras": 1,
+     "orig_paras": 3,
+     "len_ratio": 0.335,
+     "word_ratio": 0.365
+    },
+    "summary": {
+     "chars": 293,
+     "words": 46,
+     "paras": 1,
+     "orig_paras": 3,
+     "len_ratio": 0.4,
+     "word_ratio": 0.4
+    }
+   },
+   "scores": {
+    "original": {
+     "mse": 0.12815169990062714,
+     "cos": 0.9359241724014282,
+     "fve": 0.8252873893651982
+    },
+    "shuffle": {
+     "mse": 0.1449974775314331,
+     "cos": 0.9275013208389282,
+     "fve": 0.8023210940266761
+    },
+    "paraphrase": {
+     "mse": 0.14349374175071716,
+     "cos": 0.9282534122467041,
+     "fve": 0.8043711768906379
+    },
+    "translate_fr": {
+     "mse": 0.15919062495231628,
+     "cos": 0.9204044938087463,
+     "fve": 0.7829711997923432
+    },
+    "backtranslate_en": {
+     "mse": 0.12842261791229248,
+     "cos": 0.9357888698577881,
+     "fve": 0.8249180396560429
+    },
+    "coherence": {
+     "mse": 0.6382627487182617,
+     "cos": 0.6808687448501587,
+     "fve": 0.12983947005008634
+    },
+    "summary": {
+     "mse": 0.533870279788971,
+     "cos": 0.733065128326416,
+     "fve": 0.27216049108524754
+    }
+   }
+  }
+ ]
+}

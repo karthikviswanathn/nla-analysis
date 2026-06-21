@@ -1,0 +1,302 @@
+[
+ {
+  "pid": 0,
+  "token": "In",
+  "source": "In the third year of King Jungjong's reign, the Veritable Records of the Joseon dynasty noted a severe drought across the southern provinces, prompting the court to perform rain rituals.",
+  "explanation": "Academic/educational context pattern: a formal question or prompt about a mathematical or statistical topic, likely a problem or scenario.\n\nThe phrase \"In\" signals a new question or scenario beginning, likely a specific scenario or task involving a group or sequence.\n\nFinal token \"In\" opens a new question or prompt (\"In\"), strongly expecting a structured question or scenario, likely beginning a question about a mathematical problem or survey. or \"a city...\" or \"the following year...\" or \"a game, how many...\" or \"the context of a binary arithmetic...\" or \"the following paragraph,...\" or \"a triangle,...\" or \"a garden,...\" or \"a given year, calculate.\""
+ },
+ {
+  "pid": 1,
+  "token": "The",
+  "source": "The Treaty of Westphalia in 1648 ended the Thirty Years' War and entrenched the principle that sovereign states should not interfere in one another's internal affairs.",
+  "explanation": "Educational/mathematical textbook pattern: a structured problem or scenario about a sequence or permutation, likely involving a mathematical task.\n\nThe phrase \"The\" signals a new context or example, likely a question or scenario about a problem involving a group or set, possibly a business or political scenario.\n\nFinal token \"The\" opens a new sentence or prompt (\"...\"), strongly expecting a noun phrase or example scenario, likely a formal or descriptive statement about a problem. or \"following sentence is a...\" or \"company has a sales target...\" or \"equation of a rectangular field is...\" or \"two teams are playing...\" or \"text below...\" or \"president wants...\" or \"a survey...\""
+ },
+ {
+  "pid": 2,
+  "token": "Hann",
+  "source": "Hannibal led his army, including a contingent of war elephants, across the Alps in 218 BC to strike at Rome from the north.",
+  "explanation": "Educational/legal article pattern: a structured analysis of a historical topic, likely a philosophical or linguistic argument about Roman history.\n\nThe phrase \"Hann\" signals a formal answer or response beginning, likely a list or question about a specific historical/economic claim about the Roman Empire or Napoleon.\n\nFinal token \"Hann\" begins a specific example or question (\"Hann\"), strongly expecting a named entity or place, likely a list or sentence opener, such as \"Hannibal\" or \"Hannibal var...\" or \"hann var það...\" to establish a factual context about a known historical event. or \"þetta er...\" or \"ég er viss að...\" or \"fyrir að vera...\""
+ },
+ {
+  "pid": 3,
+  "token": "During",
+  "source": "During the Meiji Restoration, Japan dismantled the feudal domains and rapidly industrialised, importing foreign engineers to build railways and arsenals.",
+  "explanation": "Educational/technical database or textbook format, likely a question-answer or analytical scenario about a chemical or economic concept.\n\nThe opening phrase \"During\" signals a new scenario or question, likely a hypothetical or real-world example involving a numerical relationship or data point about a resistor or historical event.\n\nFinal token \"During\" opens a new question or scenario beginning (\"During\"), strongly expecting a question or topic introduction, likely a narrative or scenario about a lesson or experiment. or \"the year...\" or \"a recent election, a person...\" or \"the week, a group...\" or \"the French Revolution, how...\" or \"a photoshoot, how...\" or \"a marathon, calculate...\""
+ },
+ {
+  "pid": 4,
+  "token": "The",
+  "source": "The Library of Alexandria amassed hundreds of thousands of scrolls before a series of fires and budget cuts gradually eroded its collection.",
+  "explanation": "Educational/mathematical textbook pattern: a structured problem or scenario about a sequence or permutation, likely involving a mathematical task.\n\nThe phrase \"The\" signals a new context or example, likely a question or scenario about a problem involving a group or set, possibly a business or political scenario.\n\nFinal token \"The\" opens a new sentence or prompt (\"...\"), strongly expecting a noun phrase or example scenario, likely a formal or descriptive statement about a problem. or \"following sentence is a...\" or \"company has a sales target...\" or \"equation of a rectangular field is...\" or \"two teams are playing...\" or \"text below...\" or \"president wants...\" or \"a survey...\""
+ },
+ {
+  "pid": 5,
+  "token": "M",
+  "source": "Mitochondria generate ATP through oxidative phosphorylation across the inner membrane, coupling electron transport to a proton gradient.",
+  "explanation": "Structured/formal educational pattern: a conversational or analytical response about a topic, likely a writing or programming task.\n\nThe phrase \"M\" signals a new question or prompt, likely a request for a creative or descriptive task, possibly a dataset or example about a mathematical/economic scenario.\n\nFinal token \"M\" begins a new entry or question prompt (\"M\"), likely starting a new question or scenario, possibly a response or instruction about a writing task. or \"Menciona...\" or \"My company...\" or \"describe a...\" or \"Calculate...\" or \"a hotel has...\" or \"Write a sentence...\" or \"describe the difference between...\" or \"some constraints...\" or \"Mr.\""
+ },
+ {
+  "pid": 6,
+  "token": "A",
+  "source": "A black hole's event horizon marks the boundary beyond which the escape velocity exceeds the speed of light, so no signal can return to a distant observer.",
+  "explanation": "Mathematical/educational problem format: a pedagogical question or scenario about probability, likely involving permutations or geometric sequences.\n\nThe phrase \"A\" begins a new scenario or question, likely a concrete example or problem statement about a survey or decision involving the given arithmetic sequence.\n\nFinal token \"A\" opens a new sentence or scenario description (\"...A\"), strongly expecting a noun phrase like \"A rectangle has...\" or \"A person walks...\" or \"company has a lottery\" or \"triangle has three angles\" to introduce a new question or context. or \"farmer is rolling a ball.\" or \"rectangle is placed...\" or \"certain number of balls is...\" or \"group of three friends...\" or.\""
+ },
+ {
+  "pid": 7,
+  "token": "When",
+  "source": "When supercooled water is disturbed, it can crystallise almost instantly as the metastable liquid releases its latent heat of fusion.",
+  "explanation": "Educational/technical pattern: a conversational or analytical response about a mathematical or philosophical topic, likely a historical or practical question.\n\nThe phrase \"How...\" signals a question or prompt beginning, likely a question about a specific topic or example of a mathematical/educational concept.\n\nFinal token \"When\" opens a new question or scenario (\"When\"), strongly expecting a question or prompt, likely beginning a question about a topic or task, possibly \"When did...\" or \"When calculating...\" or \"you are writing a speech...\" or \"was the French Revolution...\" or \"comparing two brands...\" or \"did a person get a...\" or \"considering a chemical...\" or \"to use a metaphor, what.\""
+ },
+ {
+  "pid": 8,
+  "token": "Super",
+  "source": "Superconductors expel magnetic fields below a critical temperature, a phenomenon known as the Meissner effect that enables frictionless magnetic levitation.",
+  "explanation": "AI/ML model response pattern: a conversational or instructional response about a topic, likely a business or educational task.\n\nThe phrase \"Super\" begins a question or scenario, likely a prompt or task request, signaling a structured advice/example scenario about a creative or professional task involving a language model.\n\nFinal token \"Super\" opens a new question or topic request (\"Super\"), strongly expecting a noun or phrase like \"Superlatives,\" \"Super Mario,\" or a question about a task or scenario. or \"describe your...\" or \"give me a summary...\" or \"company has a problem...\" or \"lorem ipsum\" or \"explain the difference between...\" or \"a week of.\""
+ },
+ {
+  "pid": 9,
+  "token": "The",
+  "source": "The half-life of carbon-14 is about 5,730 years, which allows archaeologists to date organic remains up to roughly fifty thousand years old.",
+  "explanation": "Educational/mathematical textbook pattern: a structured problem or scenario about a sequence or permutation, likely involving a mathematical task.\n\nThe phrase \"The\" signals a new context or example, likely a question or scenario about a problem involving a group or set, possibly a business or political scenario.\n\nFinal token \"The\" opens a new sentence or prompt (\"...\"), strongly expecting a noun phrase or example scenario, likely a formal or descriptive statement about a problem. or \"following sentence is a...\" or \"company has a sales target...\" or \"equation of a rectangular field is...\" or \"two teams are playing...\" or \"text below...\" or \"president wants...\" or \"a survey...\""
+ },
+ {
+  "pid": 10,
+  "token": "The",
+  "source": "The treaty established a demilitarized zone along the river and obligated both signatories to submit their disputes to international arbitration.",
+  "explanation": "Educational/mathematical textbook pattern: a structured problem or scenario about a sequence or permutation, likely involving a mathematical task.\n\nThe phrase \"The\" signals a new context or example, likely a question or scenario about a problem involving a group or set, possibly a business or political scenario.\n\nFinal token \"The\" opens a new sentence or prompt (\"...\"), strongly expecting a noun phrase or example scenario, likely a formal or descriptive statement about a problem. or \"following sentence is a...\" or \"company has a sales target...\" or \"equation of a rectangular field is...\" or \"two teams are playing...\" or \"text below...\" or \"president wants...\" or \"a survey...\""
+ },
+ {
+  "pid": 11,
+  "token": "Under",
+  "source": "Under the doctrine of adverse possession, a trespasser may acquire legal title to land if their occupation is open, continuous, and hostile for the statutory period.",
+  "explanation": "Educational/technical text pattern: a generic or hypothetical question beginning, likely a task or prompt about a topic.\n\nThe phrase \"Under\" signals a new question or scenario, likely a structured academic or business task, possibly involving a narrative or scenario about a financial/political decision.\n\nFinal token \"Under\" opens a new question or prompt (\"Under\"), strongly expecting a formal or instructional request, likely a question or task about a topic, possibly \"Under the...\" or \"Under what circumstances...\" or \"the Obama administration...\" or \"the following scenario...\" or \"the definition of...\" or \"a contract, how...\" or \"the EU/US...\" or \"describe...\" or \"a.\""
+ },
+ {
+  "pid": 12,
+  "token": "The",
+  "source": "The appellate court remanded the case, holding that the trial judge had improperly excluded exculpatory evidence during the suppression hearing.",
+  "explanation": "Educational/mathematical textbook pattern: a structured problem or scenario about a sequence or permutation, likely involving a mathematical task.\n\nThe phrase \"The\" signals a new context or example, likely a question or scenario about a problem involving a group or set, possibly a business or political scenario.\n\nFinal token \"The\" opens a new sentence or prompt (\"...\"), strongly expecting a noun phrase or example scenario, likely a formal or descriptive statement about a problem. or \"following sentence is a...\" or \"company has a sales target...\" or \"equation of a rectangular field is...\" or \"two teams are playing...\" or \"text below...\" or \"president wants...\" or \"a survey...\""
+ },
+ {
+  "pid": 13,
+  "token": "The",
+  "source": "The lighthouse keeper climbed the spiral stairs each dusk, lighting the lamp that had guided fishermen home for forty years.",
+  "explanation": "Educational/mathematical textbook pattern: a structured problem or scenario about a sequence or permutation, likely involving a mathematical task.\n\nThe phrase \"The\" signals a new context or example, likely a question or scenario about a problem involving a group or set, possibly a business or political scenario.\n\nFinal token \"The\" opens a new sentence or prompt (\"...\"), strongly expecting a noun phrase or example scenario, likely a formal or descriptive statement about a problem. or \"following sentence is a...\" or \"company has a sales target...\" or \"equation of a rectangular field is...\" or \"two teams are playing...\" or \"text below...\" or \"president wants...\" or \"a survey...\""
+ },
+ {
+  "pid": 14,
+  "token": "She",
+  "source": "She folded the letter twice, pressed it beneath the loose floorboard, and resolved never to speak of the inheritance again.",
+  "explanation": "Educational/linguistic database pattern: a structured list or example format is expected, likely a grammar or vocabulary lesson about sentence construction.\n\nThe opening \"She\" signals a new scenario or example question, likely a hypothetical scenario or question about a person or situation involving a gift or relationship.\n\nFinal token \"She\" begins a new sentence or example entry (\"She\"), strongly expecting a noun phrase or scenario beginning, likely a question or example sentence about a person or situation. or \"was wearing...\" or \"said...\" or \"has a list of...\" or \"she gave...\" or \"is a dancer\" or \"lives in a house...\" or \"told me...\" or \"turned her head.\""
+ },
+ {
+  "pid": 15,
+  "token": "The",
+  "source": "The old market town woke slowly: shutters creaked open, a baker swept flour from his step, and pigeons wheeled above the empty square.",
+  "explanation": "Educational/mathematical textbook pattern: a structured problem or scenario about a sequence or permutation, likely involving a mathematical task.\n\nThe phrase \"The\" signals a new context or example, likely a question or scenario about a problem involving a group or set, possibly a business or political scenario.\n\nFinal token \"The\" opens a new sentence or prompt (\"...\"), strongly expecting a noun phrase or example scenario, likely a formal or descriptive statement about a problem. or \"following sentence is a...\" or \"company has a sales target...\" or \"equation of a rectangular field is...\" or \"two teams are playing...\" or \"text below...\" or \"president wants...\" or \"a survey...\""
+ },
+ {
+  "pid": 16,
+  "token": "He",
+  "source": "He had always believed the river was patient, that it would carry away every grievance if you only waited long enough on its bank.",
+  "explanation": "Educational/linguistic database pattern: a structured list or example format is expected, likely a question or scenario about a topic.\n\nThe opening \"He\" signals a new question or scenario, likely a conversational or academic query about a specific topic, possibly a business or philosophical problem.\n\nFinal token \"He\" begins a new sentence or question entry (\"He\"), likely starting a question or scenario, possibly a prompt about a person or situation, possibly \"He was...\" or \"He gave a list...\" or \"is a...\" or \"has a deadline...\" or \"said he was going to...\" or \"was walking...\" or \"lives in a city...\" or \"asked...\" or \"bought.\""
+ },
+ {
+  "pid": 17,
+  "token": "Central",
+  "source": "Central bankers signalled on Thursday that interest rates would remain elevated until inflation showed a durable return toward the two percent target.",
+  "explanation": "Educational/technical dataset or article format, likely a structured academic or journalistic piece about a topic involving data or programming.\n\nThe phrase \"Central\" begins a new topic or entry, likely a formal instructional or analytical piece about a business or economic concept, possibly a narrative about a central bank or government.\n\nFinal token \"Central\" opens a new topic or title entry (\"Central\"), strongly expecting a noun phrase like a heading or topic label, likely \"Central America,\" \"Central Bank,\" or a structured topic/question about a central concept. or \"Central University...\" or \"the idea that...\" or \"India has a problem...\" or \"California's...\" or \"three-point rule.\""
+ },
+ {
+  "pid": 18,
+  "token": "Rescue",
+  "source": "Rescue crews worked through the night after the embankment collapsed, evacuating several hundred residents from the flooded lowland districts.",
+  "explanation": "Educational/technical article pattern: a structured narrative or scenario about a rescue or emergency situation, likely involving a mathematical or statistical topic.\n\nThe phrase \"Rescue\" signals a new scenario or story beginning, likely a narrative or example about a crisis involving a person or animal in distress, possibly a fictional scenario about a rescue operation.\n\nFinal token \"Rescue\" opens a new sentence or title (\"Rescue\"), strongly expecting a noun phrase or topic introduction, likely \"Rescue a cat\" or \"Rescue\" to begin a descriptive or instructional scenario. or \"a city\" or \"the three\" or \"your pet\" or \"hero/volunteer\" or \"from a drowning...\" or \"scenario...\""
+ },
+ {
+  "pid": 19,
+  "token": "The",
+  "source": "The company's quarterly earnings beat analyst expectations, sending its shares up nearly nine percent in after-hours trading.",
+  "explanation": "Educational/mathematical textbook pattern: a structured problem or scenario about a sequence or permutation, likely involving a mathematical task.\n\nThe phrase \"The\" signals a new context or example, likely a question or scenario about a problem involving a group or set, possibly a business or political scenario.\n\nFinal token \"The\" opens a new sentence or prompt (\"...\"), strongly expecting a noun phrase or example scenario, likely a formal or descriptive statement about a problem. or \"following sentence is a...\" or \"company has a sales target...\" or \"equation of a rectangular field is...\" or \"two teams are playing...\" or \"text below...\" or \"president wants...\" or \"a survey...\""
+ },
+ {
+  "pid": 20,
+  "token": "A",
+  "source": "A hash table offers average constant-time lookups by mapping keys to buckets, though collisions can degrade performance to linear in the worst case.",
+  "explanation": "Mathematical/educational problem format: a pedagogical question or scenario about probability, likely involving permutations or geometric sequences.\n\nThe phrase \"A\" begins a new scenario or question, likely a concrete example or problem statement about a survey or decision involving the given arithmetic sequence.\n\nFinal token \"A\" opens a new sentence or scenario description (\"...A\"), strongly expecting a noun phrase like \"A rectangle has...\" or \"A person walks...\" or \"company has a lottery\" or \"triangle has three angles\" to introduce a new question or context. or \"farmer is rolling a ball.\" or \"rectangle is placed...\" or \"certain number of balls is...\" or \"group of three friends...\" or.\""
+ },
+ {
+  "pid": 21,
+  "token": "The",
+  "source": "The compiler performs dead-code elimination after constant propagation, removing branches that can never execute given the inferred value ranges.",
+  "explanation": "Educational/mathematical textbook pattern: a structured problem or scenario about a sequence or permutation, likely involving a mathematical task.\n\nThe phrase \"The\" signals a new context or example, likely a question or scenario about a problem involving a group or set, possibly a business or political scenario.\n\nFinal token \"The\" opens a new sentence or prompt (\"...\"), strongly expecting a noun phrase or example scenario, likely a formal or descriptive statement about a problem. or \"following sentence is a...\" or \"company has a sales target...\" or \"equation of a rectangular field is...\" or \"two teams are playing...\" or \"text below...\" or \"president wants...\" or \"a survey...\""
+ },
+ {
+  "pid": 22,
+  "token": "TCP",
+  "source": "TCP guarantees ordered delivery by numbering segments and retransmitting any that go unacknowledged before a timeout expires.",
+  "explanation": "Educational/technical article pattern: a networking or computer science explanation about TCP/three-way handshake, likely a textbook or course material.\n\nThe opening phrase \"TCP\" signals a new topic or question, likely a specific scenario or example about TCP protocol or network concepts, possibly a lesson or quiz about a network connection.\n\nFinal token \"TCP\" begins a new topic or question header (\"TCP\"), strongly expecting a structured question or topic introduction, likely \"TCP/IP\" or \"protocol\" or \"port 80\" to introduce a specific scenario about TCP congestion or handshake. or \"Three Way Handshake\" or \"is a...\" or \"sockets vs UDP\" or \"congestion.\""
+ },
+ {
+  "pid": 23,
+  "token": "Gradient",
+  "source": "Gradient descent updates each parameter in the direction that most steeply reduces the loss, scaled by a learning rate that must be tuned carefully.",
+  "explanation": "Academic/technical dataset description pattern: a brief, descriptive post about a machine learning model or method, likely a neural network or optimization task involving a dataset.\n\nThe opening phrase \"Gradient\" signals a structured technical discussion, likely a machine learning topic or tutorial about gradient descent, implying a specific model or visualization task in a dataset.\n\nFinal token \"Gradient\" begins a topic or category label (\"Gradient\"), strongly expecting a noun phrase like \"descent\" or \"gradient of a vector\" to introduce a technical concept or image/vector in a machine learning context. or \"descent in a neural network\" or \"colour gradient\" or \"descent, color gradient...\" or \"images.\""
+ },
+ {
+  "pid": 24,
+  "token": "The",
+  "source": "The pancreas secretes insulin in response to rising blood glucose, prompting cells throughout the body to take up sugar from the bloodstream.",
+  "explanation": "Educational/mathematical textbook pattern: a structured problem or scenario about a sequence or permutation, likely involving a mathematical task.\n\nThe phrase \"The\" signals a new context or example, likely a question or scenario about a problem involving a group or set, possibly a business or political scenario.\n\nFinal token \"The\" opens a new sentence or prompt (\"...\"), strongly expecting a noun phrase or example scenario, likely a formal or descriptive statement about a problem. or \"following sentence is a...\" or \"company has a sales target...\" or \"equation of a rectangular field is...\" or \"two teams are playing...\" or \"text below...\" or \"president wants...\" or \"a survey...\""
+ },
+ {
+  "pid": 25,
+  "token": "CR",
+  "source": "CRISPR-Cas9 uses a guide RNA to direct a nuclease to a specific genomic sequence, where it introduces a double-strand break for editing.",
+  "explanation": "AI/ML model response pattern: a structured analytical or conversational response about a topic, likely a business or academic task.\n\nThe phrase \"Write a description of...\" signals a prompt or question beginning, likely a dataset or task request about a company/product comparison or narrative.\n\nFinal token \"CR\" begins a new entry or question in a dataset/forum context (\"CR\"), likely starting a question or task prompt, possibly a structured list or topic request, possibly \"CRITIC\" or \"CR1\" or \"explain a...\" or \"a problem/task\" or \"1: How to...\" or \"evaluate/summarize\" or \"Amazon/Google\" or \"the.\""
+ },
+ {
+  "pid": 26,
+  "token": "Antib",
+  "source": "Antibiotic resistance spreads when bacteria exchange plasmids carrying genes that inactivate or pump out the offending drug.",
+  "explanation": "Educational/search-content pattern: a structured article or dataset entry about a scientific topic, likely a hypothetical scenario or data analysis.\n\nThe phrase \"Antib\" signals a new entry or question beginning, likely a search or topic query about a specific biological or chemical phenomenon, possibly a study on antibiotics or a famous example.\n\nFinal token \"Antib\" begins a new topic or question entry (\"Antib\"), strongly expecting a noun or title to follow, likely a heading or example question about a research or writing task. or \"Antibody\" or \"a study...\" or \"a pandemic...\" or \"Antibiotic resistance is...\" or \"Elon Musk...\" or \"describe...\" or \"describe the...\""
+ },
+ {
+  "pid": 27,
+  "token": "The",
+  "source": "The immune system's memory cells persist for years after an infection, enabling a faster and stronger response upon re-exposure to the same pathogen.",
+  "explanation": "Educational/mathematical textbook pattern: a structured problem or scenario about a sequence or permutation, likely involving a mathematical task.\n\nThe phrase \"The\" signals a new context or example, likely a question or scenario about a problem involving a group or set, possibly a business or political scenario.\n\nFinal token \"The\" opens a new sentence or prompt (\"...\"), strongly expecting a noun phrase or example scenario, likely a formal or descriptive statement about a problem. or \"following sentence is a...\" or \"company has a sales target...\" or \"equation of a rectangular field is...\" or \"two teams are playing...\" or \"text below...\" or \"president wants...\" or \"a survey...\""
+ },
+ {
+  "pid": 28,
+  "token": "When",
+  "source": "When a currency depreciates, exports become cheaper abroad while imported goods grow more expensive for domestic consumers.",
+  "explanation": "Educational/technical pattern: a conversational or analytical response about a mathematical or philosophical topic, likely a historical or practical question.\n\nThe phrase \"How...\" signals a question or prompt beginning, likely a question about a specific topic or example of a mathematical/educational concept.\n\nFinal token \"When\" opens a new question or scenario (\"When\"), strongly expecting a question or prompt, likely beginning a question about a topic or task, possibly \"When did...\" or \"When calculating...\" or \"you are writing a speech...\" or \"was the French Revolution...\" or \"comparing two brands...\" or \"did a person get a...\" or \"considering a chemical...\" or \"to use a metaphor, what.\""
+ },
+ {
+  "pid": 29,
+  "token": "Compound",
+  "source": "Compound interest causes a balance to grow geometrically, so even modest annual returns accumulate substantially over several decades.",
+  "explanation": "Educational/academic worksheet format: a structured list or table of chemical/linguistic topics is expected, likely a problem set or exam.\n\nThe phrase \"Compound\" signals a formal academic or business context, introducing a list or enumeration of topics about chemical compounds or word problems, likely a vocabulary or grammar task.\n\nFinal token \"Compound\" begins a structured list or category label (\"Compound\"), strongly expecting a noun or category label like \"Compound nouns\" or \"Compound\" to open a question or task prompt. or \"interest\" or \"sentences\" or \"A\" or \"the following:\" or \"sentences in a pharmaceutical company\" or \"A\" or \"or two of the following.\""
+ },
+ {
+  "pid": 30,
+  "token": "A",
+  "source": "A liquidity trap arises when interest rates approach zero and monetary policy loses its power to stimulate additional borrowing.",
+  "explanation": "Mathematical/educational problem format: a pedagogical question or scenario about probability, likely involving permutations or geometric sequences.\n\nThe phrase \"A\" begins a new scenario or question, likely a concrete example or problem statement about a survey or decision involving the given arithmetic sequence.\n\nFinal token \"A\" opens a new sentence or scenario description (\"...A\"), strongly expecting a noun phrase like \"A rectangle has...\" or \"A person walks...\" or \"company has a lottery\" or \"triangle has three angles\" to introduce a new question or context. or \"farmer is rolling a ball.\" or \"rectangle is placed...\" or \"certain number of balls is...\" or \"group of three friends...\" or.\""
+ },
+ {
+  "pid": 31,
+  "token": "Ut",
+  "source": "Utilitarian ethics judges an action by the aggregate welfare it produces, which critics argue can license sacrificing the few for the many.",
+  "explanation": "Structured list/educational format pattern: a search-query or topic-based response, likely a conversational or academic essay about a business problem.\n\nThe opening prompt \"Ut\" signals a question or task request, likely a task or assignment about a specific dataset or scenario involving AI/social media.\n\nFinal token \"Ut\" begins a new question or entry in a list/forum context (\"Ut\"), strongly expecting a response or question beginning, likely a task or instruction about a writing or design task. or \"Utter a...\" or \"Utter a scenario...\" or \"explain...\" or \"describe...\" or \"describe the best way to...\" or \"a hotel in Mumbai has...\" or.\""
+ },
+ {
+  "pid": 32,
+  "token": "The",
+  "source": "The tragedy of the commons describes how individuals acting in self-interest can deplete a shared resource that none of them wishes to destroy.",
+  "explanation": "Educational/mathematical textbook pattern: a structured problem or scenario about a sequence or permutation, likely involving a mathematical task.\n\nThe phrase \"The\" signals a new context or example, likely a question or scenario about a problem involving a group or set, possibly a business or political scenario.\n\nFinal token \"The\" opens a new sentence or prompt (\"...\"), strongly expecting a noun phrase or example scenario, likely a formal or descriptive statement about a problem. or \"following sentence is a...\" or \"company has a sales target...\" or \"equation of a rectangular field is...\" or \"two teams are playing...\" or \"text below...\" or \"president wants...\" or \"a survey...\""
+ },
+ {
+  "pid": 33,
+  "token": "Confirmation",
+  "source": "Confirmation bias leads people to seek and remember evidence that supports their existing beliefs while discounting what contradicts them.",
+  "explanation": "Academic/professional register with a structured listicle or survey format, establishing a formal, analytical argument about AI and decision-making.\n\nThe phrase \"Confirmation\" signals a topic or question beginning, likely a request for advice or a list of psychological/operational tasks, typical in a customer-service or business email about a decision.\n\nFinal token \"Confirmation\" opens a formal topic or heading (\"Confirmation\"), strongly expecting a structured list or heading, likely \"Confirmation bias\" or \"email\" or \"of your booking/acceptance\" to introduce a specific topic about a confirmation/response. or \"of the following:\" or \"bias/workshop\" or \"that the AI is...\" or \".\""
+ },
+ {
+  "pid": 34,
+  "token": "The",
+  "source": "The Atacama Desert is among the driest places on Earth, with some weather stations never having recorded a single drop of rain.",
+  "explanation": "Educational/mathematical textbook pattern: a structured problem or scenario about a sequence or permutation, likely involving a mathematical task.\n\nThe phrase \"The\" signals a new context or example, likely a question or scenario about a problem involving a group or set, possibly a business or political scenario.\n\nFinal token \"The\" opens a new sentence or prompt (\"...\"), strongly expecting a noun phrase or example scenario, likely a formal or descriptive statement about a problem. or \"following sentence is a...\" or \"company has a sales target...\" or \"equation of a rectangular field is...\" or \"two teams are playing...\" or \"text below...\" or \"president wants...\" or \"a survey...\""
+ },
+ {
+  "pid": 35,
+  "token": "Plate",
+  "source": "Plate tectonics drives the slow drift of continents, building mountain ranges where plates collide and opening ocean basins where they separate.",
+  "explanation": "Educational/technical content pattern: a structured listicle or textbook entry about geological concepts, likely a lesson or worksheet on tectonic plates.\n\nThe phrase \"Plate\" begins a dataset or example entry, signaling a structured list or dataset format, likely a pedagogical or instructional resource about a culinary/geological topic.\n\nFinal token \"Plate\" begins a topic or category label (\"Plate\"), strongly expecting a noun or compound noun like \"Plate Tectonics\" or \"Plate\" to start a named example or task. or \"1\" or \"a car\" or \"number 1\" or \"design a meal\" or \"the restaurant\" or \"two-color metal...\" or \"or.\""
+ },
+ {
+  "pid": 36,
+  "token": "Mon",
+  "source": "Monsoon winds reverse direction with the seasons, drenching the subcontinent in summer and leaving it parched through the winter months.",
+  "explanation": "Structured/formal AI-generated response pattern: a conversational or analytical response about a mathematical/financial topic, likely a question about a recommendation or solution.\n\nThe opening \"Mon\" signals a question or scenario beginning, likely a request for help or advice, possibly a specific dataset or scenario about a chemical formula.\n\nFinal token \"Mon\" begins a new sentence or question (\"Mon\"), strongly expecting a conversational or instructional opening, likely a question or prompt about a business or problem. or \"Mon entreprise...\" or \"Mon chat...\" or \"describe a...\" or \"give me a list of...\" or \"une semaine, je dois...\" or \"une fonction a des...\" or \"explain...\""
+ },
+ {
+  "pid": 37,
+  "token": "A",
+  "source": "A prime number has exactly two divisors, and Euclid proved more than two thousand years ago that the primes never run out.",
+  "explanation": "Mathematical/educational problem format: a pedagogical question or scenario about probability, likely involving permutations or geometric sequences.\n\nThe phrase \"A\" begins a new scenario or question, likely a concrete example or problem statement about a survey or decision involving the given arithmetic sequence.\n\nFinal token \"A\" opens a new sentence or scenario description (\"...A\"), strongly expecting a noun phrase like \"A rectangle has...\" or \"A person walks...\" or \"company has a lottery\" or \"triangle has three angles\" to introduce a new question or context. or \"farmer is rolling a ball.\" or \"rectangle is placed...\" or \"certain number of balls is...\" or \"group of three friends...\" or.\""
+ },
+ {
+  "pid": 38,
+  "token": "The",
+  "source": "The Fibonacci sequence, in which each term is the sum of the two before it, approaches the golden ratio as the terms grow large.",
+  "explanation": "Educational/mathematical textbook pattern: a structured problem or scenario about a sequence or permutation, likely involving a mathematical task.\n\nThe phrase \"The\" signals a new context or example, likely a question or scenario about a problem involving a group or set, possibly a business or political scenario.\n\nFinal token \"The\" opens a new sentence or prompt (\"...\"), strongly expecting a noun phrase or example scenario, likely a formal or descriptive statement about a problem. or \"following sentence is a...\" or \"company has a sales target...\" or \"equation of a rectangular field is...\" or \"two teams are playing...\" or \"text below...\" or \"president wants...\" or \"a survey...\""
+ },
+ {
+  "pid": 39,
+  "token": "A",
+  "source": "A function is continuous at a point if small changes in its input produce arbitrarily small changes in its output near that point.",
+  "explanation": "Mathematical/educational problem format: a pedagogical question or scenario about probability, likely involving permutations or geometric sequences.\n\nThe phrase \"A\" begins a new scenario or question, likely a concrete example or problem statement about a survey or decision involving the given arithmetic sequence.\n\nFinal token \"A\" opens a new sentence or scenario description (\"...A\"), strongly expecting a noun phrase like \"A rectangle has...\" or \"A person walks...\" or \"company has a lottery\" or \"triangle has three angles\" to introduce a new question or context. or \"farmer is rolling a ball.\" or \"rectangle is placed...\" or \"certain number of balls is...\" or \"group of three friends...\" or.\""
+ },
+ {
+  "pid": 40,
+  "token": "A",
+  "source": "A fugue develops a single short theme by introducing it in one voice and then weaving it through the others at staggered intervals.",
+  "explanation": "Mathematical/educational problem format: a pedagogical question or scenario about probability, likely involving permutations or geometric sequences.\n\nThe phrase \"A\" begins a new scenario or question, likely a concrete example or problem statement about a survey or decision involving the given arithmetic sequence.\n\nFinal token \"A\" opens a new sentence or scenario description (\"...A\"), strongly expecting a noun phrase like \"A rectangle has...\" or \"A person walks...\" or \"company has a lottery\" or \"triangle has three angles\" to introduce a new question or context. or \"farmer is rolling a ball.\" or \"rectangle is placed...\" or \"certain number of balls is...\" or \"group of three friends...\" or.\""
+ },
+ {
+  "pid": 41,
+  "token": "Imp",
+  "source": "Impressionist painters abandoned crisp outlines in favour of loose brushwork that captured the fleeting effects of light on a scene.",
+  "explanation": "Educational/technical article pattern: a structured AI or programming tutorial, likely a conversational example or prompt about a data-related task.\n\nThe opening \"Imp\" signals a formal or informal instructional prompt, likely a brainstorming or writing task, possibly a programming challenge or scenario involving a political argument.\n\nFinal token \"Imp\" begins a structured example or prompt (\"Imp\"), strongly expecting a formal topic or task description, likely a list or question about a programming task or scenario. or \"Imagina...\" or \"Impulsar un...\" or \"describe a...\" or \"explain the difference between...\" or \"a company is facing...\" or \"Impressionare...\" or \"give me three...\" or.\""
+ },
+ {
+  "pid": 42,
+  "token": "With",
+  "source": "With two minutes remaining, the midfielder threaded a pass through the defence, and the striker volleyed it into the top corner.",
+  "explanation": "Academic/educational content pattern: a structured prompt or question about AI/ML, likely a brainstorming or writing task.\n\nThe opening phrase \"With\" signals a new question or request, likely a specific scenario or example about a product or idea, possibly a comparative or instructional task about AI-generated content.\n\nFinal token \"With\" opens a new question or prompt (\"With\"), strongly expecting a formal or conversational question beginning, likely \"With the...\" or \"With a list of...\" or \"the upcoming election...\" or \"the following example...\" or \"Python, how can you...\" or \"limited time, explain...\" or \"the new EU/US law...\" or \"examples, describe.\""
+ },
+ {
+  "pid": 43,
+  "token": "The",
+  "source": "The marathon's final miles punish the unprepared, as depleted glycogen forces runners to slow against what they call the wall.",
+  "explanation": "Educational/mathematical textbook pattern: a structured problem or scenario about a sequence or permutation, likely involving a mathematical task.\n\nThe phrase \"The\" signals a new context or example, likely a question or scenario about a problem involving a group or set, possibly a business or political scenario.\n\nFinal token \"The\" opens a new sentence or prompt (\"...\"), strongly expecting a noun phrase or example scenario, likely a formal or descriptive statement about a problem. or \"following sentence is a...\" or \"company has a sales target...\" or \"equation of a rectangular field is...\" or \"two teams are playing...\" or \"text below...\" or \"president wants...\" or \"a survey...\""
+ },
+ {
+  "pid": 44,
+  "token": "To",
+  "source": "To temper chocolate, you gently heat it, cool it while stirring, and warm it again so the cocoa butter sets into a glossy, stable crystal form.",
+  "explanation": "Academic/technical dataset or forum context, likely a structured discussion or question about a mathematical or linguistic topic.\n\nThe opening phrase \"To\" signals a new question or request, likely a formal prompt or task, possibly a problem or scenario involving a mathematical/statistical analysis or a speech.\n\nFinal token \"To\" begins a new sentence or question (\"To\"), strongly expecting a new topic or question, likely starting a formal or instructional statement, possibly \"To calculate...\" or \"To...\" or \"To prove a marketing claim...\" or \"To describe a binary options...\" or \"solve a problem...\" or \"you are given...\" or \"describe the upcoming conference...\" or \"convert a book...\""
+ },
+ {
+  "pid": 45,
+  "token": "Bread",
+  "source": "Bread rises because yeast ferments the dough's sugars, releasing carbon dioxide that is trapped by the elastic gluten network.",
+  "explanation": "Educational/technical article pattern: a structured AI/ML explanation with a question-answer format, likely a tutorial or discussion about bread recipes.\n\nThe opening phrase \"Bread\" signals a hypothetical or example scenario, likely a question about a food item or cooking process, possibly a topic about bread or a specific food item.\n\nFinal token \"Bread\" begins a new topic or scenario (\"Bread\"), strongly expecting a noun phrase or question, likely a descriptive or analytical question about bread, possibly \"bread is...\" or \"is a...\" or \"loaf, a type of...\" or \"company is a...\" or \"has a shelf life...\" or \"and butter is...\" or \"images of...\""
+ },
+ {
+  "pid": 46,
+  "token": "A",
+  "source": "A comet's tail always points away from the Sun, pushed outward by the solar wind regardless of the direction the comet is travelling.",
+  "explanation": "Mathematical/educational problem format: a pedagogical question or scenario about probability, likely involving permutations or geometric sequences.\n\nThe phrase \"A\" begins a new scenario or question, likely a concrete example or problem statement about a survey or decision involving the given arithmetic sequence.\n\nFinal token \"A\" opens a new sentence or scenario description (\"...A\"), strongly expecting a noun phrase like \"A rectangle has...\" or \"A person walks...\" or \"company has a lottery\" or \"triangle has three angles\" to introduce a new question or context. or \"farmer is rolling a ball.\" or \"rectangle is placed...\" or \"certain number of balls is...\" or \"group of three friends...\" or.\""
+ },
+ {
+  "pid": 47,
+  "token": "The",
+  "source": "The James Webb telescope observes in the infrared, peering through dust clouds to capture light from the universe's earliest galaxies.",
+  "explanation": "Educational/mathematical textbook pattern: a structured problem or scenario about a sequence or permutation, likely involving a mathematical task.\n\nThe phrase \"The\" signals a new context or example, likely a question or scenario about a problem involving a group or set, possibly a business or political scenario.\n\nFinal token \"The\" opens a new sentence or prompt (\"...\"), strongly expecting a noun phrase or example scenario, likely a formal or descriptive statement about a problem. or \"following sentence is a...\" or \"company has a sales target...\" or \"equation of a rectangular field is...\" or \"two teams are playing...\" or \"text below...\" or \"president wants...\" or \"a survey...\""
+ },
+ {
+  "pid": 48,
+  "token": "Languages",
+  "source": "Languages in close contact often borrow vocabulary, so a single everyday word may carry traces of three or four older tongues.",
+  "explanation": "Academic/technical discussion post pattern: a conversational essay or analysis about programming, AI, and linguistic concepts, likely a topic about language models.\n\nThe phrase \"Languages\" signals a new topic or question beginning, likely a list or example of languages or a question about language learning/programming.\n\nFinal token \"Languages\" opens a new topic or question header (\"Languages\"), strongly expecting a noun phrase or category label, likely \"are...\" or \"that support programming\" or \"of programming languages\" or \"that I speak\" or \"languages list/example\" or \"of a multilingual crisis\" or \"are falling\" or \"Python, English, Spanish...\" or \"have a cultural impact.\""
+ },
+ {
+  "pid": 49,
+  "token": "T",
+  "source": "Tidal forces gradually slow the Earth's rotation, lengthening the day by a tiny fraction of a second each century.",
+  "explanation": "Structured/formal educational pattern: a conversational AI or chatbot response about a writing task, likely a data or marketing analysis.\n\nThe phrase \"T\" begins a new question or prompt, likely a request for a writing task or example, signaling a hypothetical scenario about a travel or programming problem.\n\nFinal token \"T\" begins a new sentence or question (\"T\"), likely starting a prompt or task request, possibly a question about a dataset or problem, possibly \"Tentukan...\" or \"Tanya...\" or \"The company has a...\" or \"describe a...\" or \"a car is a...\" or \"write a comparison between two...\" or \"you are given...\" or \"describe the...\""
+ }
+]

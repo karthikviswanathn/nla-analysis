@@ -20,11 +20,11 @@ export CUDA_HOME=/sw/arch/RHEL9/EB_production/2024/software/CUDA/12.6.0   # H100
 export REPO="$BASE/nla-inference"
 export PYTHONUNBUFFERED=1
 export MODEL="${MODEL:?set MODEL=qwen|gemma12|gemma27|llama70}"
-export RESULTS="$BASE/logs/grid_${MODEL}_${SLURM_JOB_ID}.json"
-export VEC_FILE="$BASE/logs/grid_${MODEL}_${SLURM_JOB_ID}.npz"
+export RESULTS="$BASE/results/grid_${MODEL}_${SLURM_JOB_ID}.json"
+export VEC_FILE="$BASE/results/grid_${MODEL}_${SLURM_JOB_ID}.npz"
 export TRANSFORM_URL="http://127.0.0.1:30001/v1/chat/completions"
 export TRANSFORM_NAME="transform"
-mkdir -p logs
+mkdir -p logs results
 
 case "$MODEL" in
   qwen)    AV_REPO=kitft/nla-qwen2.5-7b-L20-av;    AR_REPO=kitft/nla-qwen2.5-7b-L20-ar;    AV_EXTRA="--tp 1";;

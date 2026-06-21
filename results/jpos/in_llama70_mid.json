@@ -1,0 +1,302 @@
+[
+ {
+  "pid": 0,
+  "token": "on",
+  "source": "In the third year of King Jungjong's reign, the Veritable Records of the Joseon dynasty noted a severe drought across the southern provinces, prompting the court to perform rain rituals.",
+  "explanation": "Encyclopedia/wiki article structure: factual historical narrative about Korean royal history, likely a translated passage from a Korean source.\n\nThe text is mid-sentence in a historical account of King Injong of Joseon, establishing a pattern of describing royal activities and political events.\n\n\"Veritable Records of the Joseon\" — \"The Veritable Records of the Joseon\" is a proper noun phrase, \"The Annals of the Joseon\" being a well-known historical record, \"The Veritable Records of the Joseon\" demands a completing noun phrase, likely \"King\" or \" Dynasty\" or \"Dynasty\" followed by a specific document name like \"King\" or a historical record title."
+ },
+ {
+  "pid": 1,
+  "token": "Ġand",
+  "source": "The Treaty of Westphalia in 1648 ended the Thirty Years' War and entrenched the principle that sovereign states should not interfere in one another's internal affairs.",
+  "explanation": "Q&A format established — a factual historical question is being posed, likely a structured academic response expected.\n\nThe text is a prompt fragment, likely a list of historical facts about the Westphalian Treaty, with a pattern of factual claims about international relations or European history.\n\n\"ended the Thirty Years War in 1648 and\" — \"The Treaty of Westphalia ended the Thirty Years War and\" — \"The Treaty of Westphalia (1648) ended the Thirty Years War and\" — a predicate requiring a completing clause, likely \"established...\" or \"changed the political order of Europe\" or \"also introduced the concept of sovereignty,\" or \"is considered the beginning of modern diplomacy,\""
+ },
+ {
+  "pid": 2,
+  "token": "Ġacross",
+  "source": "Hannibal led his army, including a contingent of war elephants, across the Alps in 218 BC to strike at Rome from the north.",
+  "explanation": "Quiz or test format established — a question is being posed, likely a history question about Hannibal or a similar factual subject.\n\nThe prompt pattern suggests a historical question about Hannibal, likely a famous military crossing or achievement, possibly the Alps or a river.\n\n\"Hannibal led a large elephant army across\" — \"Hannibal led his army across\" — \"Which famous general led a large army of elephants across\" — \"Hannibal led his large army across\" — likely a geographic feature like \"the Alps\" or \"the Rhine,\" or \"what\" (a challenge/terrain), likely \"the Alps during...\" or \"a river/terrain in a notable campaign,\" a"
+ },
+ {
+  "pid": 3,
+  "token": "Ġrapidly",
+  "source": "During the Meiji Restoration, Japan dismantled the feudal domains and rapidly industrialised, importing foreign engineers to build railways and arsenals.",
+  "explanation": "Academic history question format — a structured prompt is being established, likely a course or exam question about Japanese history.\n\nThe sentence is building toward a historical claim about Meiji-era Japan, with \"Japan dissolved its feudal system and rapidly\" signaling a major historical transformation.\n\n\"rapidly\" ends an incomplete predicate beginning with \"Japan abolished its feudal system and rapidly\" — \"between 1868 and 1889, Japan dismantled its isolated feudal state and rapidly\" — \"Japan dismantled its traditional institutions and rapidly\" — likely \"modernized\" or \"industrialized,\" \"adopted Western reforms,\" or \"built a modern military and state,\" or \"modernized its society,\" a common"
+ },
+ {
+  "pid": 4,
+  "token": "Ġseries",
+  "source": "The Library of Alexandria amassed hundreds of thousands of scrolls before a series of fires and budget cuts gradually eroded its collection.",
+  "explanation": "Question prompt format established — likely a structured academic or trivia question, possibly a student response prompt or a new question being constructed.\n\nThe text is mid-sentence, likely a historical question about a temple or religious structure, possibly a specific historical figure or place (e.g., \"of fires\").\n\n\"after a series\" — \"a temple existed in Constantinople but was destroyed due to a series\" — \"the city was destroyed before a series\" — \"what led to a series\" — \"the Roman Empire was affected by a series\" — likely \"of events\" or \"of earthquakes,\" or \"of\" followed by a specific historical event like \"of deaths in 2020\" or \""
+ },
+ {
+  "pid": 5,
+  "token": "Ġthe",
+  "source": "Mitochondria generate ATP through oxidative phosphorylation across the inner membrane, coupling electron transport to a proton gradient.",
+  "explanation": "Q&A format established — likely a biology course or exam question, expecting a structured answer about cellular respiration or mitochondria.\n\nThe question is building toward a specific biochemical concept, likely mitochondrial ATP synthesis or electron transport chain, with a focus on mitochondria.\n\n\"across the\" — mid-phrase fragment beginning \"Proton gradient across the\" — \"mitochondria generate a proton gradient across the\" — \"The highest proton gradient across the\" — \"create a proton gradient across the\" — likely \"inner mitochondrial membrane\" or \"mitochondrial inner membrane\" or \" respiratory chain,\" or \"two membranes\" or \" cristae,\" a specific anatomical term for the ATP synthase location"
+ },
+ {
+  "pid": 6,
+  "token": "Ġexceeds",
+  "source": "A black hole's event horizon marks the boundary beyond which the escape velocity exceeds the speed of light, so no signal can return to a distant observer.",
+  "explanation": "Q&A format established — a question is being posed, likely a physics or academic question about black holes, expecting a structured answer or continuation of a question.\n\nThe text is mid-sentence in a question about black hole properties, likely a physics concept involving relativity or escape velocity.\n\n\"the escape velocity exceeds\" — \"the radius at which the escape velocity exceeds\" — \"the radius at which the event horizon's velocity exceeds\" — \"the point at which the escape velocity exceeds\" — strongly predicting a noun phrase like \"the speed of light\" or \"light speed,\" likely \"the speed of light\" or \"what?\" (a relativistic quantity), a standard physics question about black hole escape"
+ },
+ {
+  "pid": 7,
+  "token": "Ġalmost",
+  "source": "When supercooled water is disturbed, it can crystallise almost instantly as the metastable liquid releases its latent heat of fusion.",
+  "explanation": "Educational Q&A format established — a question is being posed, likely a chemistry or physics exam question about supercooling/freezing.\n\nThe text is introducing a scientific phenomenon about supercooled liquids, implying a factual explanation of a physical process follows.\n\n\"solidify almost\" — \"when a supercooled liquid crystallises it can crystallise almost\" — \"a supercooled liquid will crystallise almost\" — \"when they crystallise they tend to solidify almost\" — \"the phenomenon where a supercooled liquid will crystallise almost\" — likely \"instantaneously\" or \"instantaneously and completely,\" or \"explosively,\" or \"into a crystal at once,\" a known"
+ },
+ {
+  "pid": 8,
+  "token": "Ġknown",
+  "source": "Superconductors expel magnetic fields below a critical temperature, a phenomenon known as the Meissner effect that enables frictionless magnetic levitation.",
+  "explanation": "Prompt format established: a question-answer pattern, likely a student response or test question with incomplete sentences to fill in.\n\nThe text begins a factual question about physics/chemistry, likely a structured academic prompt about quantum mechanics or a related concept.\n\n\"phenomenon known\" ends a relative clause (\"the arrangement of electrons in a material, a phenomenon known\"), \"a specific property of materials is a minimum temperature, a phenomenon known\" — \"this behavior is a phenomenon known\" — \"the mathematical property of these shapes is known as\" — strongly predicting a noun phrase like \"as [what]\" or \"as superconductivity\" or \"as...\" naming the phenomenon, likely a technical term like \"as"
+ },
+ {
+  "pid": 9,
+  "token": "Ġwhich",
+  "source": "The half-life of carbon-14 is about 5,730 years, which allows archaeologists to date organic remains up to roughly fifty thousand years old.",
+  "explanation": "Educational content format: a question-answer or problem-solving context, likely a physics or chemistry course with structured questions.\n\nThe text begins a sentence about carbon dating, likely a numerical problem involving radioactive decay, establishing a factual premise about carbon-14's half-life.\n\n\"which\" follows \"Carbon-14 has a half-life of 5,730 years, which\" — \"carbon-14 has a half-life of 5,730 years, which\" — \"The half-life of carbon-14 is 5,730 years, which\" — likely a relative clause like \"means...\" or \"is used to...\" or \"means that...\" or \"is a rate of decay,\" a factual elabor"
+ },
+ {
+  "pid": 10,
+  "token": "Ġand",
+  "source": "The treaty established a demilitarized zone along the river and obligated both signatories to submit their disputes to international arbitration.",
+  "explanation": "Academic or test question format — likely a history course or trivia question, possibly a grammar or writing exercise with incomplete sentences.\n\nThe text is likely a question about a treaty or geopolitical arrangement, possibly a fictional scenario involving a river border, implying a specific historical or diplomatic answer follows.\n\n\"established a demilitarized zone along the river and\" — \"The treaty established a demilitarized zone along the river and\" — \"The treaty established a demilitarized zone along the river and\" — a noun phrase mid-construction, likely continuing with additional treaty provisions, e.g., \"a series of...\" or \"regulated...\" or \"between the two states\" or \"limits on"
+ },
+ {
+  "pid": 11,
+  "token": "Ġland",
+  "source": "Under the doctrine of adverse possession, a trespasser may acquire legal title to land if their occupation is open, continuous, and hostile for the statutory period.",
+  "explanation": "Legal academic question format: a prompt-response pattern typical of law exams or legal analysis, likely a structured question about property law.\n\nThe text begins a legal rule or principle, likely a question about adverse possession, a doctrine in property law involving unauthorized land use.\n\n\"a trespasser may obtain title to land\" — \"a possessor may obtain title to land\" — \"a person may obtain title to land\" — mid-sentence, incomplete legal proposition, \"a trespasser can obtain title to land\" — expects a conditional clause like \"if...\" or \"after...\" or \"owned by another if...\" or \"through adverse possession if the owner...\" — a predicate completing the legal condition for title acquisition"
+ },
+ {
+  "pid": 12,
+  "token": "Ġjudge",
+  "source": "The appellate court remanded the case, holding that the trial judge had improperly excluded exculpatory evidence during the suppression hearing.",
+  "explanation": "Legal appellate document format — a question-and-answer legal problem, likely a 1970s appellate court case or law exam question.\n\nThe text is beginning a legal question about appellate review, establishing a factual predicate involving a trial and a ruling to be challenged.\n\n\"the trial judge\" ends mid-phrase, following \"the appellate court held that the trial judge\" — \"the court held that the trial judge\" — \"The question is whether the trial judge\" — likely \"had erred\" or \"failed to apply the correct standard\" or \"should have...\" or \"abused his discretion in admitting evidence,\" or \"made an error in the trial proceedings,\" a common appellate legal phrase concerning trial"
+ },
+ {
+  "pid": 13,
+  "token": "Ġlighting",
+  "source": "The lighthouse keeper climbed the spiral stairs each dusk, lighting the lamp that had guided fishermen home for forty years.",
+  "explanation": "Writing prompt genre: likely a creative writing or grammar exercise, expecting a narrative sentence or short story prompt about a lighthouse keeper or similar historical figure.\n\nThe sentence begins a descriptive action phrase — \"The keeper trudged up the winding stair, lighting\" — establishing a rhythmic, atmospheric pattern about a repetitive task, likely a 19th-century lighthouse or lamp-lighting ritual.\n\n\"lighting\" ends mid-phrase, following \"each evening he journeyed the length of the lighthouse path, lighting\" — expects a direct object or gerund phrase like \"the lamps\" or \"each lamp in sequence,\" or \"the gas lamps along the way\" or \"the hundreds of candles"
+ },
+ {
+  "pid": 14,
+  "token": "board",
+  "source": "She folded the letter twice, pressed it beneath the loose floorboard, and resolved never to speak of the inheritance again.",
+  "explanation": "Writing prompt or literary exercise format — a short sentence fragment or story prompt, likely a creative writing task with a specific genre or style.\n\nNarrative momentum toward a secret/hidden object scene — \"she shoved the letter beneath the loose floorboard\" implies a stealth action, likely a character hiding something (e.g., treasure, note, or concealed space).\n\n\"beneath the loose floorboard\" — \"she pushed the small package under the loose floorboard\" — \"she slid it beneath the loose floorboard\" — a prepositional phrase mid-construction, likely continuing with a location like \"in her room,\" or \"and...\" or \"and pressed it down,\" or \"in the"
+ },
+ {
+  "pid": 15,
+  "token": "Ġswept",
+  "source": "The old market town woke slowly: shutters creaked open, a baker swept flour from his step, and pigeons wheeled above the empty square.",
+  "explanation": "Narrative fiction writing prompt — a literary or creative writing exercise, likely British or American, establishing atmospheric scene-setting with short, evocative prose.\n\nThe opening line \"Morning sunlight slanted through a village street\" sets a quiet, probably European or English setting, implying a scene of early-morning shopkeepers or traders.\n\n\"a baker swept\" — \"as a baker swept\" — \"a young man swept\" — \"a baker swept\" — a verb phrase mid-action, likely \"his doorstep\" or \"the sidewalk,\" \"the street outside his bakery,\" or \"ashes from his threshold,\" a traditional, rhythmic action of a shopkeeper or street vendor, likely a Jewish or Italian"
+ },
+ {
+  "pid": 16,
+  "token": "Ġaway",
+  "source": "He had always believed the river was patient, that it would carry away every grievance if you only waited long enough on its bank.",
+  "explanation": "Narrative fiction writing, likely a short story or novel excerpt, establishing character or thematic tone — probably literary fiction or magical realism.\n\nThe sentence begins a pattern of contemplative, perhaps elegiac prose, likely a character's thoughts or grief, with a river as central image.\n\n\"the river would carry away\" — \"he had always believed that the river would carry away\" — \"he believed the river was patient, that it would carry away\" — \"he had always believed that the river would carry away\" — likely a noun phrase like \"all his sins\" or \"everything,\" or \"his troubles and his dead,\" or \"any debris or secrets with time,\" a slow, inevitable resolution"
+ },
+ {
+  "pid": 17,
+  "token": "Ġuntil",
+  "source": "Central bankers signalled on Thursday that interest rates would remain elevated until inflation showed a durable return toward the two percent target.",
+  "explanation": "News article format — likely a headline or news sentence, possibly from a financial/US news outlet like BBC or CNN.\n\nThe text is a prompt fragment beginning a news sentence about central bank policy, likely a 2023 prediction about interest rates or inflation.\n\n\"until\" ends an incomplete clause beginning with \"US Federal Reserve officials said interest rates need to remain high until\" — \"rates need to remain high until\" — \"central banks will keep rates until\" — likely a conditional target like \"inflation is controlled\" or \"the economy shows clear signs of...\" or \"2024,\" possibly a consensus on inflation or a specific goal for rate stability, likely a UK/US news phrase about inflation"
+ },
+ {
+  "pid": 18,
+  "token": "Ġcollapsed",
+  "source": "Rescue crews worked through the night after the embankment collapsed, evacuating several hundred residents from the flooded lowland districts.",
+  "explanation": "Fragmented sentence structure — likely a question or task prompt with incomplete sentences, possibly a news or test format.\n\nThe text appears to be a language learning or grammar exercise, likely a news report or incident scenario involving a collapse or accident.\n\n\"after the embankment collapsed\" — \"Rescue crews were busy after the embankment collapsed\" — \"Several people were trapped when the tunnel embankment collapsed\" — \"Multiple people were injured after the embankment collapsed\" — likely a dependent clause or noun phrase follows, possibly \"in a road\" or \"on a train,\" or \"in Kentucky,\" or \"and buried...\" — a specific location or consequence phrase expected, likely a verb"
+ },
+ {
+  "pid": 19,
+  "token": "Ġits",
+  "source": "The company's quarterly earnings beat analyst expectations, sending its shares up nearly nine percent in after-hours trading.",
+  "explanation": "Grammar/answer prompt pattern: a sentence is being constructed, likely a factual or academic question about a company or stock.\n\nThe prompt is a sentence fragment mid-construction, likely a news-style or financial writing task, probably about a company's earnings report or stock performance.\n\n\"sending its\" — \"a positive earnings report sends its\" — \"The company's strong earnings report sends its\" — \"sending its\" — \"The company's impressive Q2 earnings results sends its\" — likely \"stock price\" or \"stock higher\" or \"shares soaring,\" or a noun phrase like \"stock price up\" or \"shares to new heights,\" a company name or stock market-related noun expected next."
+ },
+ {
+  "pid": 20,
+  "token": "Ġbuckets",
+  "source": "A hash table offers average constant-time lookups by mapping keys to buckets, though collisions can degrade performance to linear in the worst case.",
+  "explanation": "Technical tutorial or interview prompt pattern: a programming/CS question is being posed, likely a coding challenge or explanation of hash table implementation.\n\nThe text begins a sentence introducing a hash table data structure, establishing context around hash table internals and a specific implementation.\n\n\"mapping keys to buckets\" — \"hash tables map keys to buckets\" — \"a hash function mapping keys to buckets\" — \"Hash tables work by mapping keys to buckets\" — \"a hash function mapping keys to buckets\" — likely \"via a hash function\" or \"and storing values,\" or \"using an array,\" or \"through indexing,\" or \"with uniform distribution,\" implying a specific structural mechanism like array-based bucketing or chaining follows"
+ },
+ {
+  "pid": 21,
+  "token": "Ġremoving",
+  "source": "The compiler performs dead-code elimination after constant propagation, removing branches that can never execute given the inferred value ranges.",
+  "explanation": "Technical academic context — likely a CS course or exam question about compiler optimization or assembly language, possibly a programming textbook or test question.\n\nThe sentence begins a factual statement about compiler optimization, likely a question about dead code elimination or a related concept.\n\n\"removing\" ends mid-phrase, following \"the compiler performs dead code elimination during optimization, removing\" — \"The compiler performs dead code elimination on the given program, removing\" — \"a compiler optimization is applied, removing\" — expects a noun phrase like \"any unnecessary code\" or \"dead code blocks\" or \"the following instructions,\" likely \"all unused code\" or \"the if-branch\" or \"ineffective instructions that result from the"
+ },
+ {
+  "pid": 22,
+  "token": "Ġany",
+  "source": "TCP guarantees ordered delivery by numbering segments and retransmitting any that go unacknowledged before a timeout expires.",
+  "explanation": "Technical networking/communications domain — likely a textbook or exam question about data transmission protocols, possibly a programming course.\n\nThe sentence is beginning a definition or explanatory clause about TCP-like behavior, establishing a pattern of describing sequential packet delivery with a key characteristic.\n\n\"retransmitting any\" — mid-phrase, \"delivering all packets in order and retransmitting any\" — \"receiving packets in order and retransmitting any\" — \"TCP delivers all segments in order and retransmitting any\" — strongly predicting a noun phrase like \"lost\" or \"segments that are lost or out of order,\" likely \"that are lost\" or \"segment that is damaged/lost,\""
+ },
+ {
+  "pid": 23,
+  "token": "Ġthe",
+  "source": "Gradient descent updates each parameter in the direction that most steeply reduces the loss, scaled by a learning rate that must be tuned carefully.",
+  "explanation": "Tutorial/lecture context: likely a machine learning or deep learning course, probably a Stanford course or book, with a question about gradient descent.\n\nThe sentence is defining gradient descent in ML, establishing a pattern of defining concepts about gradient descent with neural networks.\n\n\"minimizing the\" — \"gradient of the weights that most rapidly decreases the\" — \"the direction of the gradient points in the direction that most rapidly decreases the\" — \"the gradient is a vector that points in the direction that most rapidly reduces the\" — likely \"loss\" or \"cost/objective function,\" \"error,\" or \"loss function\" (e.g., a mathematical objective like the loss of the model on a dataset)."
+ },
+ {
+  "pid": 24,
+  "token": ",",
+  "source": "The pancreas secretes insulin in response to rising blood glucose, prompting cells throughout the body to take up sugar from the bloodstream.",
+  "explanation": "Q&A format established — a question-answer pattern likely a biology or chemistry course, possibly a standardized test or tutoring platform.\n\nThe text is shifting into a new sentence or question about insulin physiology, likely a causal/logical reasoning question about insulin's role in glucose regulation.\n\n\"Pancreas releases insulin in response to elevated blood glucose,\" ends mid-clause, beginning a factual statement — \"The pancreas releases insulin in response to elevated blood glucose,\": \"The pancreas releases insulin in response to elevated blood glucose,\" — likely a continuation like \"and...\" or \"but...\" or \"which helps lower glucose. What happens next?\" or \"and this helps regulate...\" — a functional consequence of insulin release"
+ },
+ {
+  "pid": 25,
+  "token": "Ġto",
+  "source": "CRISPR-Cas9 uses a guide RNA to direct a nuclease to a specific genomic sequence, where it introduces a double-strand break for editing.",
+  "explanation": "Scientific/educational context: a question is being posed, likely a biology lab or exam question about CRISPR gene editing technology.\n\nThe sentence is beginning a factual description of Cas9's function, likely a structured explanation of CRISPR machinery with a specific grammatical pattern.\n\n\"directs a nuclease to\" — \"The guide RNA (gRNA) helps a Cas9 enzyme to direct a nuclease to\" — \"The Cas9 protein uses RNA to direct a nuclease to\" — expects a location/target phrase like \"a specific DNA sequence\" or \"a site in DNA,\" likely \"cut\" or \"a specific location in DNA and edit a genome,\""
+ },
+ {
+  "pid": 26,
+  "token": "Ġcarrying",
+  "source": "Antibiotic resistance spreads when bacteria exchange plasmids carrying genes that inactivate or pump out the offending drug.",
+  "explanation": "Scientific/academic question format — a sentence is being constructed, likely a biology or evolutionary question about antibiotic resistance.\n\nThe text is mid-phrase in a factual explanatory clause about bacterial antibiotic resistance, establishing a causal mechanism (\"bacteria sharing plasmids carrying\").\n\n\"plasmids carrying\" — \"the transfer of plasmids carrying\" — \"bacteria acquire antibiotic-resistant bacteria through the transfer of plasmids carrying\" — \"the exchange of plasmids carrying\" — \"plasmid banks carrying\" — strongly predicts a noun phrase like \"resistance genes\" or \"antibiotic resistance genes,\" likely \"resistance genes\" or \"the resistance gene(s)\" or \"genes for"
+ },
+ {
+  "pid": 27,
+  "token": "Ġa",
+  "source": "The immune system's memory cells persist for years after an infection, enabling a faster and stronger response upon re-exposure to the same pathogen.",
+  "explanation": "Scientific/educational register: a factual biology question or explanatory passage is expected, likely a structured academic response about immunology.\n\nThe sentence introduces a key concept in immunology — memory immune cells — establishing a cause-effect explanation about how immune memory functions.\n\n\"enable a\" ends an incomplete noun phrase beginning with \"immune memory cells remain in the body, which enables them to enable a\" — \"memory immune cells allow for a\" — \"immune memory allows for a\" — strongly predicting a verb phrase like \"faster and more effective response\" or \"quick response upon repeat exposure,\" or \"long-lasting protection against familiar pathogens,\" or \"secondary immune response in previously infected individuals,\" a well-known"
+ },
+ {
+  "pid": 28,
+  "token": "Ġwhile",
+  "source": "When a currency depreciates, exports become cheaper abroad while imported goods grow more expensive for domestic consumers.",
+  "explanation": "Academic question format — likely a structured economics or finance question, possibly a test or discussion prompt about exchange rate effects.\n\nThe text is mid-sentence in a factual economic claim about devaluation, likely a contrasting or completing statement about trade consequences (e.g., import prices, exports).\n\n\"exports become cheaper while\" — \"devaluation makes exports cheaper while\" — \"exports become cheaper while\" — \"The currency devaluation makes exports cheaper while\" — a parallel clause structure, likely followed by a contrasting consequence like \"imports become more expensive\" or \"imports increase,\" or \"domestic prices increase,\" or \"imports decrease\" — a standard trade balance effect of devaluation."
+ },
+ {
+  "pid": 29,
+  "token": "Ġso",
+  "source": "Compound interest causes a balance to grow geometrically, so even modest annual returns accumulate substantially over several decades.",
+  "explanation": "Educational or test context: a question-answer format, likely a math or science course, possibly a standardized test or tutorial.\n\nThe text is shifting from a specific numerical example to a conceptual statement about compound interest, signaling a new explanatory sentence about exponential growth behavior.\n\n\"it grows geometrically, so\" — \"Compound interest grows on itself, so\" — \"Compound interest is a geometric growth process, so\" — \"The interest grows on the amount itself, which is a geometric growth process, so\" — likely a consequence like \"a doubling time exists\" or \"the formula involves logarithmic behavior,\" or \"over time, the balance grows faster and faster,\" or \"a small regular savings add"
+ },
+ {
+  "pid": 30,
+  "token": "Ġmonetary",
+  "source": "A liquidity trap arises when interest rates approach zero and monetary policy loses its power to stimulate additional borrowing.",
+  "explanation": "Academic question format — a question is being posed, likely an economics course or test question about macroeconomics.\n\nThe text is a question prompt, likely a student question about the liquidity trap concept in economics, expecting a formal answer about monetary policy.\n\n\"and monetary\" ends mid-phrase, beginning a conditional clause \"when interest rates are so low that monetary\" — \"what happens when people hold excess cash and monetary\" — \"the liquidity trap and when monetary\" — \"when interest rates are at the liquidity trap and monetary\" — likely \"policy is ineffective\" or \"policy cannot work\" or \"the central bank cannot stimulate the economy,\" a standard economics concept about the limits of monetary policy"
+ },
+ {
+  "pid": 31,
+  "token": ",",
+  "source": "Utilitarian ethics judges an action by the aggregate welfare it produces, which critics argue can license sacrificing the few for the many.",
+  "explanation": "Q&A format established — likely a structured academic or philosophical question-response pattern, possibly a test or discussion prompt.\n\nThe text is likely a question about utilitarianism or ethical frameworks, with a follow-up question expected to contrast or extend the concept of utilitarianism.\n\n\"Utilitarianism evaluates actions based on overall aggregate value,\" — mid-sentence, \"Utilitarianism evaluates the moral value of actions based on aggregate consequences,\" — \"Utilitarianism evaluates actions based on aggregate consequences,\": a dependent clause or contrasting pivot, likely \"but...\" or \"while...\" or \"and seeks to maximize...\" or \"what is good. Does this...\" — a definition or critique of utilitarianism's metric"
+ },
+ {
+  "pid": 32,
+  "token": "Ġcan",
+  "source": "The tragedy of the commons describes how individuals acting in self-interest can deplete a shared resource that none of them wishes to destroy.",
+  "explanation": "Q&A format established: a structured academic response is expected, likely a definition or explanation of a concept in law/economics.\n\nThe text is introducing a classic concept in game theory or economics, likely a famous example or theorem about collective action or common resource depletion.\n\n\"how self-interested individuals can\" — \"the tragedy of the commons is a concept that shows how individuals acting in their own interest can\" — \"the tragedy of the commons illustrates how a group of individuals acting in their own interest can\" — strongly predicting a negative outcome phrase like \"damage a shared resource\" or \"lead to negative collective outcomes,\" likely \"deplete a common resource\" or \"result in harm to a public good"
+ },
+ {
+  "pid": 33,
+  "token": "Ġsupports",
+  "source": "Confirmation bias leads people to seek and remember evidence that supports their existing beliefs while discounting what contradicts them.",
+  "explanation": "Academic psychology question format — a prompt for a definition or explanation of a psychological concept, likely a course or test question.\n\nThe sentence is beginning a standard cognitive bias concept, likely a well-known psychological finding about confirmation bias or thinking bias.\n\n\"people seek and remember information that supports\" — \"people tend to seek and remember information that supports\" — \"we tend to seek and remember evidence that supports\" — \"people are more likely to seek and remember evidence that supports\" — a relative clause requiring a noun phrase completing the bias, strongly predicting \"their existing beliefs\" or \"their current beliefs and preferences\" or \"their hypotheses and is favorable to them,\" or \"a predetermined conclusion\" or similar"
+ },
+ {
+  "pid": 34,
+  "token": ",",
+  "source": "The Atacama Desert is among the driest places on Earth, with some weather stations never having recorded a single drop of rain.",
+  "explanation": "Q&A format established — a factual question is being posed, likely a trivia or explanatory response follows about the Atacama Desert.\n\nThe text is shifting into a factual claim or question about the Atacama Desert, likely a contrasting or elaborating point about dryness or rainfall.\n\n\"The Atacama Desert is one of the driest places on Earth,\" opens a dependent clause — \"The Atacama Desert is among the driest areas on Earth,\": a comma follows, likely a continuation like \"but...\" or a relative clause like \"located in Chile, yet...\" or \"with some years receiving little rain\" or \"and yet...\" — a factual elaboration about its dryness or"
+ },
+ {
+  "pid": 35,
+  "token": "Ġmountain",
+  "source": "Plate tectonics drives the slow drift of continents, building mountain ranges where plates collide and opening ocean basins where they separate.",
+  "explanation": "Educational or explanatory tone established — a science question prompt, likely a course or test question about Earth's geology.\n\nThe sentence is mid-construction, beginning a list of tectonic plate activities, following \"The Earth's plates move, building mountain\" — a natural science narrative about plate tectonics.\n\n\"building mountain\" is the start of a noun phrase, \"building mountain\" — \"the tectonic forces that are building mountain\" — \"The Earth's plates, building mountain\" — likely \"ranges and...\" or \"mountain ranges and shaping the Earth's surface\" or \"and destroying them,\" or \"ranges and volcanoes\" or \"mountain chains,\" a"
+ },
+ {
+  "pid": 36,
+  "token": "Ġsub",
+  "source": "Monsoon winds reverse direction with the seasons, drenching the subcontinent in summer and leaving it parched through the winter months.",
+  "explanation": "Academic or educational question format — likely a science or history course question, possibly a reading prompt or exam question about wind/climate.\n\nThe text is mid-sentence, establishing a geographic or atmospheric topic — \"wind patterns in the sub\" suggests a discussion of monsoon winds or tropical regions, likely India or Asia.\n\n\"the sub\" is a truncated word beginning a noun phrase, following \"Rainfall on the sub\" — \"the sub\" is incomplete, likely \"continent\" or a geographic modifier like \"continent of Asia\" or \"tropical regions,\" \"the subcontinent\" or \"tropical rainforests,\" predicting a location noun phrase like \"continent\" or \"Indian Ocean\""
+ },
+ {
+  "pid": 37,
+  "token": "Ġproved",
+  "source": "A prime number has exactly two divisors, and Euclid proved more than two thousand years ago that the primes never run out.",
+  "explanation": "Mathematical/logical question format — a structured question is being posed, likely a programming or proof-based question about prime numbers.\n\nThe text is mid-sentence, establishing a factual mathematical context about prime numbers, likely a historical or theorem-based claim about primes.\n\n\"Euclid proved\" — \"Euclid proved\" — \"there are infinitely many primes, and Euclid proved\" — \"numbers are infinite, and Euclid proved\" — \"Euclid proved\" — likely a theorem about primes, likely \"that\" followed by a predicate like \"a theorem about even numbers\" or \"that all primes have a unique factorization,\" or \"that there are infinitely many primes,\" a famous result from"
+ },
+ {
+  "pid": 38,
+  "token": "Ġtwo",
+  "source": "The Fibonacci sequence, in which each term is the sum of the two before it, approaches the golden ratio as the terms grow large.",
+  "explanation": "Technical tutorial format: a definition/reference pattern for a programming topic, likely a Fibonacci sequence implementation in Swift or similar language.\n\nThe text is a standard definition of Fibonacci numbers, beginning a sentence about the Fibonacci sequence (\"a sequence in which each term is the sum of the two\").\n\n\"the sum of the two\" — mid-phrase, \"each term being the sum of the two\" — \"a Fibonacci sequence, in which each term is the sum of the two\" — \"the ratio of the current term and the two\" — \"a sequence in which each term is the sum of the two\" — requiring a preceding terms reference, likely \"preceding terms,\" or \"preceding ones,\""
+ },
+ {
+  "pid": 39,
+  "token": "Ġinput",
+  "source": "A function is continuous at a point if small changes in its input produce arbitrarily small changes in its output near that point.",
+  "explanation": "Definition format: a structured definition is being constructed, likely a Wikipedia-style mathematical definition of continuity, with a formal explanatory sentence expected.\n\nThe text is a standard calculus/analysis context, introducing a definition of continuity for a function, likely a Wikipedia excerpt about continuity or local continuity.\n\n\"small changes in its input\" — \"a function is continuous if small changes in its input\" — \"continuity is a property of a function that says that small changes in its input\" — \"a function is locally continuous if small changes in its input\" — expects a predicate like \"result in small changes in its output\" or \"around a point result in small changes in output,\" a standard continuity definition phrase."
+ },
+ {
+  "pid": 40,
+  "token": "Ġone",
+  "source": "A fugue develops a single short theme by introducing it in one voice and then weaving it through the others at staggered intervals.",
+  "explanation": "Definition format established: a factual, explanatory sentence about music theory concepts, likely a structured definition of fugue or related musical form.\n\nThe text is a sentence fragment mid-definition, describing a musical technique — \"fugue-like\" pattern suggests a definition of contrapuntal music or a specific compositional device.\n\n\"introducing a theme in one\" — \"a fugue introduces a theme in one\" — \"introducing the theme in one\" — \"the music introduces the theme in one\" — likely \"voice and then in others\" or \"voice or part and then repeat in other voices,\" or \"voice and then add additional voices,\" or \"a pattern of voices with distinct character"
+ },
+ {
+  "pid": 41,
+  "token": "work",
+  "source": "Impressionist painters abandoned crisp outlines in favour of loose brushwork that captured the fleeting effects of light on a scene.",
+  "explanation": "Q&A format established — a question-answer pattern, likely academic or test-based, expecting a factual response about art history.\n\nThe text is shifting from a question about Impressionist artists to a new sentence, likely a contrasting or elaborating claim about their painting techniques.\n\n\"artists abandoned tight detail in favour of loose brushwork\" — \"Impressionist painters abandoned clear lines in favour of loose brushwork\" — \"The Impressionists replaced rigid linearity with loose brushwork\" — mid-sentence, likely completing with a predicate like \"and...\" or \"to achieve...\" or \"and colour. Why?\" or \"and what else?\" — a noun phrase like \"and soft effects\" or \""
+ },
+ {
+  "pid": 42,
+  "token": "Ġdefence",
+  "source": "With two minutes remaining, the midfielder threaded a pass through the defence, and the striker volleyed it into the top corner.",
+  "explanation": "Language learning or grammar exercise context — likely a question about English grammar, spelling, or sentence construction, possibly a test or homework question.\n\nThe text is mid-sentence, likely a quote from a sports commentary or narrative about football/soccer, with a sentence fragment beginning a description of a goal or attacking play.\n\n\"slipped through the defence\" — \"The ball slitted through the defence\" — \"The midfielder sent a long ball through the defence\" — \"A brilliant pass cut through the defence\" — likely \"and...\" or a noun phrase like \"of [the enemy] and...\" or \"and reached the goal,\" or \"and into a gap,\" a formal grammatical error mid-cl"
+ },
+ {
+  "pid": 43,
+  "token": "Ġglyc",
+  "source": "The marathon's final miles punish the unprepared, as depleted glycogen forces runners to slow against what they call the wall.",
+  "explanation": "Educational/explanatory tone established — a factual sports performance or physiology question, likely a structured answer about endurance running or cycling.\n\nThe sentence introduces a physiological concept about marathon racing, signaling a discussion of metabolic fueling or endurance strategies for athletes during intense exercise.\n\n\"depleted glyc\" is the beginning of a truncated word, almost certainly \"glycogen\" — \"depleted glyc\" is mid-word, likely \"glycogen stores\" or \"glycogen reserves,\" a key physiological term in endurance athletics. \"Depleted glyc\" strongly predicts a noun like \"glycogen stores,\" \"glycogen levels,\" or \"glycogen reserves in the liver and muscles,\" a critical"
+ },
+ {
+  "pid": 44,
+  "token": "Ġwarm",
+  "source": "To temper chocolate, you gently heat it, cool it while stirring, and warm it again so the cocoa butter sets into a glossy, stable crystal form.",
+  "explanation": "Question structure: a specific procedural question is being posed, likely a chocolate-making or craft process question, expecting a sequential action sequence.\n\nThe sentence is mid-clause, listing sequential steps (\"heat it, cool it, and then warm\"), implying a cyclical or nuanced temperature manipulation pattern with chocolate tempering.\n\n\"warm\" ends an incomplete verb phrase — \"cool the chocolate and warm\" — \"you melt it, cool it, and warm\" — \"then cool it and warm\" — likely \"it again\" or a final step like \"it again to finish,\" or \"it slightly\" or \"it to a desired temperature,\" completing the pattern of heating and warming the tempered chocolate to final use"
+ },
+ {
+  "pid": 45,
+  "token": "Ġreleasing",
+  "source": "Bread rises because yeast ferments the dough's sugars, releasing carbon dioxide that is trapped by the elastic gluten network.",
+  "explanation": "Educational Q&A format — a question is being posed, likely a teaching or test context, expecting a factual answer about bread baking or a related concept.\n\nThe sentence is mid-clause, building a scientific explanation about yeast fermentation, establishing a cause-effect structure: \"yeast eats sugars in dough, releasing\" implies a biological process with a clear result.\n\n\"releasing\" ends an incomplete noun phrase — \"the fermentation of yeast in dough breaks down sugars, releasing\" — \"the fermentation process releases gases, releasing\" — strongly predicts a noun phrase like \"carbon dioxide\" or \"what?\" (gases/CO₂ and alcohol), likely \"___and...\" or \"gas, which...\" —"
+ },
+ {
+  "pid": 46,
+  "token": "Ġoutward",
+  "source": "A comet's tail always points away from the Sun, pushed outward by the solar wind regardless of the direction the comet is travelling.",
+  "explanation": "Quiz or educational question format established — a factual question is being posed, likely a science or trivia question about planets/space.\n\nThe sentence is mid-clause, beginning a descriptive phrase about comet tails, implying a causal explanation of tail formation is expected.\n\n\"pushed outward\" — \"the tail is blown outward\" — \"a comet's tail, being pushed outward\" — \"the particles that make up the tail, pushed outward\" — \"the solar wind, being pushed outward\" — likely a prepositional phrase like \"by solar radiation pressure\" or \"by a gentle but firm force,\" or \"by the sun's radiation\" or \"and carried by...a curved trajectory,\" completing the"
+ },
+ {
+  "pid": 47,
+  "token": "Ġdust",
+  "source": "The James Webb telescope observes in the infrared, peering through dust clouds to capture light from the universe's earliest galaxies.",
+  "explanation": "Science communication or educational tone established — likely a short explanatory response or discussion prompt about space/astonomy, possibly a news or podcast context.\n\nNew sentence beginning a factual claim about infrared telescopes, likely a shift toward a specific capability or discovery about star formation or the universe.\n\n\"seeing through dust\" — \"infrared telescopes peer through dust\" — \"New instruments allow us to see through dust\" — \"The James Webb Telescope sees through dust\" — \"looking through dust\" — likely a continuation like \"and gas to see...\" or \"to hidden stars and planets\" or \"and obscuration in our galaxy,\" or \"and veil\" to stars and planets, a common phrase in astronomy"
+ },
+ {
+  "pid": 48,
+  "token": "Ġeveryday",
+  "source": "Languages in close contact often borrow vocabulary, so a single everyday word may carry traces of three or four older tongues.",
+  "explanation": "Academic or analytical question structure — likely a linguistics or anthropology course question, possibly a test or research prompt about cross-lingual borrowing.\n\nThe text is building toward a question about language contact or lexical comparison, likely involving a specific language or languages, establishing a pattern of inquiry about shared vocabulary.\n\n\"one everyday\" is the start of a noun phrase mid-sentence, following \"Find one everyday\" — \"one everyday\" is incomplete, likely a noun like \"word\" or \"object/term\" or \"sentence\" or \"concept would be the same across cultures,\" possibly \"item\" or \"common word have different meanings,\" a task prompt about everyday vocabulary or a concrete example of cross"
+ },
+ {
+  "pid": 49,
+  "token": "Ġthe",
+  "source": "Tidal forces gradually slow the Earth's rotation, lengthening the day by a tiny fraction of a second each century.",
+  "explanation": "Educational/science explanation tone — a factual question about Earth's rotation, likely a physics or astronomy course or news article.\n\nThe sentence is building toward a consequence of Earth's moon's gravitational pull, establishing a cause-and-effect relationship about Earth's rotational rate changing over time.\n\n\"lengthening the\" — mid-phrase, \"the Moon's gravitational pull is slowly lengthening, gradually lengthening the\" — \"causing the days to lengthen, lengthening of the\" — \"the length of Earth's days is slowly changing, gradually lengthening the\" — strongly predicting a noun phrase like \"day\" or \"day on Earth\" or \"24-hour day,\" likely \"Earth's day"
+ }
+]

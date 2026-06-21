@@ -1,0 +1,302 @@
+[
+ {
+  "pid": 0,
+  "token": "▁Jose",
+  "source": "In the third year of King Jungjong's reign, the Veritable Records of the Joseon dynasty noted a severe drought across the southern provinces, prompting the court to perform rain rituals.",
+  "explanation": "Academic/historical question format signals a structured answer about Korean art history, establishing a factual, encyclopedic tone.\n\nThe phrase \"This painting is from the Jose\" sets up a standard art history question about the Joseon Dynasty, implying a factual answer about the Joseon period or Korean cultural context.\n\nFinal token \"Jose\" is a truncated word (\"the Jose...during the Jose\"), immediately requiring completion — almost certainly \"Joseon Dynasty\" or \"Joseon period\" — then likely \"kingdom\" or \"Korean art\" or \"by the Joseon.\" or \"d period.\" to name the subject, likely referencing the genre or specific historical context."
+ },
+ {
+  "pid": 1,
+  "token": "▁and",
+  "source": "The Treaty of Westphalia in 1648 ended the Thirty Years' War and entrenched the principle that sovereign states should not interfere in one another's internal affairs.",
+  "explanation": "Academic/historical question format signals a factual answer about a specific event, establishing context of the Treaty of Westphalia.\n\nThe phrase \"The Thirty Years' War concluded with the Treaty of Westphalia and\" signals a standard historical summary statement, priming a description of the treaty's significance or outcomes.\n\nFinal token \"and\" opens a coordinating conjunction clause (\"ended the Thirty Years' War and\"), requiring a predicate — likely \"changed the European political system\" or \"the Peace of Westphalia was also considered...\" or \"had significant effects on...\" or \"was the first major reorganization of...\" or \"also established some other related outcome for the balance of power.\""
+ },
+ {
+  "pid": 2,
+  "token": "▁the",
+  "source": "Hannibal led his army, including a contingent of war elephants, across the Alps in 218 BC to strike at Rome from the north.",
+  "explanation": "Historical/military context establishes a factual Q&A format, with a question about Hannibal's crossing of the Alps.\n\nThe phrase \"Hannibal, commander of the Carthaginian army\" signals a name/description is being introduced, likely referencing the famous Hannibal Barca or the battle context.\n\nFinal token \"Hannibal'\" opens a noun phrase (\"the commander, Hannibal...\"), immediately requiring a repeated or elaborated identifier — likely \"during the Second Punic War\" or \"Mediterranean Sea\" or \"crossing\" or \"However, he...\" or \"Romans called it...\" or \"during the battle\" or \"his army\" to complete the biographical or tactical summary statement."
+ },
+ {
+  "pid": 3,
+  "token": "▁rapidly",
+  "source": "During the Meiji Restoration, Japan dismantled the feudal domains and rapidly industrialised, importing foreign engineers to build railways and arsenals.",
+  "explanation": "Historical/academic framing signals a factual question about Japanese modernization, establishing a question about a specific nation's transformation.\n\nThe phrase \"Japan began to rapidly\" sets up a summary statement about the Meiji Restoration, implying a description of the country's rapid modernization or institutional change.\n\nFinal token \"rapidly\" opens a verb phrase (\"The nation rapidly...and...\"), requiring a predicate — likely \"modernized\" or \"transformed its legal system\" or \"developed its economy\" or \"accelerated its modernization.\" or \"built a new legal system.\" or \"changed.\" — a verb phrase describing the rapid modernization process of Japan during the Meiji era."
+ },
+ {
+  "pid": 4,
+  "token": "▁a",
+  "source": "The Library of Alexandria amassed hundreds of thousands of scrolls before a series of fires and budget cuts gradually eroded its collection.",
+  "explanation": "Historical/academic framing establishes a factual, descriptive tone about the Library of Alexandria, setting up a summary statement.\n\nThe phrase \"the library suffered a fate unknown, following a history of decline after a period of time\" signals a dramatic narrative about the library's destruction or loss.\n\nFinal token \"a\" opens a noun phrase (\"during which a library would undergo a...\"), requiring a specific catastrophic event — likely \"fire\" or \"series of disasters\" — directly referencing the destruction of the library. Or \"its destruction/burning\" or \"unknown event that destroyed it\" or \"several incidents/losses that led to its destruction.\""
+ },
+ {
+  "pid": 5,
+  "token": "▁inner",
+  "source": "Mitochondria generate ATP through oxidative phosphorylation across the inner membrane, coupling electron transport to a proton gradient.",
+  "explanation": "Biochemistry textbook format: question structure signals a factual answer about mitochondrial oxidative phosphorylation, establishing a topic on ATP synthesis.\n\nThe phrase \"located in the inner\" sets up a specific biological description of the mitochondrial inner membrane, the key structural component of the mitochondrial matrix.\n\nFinal token \"inner\" opens a noun phrase (\"the lining of the inner...\"), requiring a noun like \"membrane of the mitochondria\" or \"membrane of the mitochondrial envelope\" — likely \"membrane of the mitochondrion\" or \"inner mitochondrial membrane.\" or \"membrane boundary\" or \"membrane of the mitochondrial matrix, matching the textbook's named protein complex.\""
+ },
+ {
+  "pid": 6,
+  "token": "▁exceeds",
+  "source": "A black hole's event horizon marks the boundary beyond which the escape velocity exceeds the speed of light, so no signal can return to a distant observer.",
+  "explanation": "Structured FAQ/definition format with formal scientific phrasing establishes a template: \"black hole\" description follows standard astrophysical terminology.\n\nThe sentence \"such that the gravitational acceleration outside the black hole exceeds\" sets up a specific relativistic condition — the classic velocity threshold constraint for the speed of light.\n\nFinal token \"exceeds\" opens a predicate clause (\"such that the velocity of the gravitational field exceeds...\"), requiring a specific value or comparison — almost certainly \"the speed of light\" or \"c\" or \"the speed of light.\" or \"the speed of light, meaning...\" or \"even the speed of light.\" — a standard relativistic reference to the maximum velocity."
+ },
+ {
+  "pid": 7,
+  "token": "▁instantly",
+  "source": "When supercooled water is disturbed, it can crystallise almost instantly as the metastable liquid releases its latent heat of fusion.",
+  "explanation": "Question format established: a physics/chemistry question asking about a phenomenon, expecting a description of freezing/crystallization behavior.\n\nThe phrase \"the liquid can freeze almost instantly\" signals a question about a specific phenomenon — the explosive freezing of a substance, likely the Leidenfrost effect or supercooling.\n\nFinal token \"instantly\" ends a question phrase (\"can freeze almost instantly\"), requiring a completion like \"into the solid\" or \"when the water hits the surface.\" or \"in a dramatic display.\" — likely \"ly. This is called...\" or \"across the entire volume\" or \"into a solid, with no delay\" describing the rapid transformation or the time scale."
+ },
+ {
+  "pid": 8,
+  "token": "▁phenomenon",
+  "source": "Superconductors expel magnetic fields below a critical temperature, a phenomenon known as the Meissner effect that enables frictionless magnetic levitation.",
+  "explanation": "Educational/physics context establishes a structured Q&A format, signaling a factual definition or explanation of a specific phenomenon.\n\nThe phrase \"This behavior, a phenomenon\" sets up a formal introduction to the Meissner effect, priming a definition or named concept statement about superconductivity.\n\nFinal token \"phenomenon\" ends a noun phrase (\"a phenomenon...a phenomenon...\"), requiring a relative clause or named label — most likely \"called the Meissner effect\" or \"known as the Meissner effect.\" or \"referred to as superconducting shielding.\" or \"called the Meissner effect is...\" or \"that is known as...\" linking the phenomenon to the superconducting behavior."
+ },
+ {
+  "pid": 9,
+  "token": "0",
+  "source": "The half-life of carbon-14 is about 5,730 years, which allows archaeologists to date organic remains up to roughly fifty thousand years old.",
+  "explanation": "Educational textbook format: a problem statement is being presented, requiring a factual answer about carbon dating and radioactive decay.\n\nThe phrase \"The half-life of carbon-14 is 5,730\" signals a standard physics problem setup, establishing the age of the tree.\n\nFinal token \"5,730\" ends a numerical value label (\"the half-life is 5,730\"), immediately requiring a unit of time (\"years\") or a quantity phrase like \"years\" or \"by 10.\" — likely \"years with a value of\" or \"decades.\" or \"years.\" to specify the half-life figure."
+ },
+ {
+  "pid": 10,
+  "token": "▁and",
+  "source": "The treaty established a demilitarized zone along the river and obligated both signatories to submit their disputes to international arbitration.",
+  "explanation": "Academic/historical question format signals a prompt requesting a factual summary or analysis of a specific international conflict scenario.\n\nThe phrase \"The agreement established a demilitarized zone along the border and\" sets up a question about a specific treaty outcome — the demilitarization agreement between Russia and Belarus following the territorial dispute.\n\nFinal token \"and\" is a coordinating conjunction mid-clause (\"established a demilitarized zone along the border and\"), requiring a parallel clause — likely \"restricted fishing\" or \"also mandated...\" or \"a ceasefire agreement...\" or \"specified the boundaries of the river.\" or \"allowed for the prohibition of military presence along both sides\" as a policy provision."
+ },
+ {
+  "pid": 11,
+  "token": "▁land",
+  "source": "Under the doctrine of adverse possession, a trespasser may acquire legal title to land if their occupation is open, continuous, and hostile for the statutory period.",
+  "explanation": "Legal reference document format: informational question structure signals a formal definition or explanation of adverse possession doctrine.\n\nThe phrase \"A person may acquire title to land\" establishes a legal question about adverse possession, implying a specific factual scenario or doctrinal principle about real property law.\n\nFinal token \"land\" ends a subject clause (\"comes to possess land...a person may possess land\"), requiring a predicate — likely \"by another person\" or \"that is owned by someone else\" or \"by using the doctrine of adverse possession if...\" or \"owned by the owner if they...\" or \"by trespassing if...\" — the specific claim or case involving the owner's property."
+ },
+ {
+  "pid": 12,
+  "token": "▁had",
+  "source": "The appellate court remanded the case, holding that the trial judge had improperly excluded exculpatory evidence during the suppression hearing.",
+  "explanation": "Legal document format: formal appellate brief structure signals a case question or motion, requiring a specific legal ruling about a trial error.\n\nThe phrase \"the judge had erred...the trial judge had improperly ruled that the judge had\" establishes a specific legal claim about judicial misconduct, likely citing a specific error in evidentiary rulings.\n\nFinal token \"had\" opens a predicate clause (\"the judge had...the judge had\"), requiring a verb phrase — most likely \"committed an error\" or \"failed to apply the law\" or \"overstepped her authority\" or \"made a prejudicial error in granting the motion.\" or \"violated the standard by ignoring evidence of bias.\""
+ },
+ {
+  "pid": 13,
+  "token": "▁lighting",
+  "source": "The lighthouse keeper climbed the spiral stairs each dusk, lighting the lamp that had guided fishermen home for forty years.",
+  "explanation": "Narrative structure signals a literary prompt establishing a classic fantasy/historical setting, with a specific character description about a lighthouse keeper.\n\nThe phrase \"His nightly ritual, involving lighting\" sets up a direct object — the action of lighting the lighthouse beacon, the central task of the keeper.\n\nFinal token \"lighting\" opens a gerund phrase (\"then, lighting...\"), requiring a noun phrase — most likely \"the lamp\" or \"the lighthouse\" or \"the fire of the lighthouse in the evening\" or \"the oil lamp and illuminating the tower.\" or \"the beacon after the sunset\" — a specific act of lighting the lamps across the British Isles."
+ },
+ {
+  "pid": 14,
+  "token": "board",
+  "source": "She folded the letter twice, pressed it beneath the loose floorboard, and resolved never to speak of the inheritance again.",
+  "explanation": "Grammatical structure \"She slid the loose floorboard beneath the floorboard\" establishes a classic mystery/narrative prompt format, requiring a short story excerpt.\n\nThe phrase \"She hid her diary beneath the loose floorboard\" signals a specific hiding place, priming a description of the domestic setting or the concealed repair.\n\nFinal token \"floorboard\" ends a noun phrase (\"beneath the loose floorboard\"), requiring a noun phrase completion — likely \"in the kitchen\" or \"of the house\" or \"and the hidden panel\" or \"beneath the floor, where...\" or \"with the old house\" — a specific location or action verb describing the concealed structural fix."
+ },
+ {
+  "pid": 15,
+  "token": "▁swept",
+  "source": "The old market town woke slowly: shutters creaked open, a baker swept flour from his step, and pigeons wheeled above the empty square.",
+  "explanation": "Literary structure: formal British English narrative establishing a scene, with a classic \"English village\" setting and a novel's opening phrase.\n\nThe phrase \"A baker, perhaps a shopkeeper, who was sweeping\" signals a simple, everyday action — a domestic scene of a Japanese restaurant owner preparing for the day.\n\nFinal token \"swept\" opens a verb phrase (\"a baker swept...a shopkeeper swept\"), requiring a noun object — likely \"the pavement outside his shop\" or \"up the dust\" or \"his broom across the doorway,\" or \"the crumbs from the shop floor\" — a specific cleaning action describing the Japanese baker's routine gesture."
+ },
+ {
+  "pid": 16,
+  "token": "▁carry",
+  "source": "He had always believed the river was patient, that it would carry away every grievance if you only waited long enough on its bank.",
+  "explanation": "Literary/narrative register established: a contemplative, melancholic quote about a river, framing a small town's relationship with nature.\n\nThe sentence \"The river would carry\" sets up a metaphorical promise — the river's gentle, forgiving role as a passive carrier of burdens or secrets.\n\nFinal token \"carry\" opens a verb phrase (\"would carry...the river would carry\"), requiring a direct object — likely \"his waste\" or \"everything away\" or \"the message to the end\" or \"him away.\" or \"all his promises\" or \"the trash of his past.\" — a simple, literal fulfillment of the river's carrying function."
+ },
+ {
+  "pid": 17,
+  "token": "▁until",
+  "source": "Central bankers signalled on Thursday that interest rates would remain elevated until inflation showed a durable return toward the two percent target.",
+  "explanation": "Financial/economic reporting structure signals a formal UK inflation news summary, establishing context of Bank of England interest rate decision.\n\nThe phrase \"the Bank will not cut interest rates until\" sets up a conditional threshold statement about when inflation will fall, framing the central argument about the UK labour market.\n\nFinal token \"until\" opens a temporal subordinate clause (\"remain subdued until...\"), requiring a specific condition — likely \"there is clear evidence of sustained price stability\" or \"inflation falls significantly\" or \"they see convincing evidence.\" or \"the employer can definitively beat inflation\" or \"longer/more convincingly.\" — a dramatic shift in the labour market picture or a definitive endpoint."
+ },
+ {
+  "pid": 18,
+  "token": ",",
+  "source": "Rescue crews worked through the night after the embankment collapsed, evacuating several hundred residents from the flooded lowland districts.",
+  "explanation": "News report format signals a factual, formal English translation of a UK emergency incident description, establishing a news headline structure.\n\nThe phrase \"A landslide has struck near a railway station\" sets up a disaster narrative — the incident description establishes a specific landslide event involving a collapsed embankment.\n\nFinal token \"earth, '\" ends a subject clause (\"the embankment collapsed,\") requiring a noun phrase — likely \"causing the landslide\" or \"the landslide incident\" or \"damaging the railway line.\" or \"releasing debris\" or \"blocking the road below.\" or \"the incident involving the collapse of the hillside\" — a specific incident description referencing the landslide's cause."
+ },
+ {
+  "pid": 19,
+  "token": "▁its",
+  "source": "The company's quarterly earnings beat analyst expectations, sending its shares up nearly nine percent in after-hours trading.",
+  "explanation": "Financial/business writing format signals a factual, informational tone — a summary or article description about a stock market event.\n\nThe phrase \"The news caused a surge in the company's\" establishes a question-answer structure, priming a description of the company's financial performance or stock reaction.\n\nFinal token \"its\" opens a noun phrase (\"boosting its company's\"), requiring a noun referent — most likely \"stock price\" or \"stock\" to name the subject, or \"shares soared\" or \"company was praised\" or \"stock price of the company.\" or \"value...\" mirroring the business/financial context of the announcement about the turnaround."
+ },
+ {
+  "pid": 20,
+  "token": "▁buckets",
+  "source": "A hash table offers average constant-time lookups by mapping keys to buckets, though collisions can degrade performance to linear in the worst case.",
+  "explanation": "Technical CS/data structures context establishes a definition or explanation of a hash table implementation, expecting a description of hashing/data organization.\n\nThe phrase \"elements are mapped to buckets\" signals a conceptual description of a hash table, priming a formal definition of the hash function or bucket structure.\n\nFinal token \"buckets\" ends a noun phrase (\"mapped to buckets\"), requiring a noun phrase completion — likely \"in buckets\" or \"in the hash table\" or \"indexed by their hash values.\" or \"or locations within the array.\" or \"in a distributed manner.\" — describing the bucket assignment or storage arrangement, likely \"in the buckets\" or \"within the array.\""
+ },
+ {
+  "pid": 21,
+  "token": "▁removing",
+  "source": "The compiler performs dead-code elimination after constant propagation, removing branches that can never execute given the inferred value ranges.",
+  "explanation": "Documentation/tutorial format establishes a technical definition of compiler optimization, expecting a formal explanation of dead code elimination.\n\nThe phrase \"The optimization process involves removing\" signals a declarative statement about the compiler's action, framing the purpose of dead code elimination — the core logic of identifying and discarding unused code.\n\nFinal token \"removing\" opens a verb phrase (\"removes...removing\"), requiring a noun phrase object — most likely \"dead code\" or \"unused instructions from the generated code\" or \"any code that does not contribute\" or \"the parts of the program that are...\" mirroring the earlier description. Or \"unused code from the IR, following...\""
+ },
+ {
+  "pid": 22,
+  "token": "mitting",
+  "source": "TCP guarantees ordered delivery by numbering segments and retransmitting any that go unacknowledged before a timeout expires.",
+  "explanation": "Technical networking textbook format establishes a definition/explanation of reliable TCP/IP communication, framing a specific protocol concept.\n\nThe phrase \"The ARQ protocol, which retransmits\" sets up a functional description of the go-back-N or selective repeat mechanism, implying the core reliability behavior of TCP.\n\nFinal token \"retransmitting\" ends a noun phrase (\"retransmitting\"), requiring a direct object — most likely \"missing packets\" or \"lost packets when needed\" or \"those that are lost/missing.\" or \"any missing segments if necessary.\" or \"lost segments when the acknowledgment fails\" — the specific ARQ action of retransmission in the protocol context."
+ },
+ {
+  "pid": 23,
+  "token": "▁the",
+  "source": "Gradient descent updates each parameter in the direction that most steeply reduces the loss, scaled by a learning rate that must be tuned carefully.",
+  "explanation": "Technical ML/neural network context establishes a definition or explanation of gradient descent, framing a conceptual tutorial.\n\nThe phrase \"the goal is to minimize the\" signals a standard ML definition of neural network loss function, specifically the cost function or loss function in gradient descent.\n\nFinal token \"the\" opens a noun phrase (\"minimizing the...function, which is the\"), requiring a noun like \"loss function\" or \"model\" — most likely \"loss\" or \"cost of the model\" or \"by the prediction\" or \"error\" to complete the sentence. The phrase \"over the dataset\" or \"overall cost function\" is expected."
+ },
+ {
+  "pid": 24,
+  "token": "▁prompting",
+  "source": "The pancreas secretes insulin in response to rising blood glucose, prompting cells throughout the body to take up sugar from the bloodstream.",
+  "explanation": "Academic/educational context: a question format establishing a physiology/biochemistry topic, requiring a definition or explanation of insulin signaling.\n\nThe phrase \"insulin release, prompting\" signals a question about the physiological mechanism — the glucose-insulin interaction, establishing a cause-effect relationship between the hormone and cellular response.\n\nFinal token \"prompting\" opens a verb phrase (\"prompting...\"), requiring a noun phrase object — most likely \"the cells to take up glucose\" or \"the body to store glucose\" or \"cells to absorb glucose, triggering...\" or \"a downstream effect called glucose uptake.\" or \"the target organs to lower blood sugar\" — a specific action description."
+ },
+ {
+  "pid": 25,
+  "token": "▁a",
+  "source": "CRISPR-Cas9 uses a guide RNA to direct a nuclease to a specific genomic sequence, where it introduces a double-strand break for editing.",
+  "explanation": "Scientific/biotechnology context establishes a definition of CRISPR/Cas9, requiring a technical description of genome editing tool.\n\nThe phrase \"allows the Cas9 protein to guide the enzyme to a\" signals a functional description of CRISPR targeting, specifically the mechanism of locating and modifying a specific DNA sequence.\n\nFinal token \"a\" opens a noun phrase (\"targets the CRISPR nuclease to a\"), requiring a noun phrase — most likely \"specific DNA target location\" or \"target site in the genome\" or \"desired location in the DNA\" or \"matching DNA sequence within the genome.\" or \"specific location in the transcript\" — describing the targeted editing action for the binding."
+ },
+ {
+  "pid": 26,
+  "token": "▁that",
+  "source": "Antibiotic resistance spreads when bacteria exchange plasmids carrying genes that inactivate or pump out the offending drug.",
+  "explanation": "Definition/explanation format: a factual, academic tone establishes a structured description of antibiotic resistance, with a formal biological context.\n\nThe sentence \"genes that carry the genetic material that...\" sets up a clause explaining the function or outcome of antibiotic resistance genes — specifically their role in bacteria.\n\nFinal token \"that\" opens a relative clause (\"genes that...encoding genes that\"), requiring a verb phrase — most likely \"encode antibiotic resistance\" or \"allow bacteria to resist antibiotics\" or \"are harmful\" or \"include resistance traits.\" or \"make the resistance transfer useful\" or \"are related to antibiotic resistance.\" — describing the genes' function or the subject of the trait."
+ },
+ {
+  "pid": 27,
+  "token": "▁enabling",
+  "source": "The immune system's memory cells persist for years after an infection, enabling a faster and stronger response upon re-exposure to the same pathogen.",
+  "explanation": "Academic/educational structure signals a definition or explanation of immunology, establishing a formal informational tone with a factual summary statement.\n\nThe phrase \"This memory, stored in the immune system, enabling\" sets up a classic immunological concept — the role of prior exposure to pathogens and the adaptive immune response.\n\nFinal token \"enabling\" opens a causal clause (\"enabling...This memory, stored in the memory cells, enables\"), requiring a noun phrase like \"a rapid response to subsequent infections\" or \"the immune system to mount a quick, protective response.\" or \"them to bypass the adaptive immune response\" or \"immunity/rapid recognition of future infections.\""
+ },
+ {
+  "pid": 28,
+  "token": "▁while",
+  "source": "When a currency depreciates, exports become cheaper abroad while imported goods grow more expensive for domestic consumers.",
+  "explanation": "Economic textbook structure signals a question format: a definition or principle is being stated, requiring a formal answer about exchange rate effects.\n\nThe phrase \"The price of imports decreases while the price of exports increases while\" sets up a direct causal relationship between currency depreciation and international trade, establishing the core trade balance argument.\n\nFinal token \"while\" opens a parallel clause (\"makes the price of imports cheaper while\"), requiring a contrasting subject — most likely \"exports become more expensive\" or \"imports become cheaper\" or \"imports become more expensive.\" or \"exports are simultaneously cheaper\" — mirroring the opposite effect on domestic demand/goods, framing the effect on imports or the corresponding cost."
+ },
+ {
+  "pid": 29,
+  "token": "▁even",
+  "source": "Compound interest causes a balance to grow geometrically, so even modest annual returns accumulate substantially over several decades.",
+  "explanation": "Financial/educational writing format signals a definition or explanation of compound interest, establishing a practical guide to investment growth.\n\nThe phrase \"This shows that compound interest can be useful, even\" sets up a conceptual statement about the power of compound interest, likely addressing the idea that small amounts accumulate slowly.\n\nFinal token \"even\" opens a concessive clause (\"…but…still works, even\"), requiring a contrasting or surprising example — likely \"small initial savings\" or \"with small regular contributions\" or \"a slow-growing investment can grow significantly over time.\" or \"if the difference is modest\" or \"with a small amount at the start\" to frame the comparison."
+ },
+ {
+  "pid": 30,
+  "token": "▁monetary",
+  "source": "A liquidity trap arises when interest rates approach zero and monetary policy loses its power to stimulate additional borrowing.",
+  "explanation": "Academic economics textbook structure: formal definition of inflation, establishing context of monetary policy transmission in a macroeconomic model.\n\nThe sentence \"Since monetary policy is ineffective, monetary\" signals a standard policy response statement, implying the central bank cannot use conventional tools to stimulate demand.\n\nFinal token \"monetary\" opens a noun phrase (\"monetary...or use monetary...\"), requiring a noun like \"policy\" or \"easing\" to complete the phrase, then likely \"policy actions\" or \"tightening cannot...\" or \"by the central bank is ineffective\" or \" monetary policy interventions\" — the phrase describing the tool or mechanism used to influence aggregate demand."
+ },
+ {
+  "pid": 31,
+  "token": "▁produces",
+  "source": "Utilitarian ethics judges an action by the aggregate welfare it produces, which critics argue can license sacrificing the few for the many.",
+  "explanation": "Academic philosophical definition format: a formal definition of utilitarianism is being established, requiring a structured explanation of ethical consequentialism.\n\nThe phrase \"the utilitarian principle, which aims to maximize the good it produces\" signals a definition statement, priming a question about moral outcomes or overall welfare.\n\nFinal token \"produces\" ends a clause (\"the happiness it produces\"), requiring a noun phrase — likely \"for all stakeholders\" or \"—the total sum of happiness.\" or \"compared to the harm it causes.\" or \"for society. This is called the consequentialist outcome.\" or \"or. Does it result in the greatest overall good?\" referencing the moral calculation or aggregate outcome."
+ },
+ {
+  "pid": 32,
+  "token": "interest",
+  "source": "The tragedy of the commons describes how individuals acting in self-interest can deplete a shared resource that none of them wishes to destroy.",
+  "explanation": "Definition format established: a formal academic/Wikipedia style entry is being structured, requiring a definition of \"the tragedy of the commons.\"\n\nThe phrase \"economic theory in which individuals acting in self-interest\" signals a classic textbook definition of the Prisoner's Dilemma, priming a standard behavioral economics framing.\n\nFinal token \"self-interest\" ends a clause (\"acting in their own self-interest\"), requiring a predicate — likely \"can lead to depletion of shared resources\" or \"often harms the collective good\" or \"in a group setting may undermine...\" or \"can result in...\" or \"sometimes leads to negative outcomes for the overall system.\""
+ },
+ {
+  "pid": 33,
+  "token": "▁supports",
+  "source": "Confirmation bias leads people to seek and remember evidence that supports their existing beliefs while discounting what contradicts them.",
+  "explanation": "Definition/explanation format: text is structured as a factual, academic definition of cognitive bias, establishing a formal description of confirmation bias.\n\nThe phrase \"cognitive bias that leads people to seek information that supports\" signals a standard psychological definition, priming a statement about how confirmation bias works.\n\nFinal token \"supports\" ends a relative clause (\"information that supports...a view that supports\"), requiring a noun phrase — most likely \"their existing beliefs\" or \"their existing beliefs/ideas\" or \"their own opinion\" or \"their existing beliefs, while rejecting contradictory evidence.\" or \"their previous beliefs\" — the phrase \"a belief that supports their ideas.\""
+ },
+ {
+  "pid": 34,
+  "token": ",",
+  "source": "The Atacama Desert is among the driest places on Earth, with some weather stations never having recorded a single drop of rain.",
+  "explanation": "Encyclopedic/educational format signals a factual description of the Atacama Desert, establishing context about a specific location.\n\nThe phrase \"The Atacama Desert is the driest place on Earth,\" sets up a factual claim about the arid climate, priming a description of its extreme dryness.\n\nFinal token \"it,' ends a subject clause (\"The Atacama Desert is known as the driest place,\") requiring a predicate — likely \"the Atacama\" or \"with rainfall...\" or \"often called...\" or \"the desert in Chile.\" or \"with some statistics\" or \"receiving almost no rainfall\" — a factual comparison or citation about the extreme dryness."
+ },
+ {
+  "pid": 35,
+  "token": "▁ranges",
+  "source": "Plate tectonics drives the slow drift of continents, building mountain ranges where plates collide and opening ocean basins where they separate.",
+  "explanation": "Educational science writing establishes a formal, descriptive tone — a textbook excerpt introducing Earth's geological processes.\n\nThe phrase \"This process causes mountain ranges\" sets up a classic geological topic statement, priming a summary of plate tectonics and mountain formation as the subject.\n\nFinal token \"ranges\" ends a clause (\"creates mountain ranges\"), requiring a verb phrase — likely \"and uplifting continents\" or \"when plates collide\" or \"by mountain building, and raises the terrain\" or \"and volcanoes along the way, as collisions occur.\" or \"when they form during the collision\" or \"in the process of mountain building.\" — a specific example of the uplift mechanism."
+ },
+ {
+  "pid": 36,
+  "token": "▁the",
+  "source": "Monsoon winds reverse direction with the seasons, drenching the subcontinent in summer and leaving it parched through the winter months.",
+  "explanation": "Educational/reference format: definition of monsoon climate, establishing factual, descriptive tone typical of encyclopedia or study guide entries.\n\nThe phrase \"The monsoon winds play a major role in the region'\" signals a geographic or climatic context, likely referencing the Indian subcontinent or Asian monsoon region.\n\nFinal token \"the'\" opens a noun phrase (\"affect areas along the...\"), requiring a noun like \"region\" or \"climate of India\" — likely \"tropical areas\" or \"many parts of Asia\" or \"India\" or \"lifestyle of...\" to complete the geographic/cultural impact statement. Or \"the monsoon cycle\" or \"many countries experience...\" linking to cyclical rainfall."
+ },
+ {
+  "pid": 37,
+  "token": "▁than",
+  "source": "A prime number has exactly two divisors, and Euclid proved more than two thousand years ago that the primes never run out.",
+  "explanation": "Academic/educational writing style: mathematical textbook or survey question format, with a question about a specific topic in number theory.\n\nThe phrase \"He proved more than\" signals a question about the historical content of the lecture, establishing a topic introduction about the Greek geometric proof or the group axioms.\n\nFinal token \"more than\" opens a rhetorical question phrase (\"He proved more than...\"), requiring a quantity or claim — likely \"one proof\" or \"two thousand years ago\" or \"just once\" or \"one category of these.\" or \"30 years ago he showed...\" or \"one time to this topic.\" — a question about the book's content."
+ },
+ {
+  "pid": 38,
+  "token": "▁two",
+  "source": "The Fibonacci sequence, in which each term is the sum of the two before it, approaches the golden ratio as the terms grow large.",
+  "explanation": "Mathematical definition format: a formal definition of Fibonacci sequence is being established, requiring a description of the Fibonacci number formula.\n\nThe phrase \"a sequence formed by summing the two\" signals a standard Fibonacci definition, priming a reference to the sum of the two preceding terms.\n\nFinal token \"two\" ends a noun phrase (\"the sum of the two\"), requiring a noun phrase completion — almost certainly \"preceding terms\" or \"terms before it\" to complete the Fibonacci definition. Or \"previous terms\" or \"preceding terms\" or \"previous numbers\" — the phrase \"sum of the two preceding terms\" is the canonical mathematical description."
+ },
+ {
+  "pid": 39,
+  "token": "▁input",
+  "source": "A function is continuous at a point if small changes in its input produce arbitrarily small changes in its output near that point.",
+  "explanation": "Definition/explanation format: a mathematical textbook answer structure, requiring a formal definition of continuity for a function.\n\nThe phrase \"A continuous function is one whose small changes in its input\" signals a standard mathematical definition of continuity, establishing a causal relationship between input and output behavior.\n\nFinal token \"input\" ends a subject clause (\"its small changes in its input\"), requiring a predicate — most likely \"produce small changes in its output\" or \"values are mapped to nearby values\" or \"do not cause the function to break\" or \"result in a corresponding output\" or \"yield a close value to the input x.\" — the standard continuity statement about real numbers."
+ },
+ {
+  "pid": 40,
+  "token": "▁one",
+  "source": "A fugue develops a single short theme by introducing it in one voice and then weaving it through the others at staggered intervals.",
+  "explanation": "Encyclopedic/educational definition format: formal music terminology entry describing a compositional structure, establishing a definition of canon.\n\nThe phrase \"A musical form in which a melody is stated in one\" signals a standard music theory description of canon, implying a definition of counterpoint or invertible melody.\n\nFinal token \"one\" opens a noun phrase (\"stated in one...\"), requiring a specific musical voice or instrument — most likely \"voice\" or \"voice after another\" or \"instrument or key,\" or \"main voice and then developed\" — or \"location\" or \"voice, usually after the first.\" — naming the subject of the counterpoint or the initial melodic entry."
+ },
+ {
+  "pid": 41,
+  "token": "work",
+  "source": "Impressionist painters abandoned crisp outlines in favour of loose brushwork that captured the fleeting effects of light on a scene.",
+  "explanation": "Art historical/academic question format establishes a factual, instructional tone — a definition or comparison of Impressionism is being sought.\n\nThe sentence \"the painting is characterized by loose brushwork\" sets up a contrast or question about the distinguishing technique of Impressionism versus the looser, visible brushwork.\n\nFinal token \"brushwork\" ends a noun phrase (\"was characterized by loose brushwork\"), requiring a continuation like \"and visible brushstrokes\" or \"to create a soft, hazy effect\" or \"and the technique of...\" or \"and irregular application.\" or \"called...\" — a clause explaining the stylistic choice or the name/description of the painting's approach."
+ },
+ {
+  "pid": 42,
+  "token": "▁defence",
+  "source": "With two minutes remaining, the midfielder threaded a pass through the defence, and the striker volleyed it into the top corner.",
+  "explanation": "Football/soccer terminology establishes a question format: \"How did the ball get through the defence\" signals a UK football phrase about a goal.\n\nThe phrase \"the ball slipped through the defence\" sets up a descriptive football idiom, implying a specific tactical or defensive weakness is being highlighted.\n\nFinal token \"defence\" ends a noun phrase (\"through the defence...straight through the defence\"), requiring a continuation like \"line and into the net\" or \"of the team\" or \"to find the centre-backs\" or \"and behind the defence, splitting the pairing\" — a phrase describing the gap or the team name/position of the defensive lapse."
+ },
+ {
+  "pid": 43,
+  "token": "▁glycogen",
+  "source": "The marathon's final miles punish the unprepared, as depleted glycogen forces runners to slow against what they call the wall.",
+  "explanation": "Fitness/nutrition context establishes a factual, academic tone — a sports science question about endurance performance and muscle physiology.\n\nThe phrase \"following prolonged exercise, depleted glycogen\" signals a classic physiological question about a specific topic: muscle fatigue, likely referencing the athlete's depleted glycogen stores or carbohydrate fuel.\n\nFinal token \"glycogen\" ends a noun phrase (\"depleted glycogen...having depleted glycogen\"), requiring a noun phrase completion — most likely \"stores are depleted\" or \"levels\" or \"supply in the body\" or \"stores in the marathon runner\" or \"is the primary fuel source\" — a topic phrase about the subject of carbohydrate depletion or the post-exercise issue."
+ },
+ {
+  "pid": 44,
+  "token": "▁warm",
+  "source": "To temper chocolate, you gently heat it, cool it while stirring, and warm it again so the cocoa butter sets into a glossy, stable crystal form.",
+  "explanation": "Structured instructional format: a recipe/technique description for milk steaming, establishing a precise process description with a specific beverage context.\n\nThe phrase \"steep the milk, cool it, then warm\" sets up a three-part sequence: heating → tempering → final warming, describing the tempering cycle for the milk.\n\nFinal token \"warm\" opens a parallel verb phrase (\"cool...then warm\"), requiring a completion like \"it again briefly\" or \"it up slightly\" — the final action of the heating cycle, likely \"it again at the end\" or \"it up again\" or \"it slightly.\" or \"it back up\" mirroring the final warming step."
+ },
+ {
+  "pid": 45,
+  "token": "▁releasing",
+  "source": "Bread rises because yeast ferments the dough's sugars, releasing carbon dioxide that is trapped by the elastic gluten network.",
+  "explanation": "Definition/explanation format: a factual answer about bread-making, establishing a cause-effect relationship between fermentation and dough.\n\nThe phrase \"The process produces carbon dioxide, releasing\" signals a direct answer about fermentation byproducts, specifically the gas produced during yeast fermentation.\n\nFinal token \"releasing\" opens a causal clause (\"The process, releasing...by producing dough, releasing\"), requiring a noun phrase — most likely \"carbon dioxide\" or \"gas\" — as the byproduct of fermentation. Or \"this gas, which causes...\" or \"a byproduct called carbon dioxide.\" or \"into the dough, releasing...\" matching the fermentation/rising outcome."
+ },
+ {
+  "pid": 46,
+  "token": "▁outward",
+  "source": "A comet's tail always points away from the Sun, pushed outward by the solar wind regardless of the direction the comet is travelling.",
+  "explanation": "Scientific/educational description establishing a formal astronomy topic, requiring a concise explanation of the solar wind phenomenon.\n\nThe phrase \"This causes the plasma to be pushed outward\" sets up a causal statement about the solar wind's directional effect — the magnetic field or pressure gradient is the driving force.\n\nFinal token \"outward\" ends a passive verb phrase (\"pushed outward\"), requiring a completion like \"by the magnetic field\" or \"by the solar wind\" — specifically \"by the tails of the comet\" or \"by the radiation pressure.\" or \"by the force of the solar wind.\" or \"by a repulsive force\" describing the outward deflection mechanism."
+ },
+ {
+  "pid": 47,
+  "token": "▁clouds",
+  "source": "The James Webb telescope observes in the infrared, peering through dust clouds to capture light from the universe's earliest galaxies.",
+  "explanation": "Scientific/educational framing establishes a structured description of a telescope image, setting up a factual astronomy explanation.\n\nThe phrase \"This image allows us to see through dust clouds\" signals a direct answer about the infrared observation, introducing the topic of the star's visibility through dust clouds.\n\nFinal token \"clouds\" ends a noun phrase (\"penetrating through dust clouds\"), requiring a verb phrase — likely \"to reveal...\" or \"that obscure...\" or \"in the galaxy\" or \"to see the inner workings of...\" or \"that block our view.\" or \"and hide stellar nurseries.\" — a specific use-case statement about the dust/opacity context of the image."
+ },
+ {
+  "pid": 48,
+  "token": "▁everyday",
+  "source": "Languages in close contact often borrow vocabulary, so a single everyday word may carry traces of three or four older tongues.",
+  "explanation": "Academic/linguistic question format signals a structured discussion about semantic analysis, establishing a conceptual argument about language and categorization.\n\nThe phrase \"consider a simple everyday\" sets up a rhetorical question about lexical/semantic knowledge, implying the topic is the mundane vocabulary of everyday life versus specialized language.\n\nFinal token \"everyday\" opens a noun phrase (\"an everyday...a simple everyday\"), requiring a noun like \"action\" or \"object\" — likely \"phrase\" or \"activity\" to complete the phrase, then continuing with \"example like buying groceries\" or \"common word\" or \"life situation would be easily understood\" or \"object would be...\" referencing the everyday vocabulary context."
+ },
+ {
+  "pid": 49,
+  "token": "▁the",
+  "source": "Tidal forces gradually slow the Earth's rotation, lengthening the day by a tiny fraction of a second each century.",
+  "explanation": "Scientific explanation format: factual, Wikipedia-style description of a physics topic, establishing context about tidal locking and Earth's rotation.\n\nThe phrase \"This calculation extends the length of the day\" signals a direct answer to the question about the Moon's orbital period, implying a conclusion about the day length.\n\nFinal token \"the'\" opens a noun phrase (\"making the...extends the length of the...\"), requiring a specific noun — almost certainly \"day\" or \"our days\" — likely \"day on Earth\" or \"a little longer\" or \"by the same...\" or \"Earth's day is...\" to name the duration of the astronomical/fictional day."
+ }
+]

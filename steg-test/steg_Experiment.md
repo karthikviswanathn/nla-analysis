@@ -274,7 +274,7 @@ later input‑inversion (#B), AR‑as‑verifier (#2/#3), and layer‑sensitivit
 cd /gpfs/work5/0/gusr0688/fair_stuff/nla-analysis
 sbatch scripts/steg_test.slurm                 # 2×H100, 4 phases, ~15–30 min
 tail -f logs/steg_<jobid>.out          # progress + final table
-python -m json.tool logs/steg_<jobid>.json | less   # per-sample variants + scores
+python -m json.tool results/steg_<jobid>.json | less   # per-sample variants + scores
 ```
 
 Knobs (env vars, all optional): `TRANSFORM_MODEL`, `N_TAIL_CONTENT` (default 2), `MAX_NEW_MP`
@@ -304,8 +304,8 @@ Knobs (env vars, all optional): `TRANSFORM_MODEL`, `N_TAIL_CONTENT` (default 2),
 |---|---|
 | `steg-test/steg_test.py` | the 4‑phase experiment (`extract`/`decode`/`transform`/`score`) |
 | `scripts/steg_test.slurm` | 2×H100 driver (env block, SGLang serve/kill, phase ordering) |
-| `logs/steg_24025617.{out,json,npz}` | **Run 1** (weak transform model — the artifact) |
-| `logs/steg_24070002.{out,json,npz}` | **Run 2** (strong model + fidelity gating + back‑translation) |
+| `results/steg_24025617.{json,npz}`, `logs/steg_24025617.out` | **Run 1** (weak transform model — the artifact) |
+| `results/steg_24070002.{json,npz}`, `logs/steg_24070002.out` | **Run 2** (strong model + fidelity gating + back‑translation) |
 | `verify-steg-diagnosis` workflow (`wf_e2e8a864-a69`) | independent 17‑agent fidelity audit of Run 1 |
 | `limitations.md` | failure‑mode catalogue (this is mode **A**) |
 | `nla-inference/examples/qwen7b_layer20_step4200.txt` | source of the FVE formula + `0.7335` baseline |
@@ -363,7 +363,7 @@ that destroyed more reconstructable content than the transforms designed to remo
  ΔFVE vs orig        —    -0.064    -0.407    -0.462     -0.789    -0.682
 ```
 
-Per‑variant `mse_nrm` and `cos` for every cell are in `logs/steg_24025617.json` (`samples[i].scores`).
+Per‑variant `mse_nrm` and `cos` for every cell are in `results/steg_24025617.json` (`samples[i].scores`).
 
 ---
 
@@ -412,4 +412,4 @@ French.
 **`coherence`  [FVE −0.006, len_ratio 0.25]** — one sentence; content deleted (control, as intended).
 
 Per‑variant `mse_nrm`/`cos` and the full variant texts for all 8 samples are in
-`logs/steg_24070002.json`.
+`results/steg_24070002.json`.

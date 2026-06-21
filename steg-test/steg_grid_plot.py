@@ -43,7 +43,7 @@ BASELINE_OVERRIDE = {"qwen": QWEN_TRUE}
 
 
 def latest_json(model):
-    fs = sorted(glob.glob(os.path.join(BASE, "logs", f"grid_{model}_*.json")), key=os.path.getmtime)
+    fs = sorted(glob.glob(os.path.join(BASE, "results", f"grid_{model}_*.json")), key=os.path.getmtime)
     return fs[-1] if fs else None
 
 
@@ -89,7 +89,7 @@ def binned(x, y):
 
 
 def main():
-    out_png = sys.argv[1] if len(sys.argv) > 1 else os.path.join(BASE, "figures", "steg_grid.png")
+    out_png = sys.argv[1] if len(sys.argv) > 1 else os.path.join(BASE, "results", "steg_grid.png")
     os.makedirs(os.path.dirname(out_png), exist_ok=True)
 
     data = {}
