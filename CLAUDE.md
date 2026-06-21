@@ -47,7 +47,7 @@ from huggingface_hub import snapshot_download
 ckpt = snapshot_download("kitft/nla-qwen2.5-7b-L20-av")
 ```
 
-## Recommended path: Qwen2.5-7B (1× A100; or H100 — see smoke_test.slurm)
+## Recommended path: Qwen2.5-7B (1× A100; or H100 — see scripts/smoke_test.slurm)
 
 ```bash
 srun --partition=gpu_a100 --gpus=1 --cpus-per-task=16 --time=2:00:00 --pty bash
@@ -65,7 +65,7 @@ python -m sglang.launch_server --model-path "$CKPT" \
 #   text = client.generate(activation_vector)   # [d_model] array
 
 # End-to-end correctness check (load actor → input_embeds → inject → 5 random decodes + auto CJK check):
-sbatch smoke_test.slurm     # ✅ verified PASS on H100 2026-06-18 (5/5 English, ready in ~76s)
+sbatch scripts/smoke_test.slurm     # ✅ verified PASS on H100 2026-06-18 (5/5 English, ready in ~76s)
 ```
 
 ## Environment — one self-contained uv venv (do everything here)
@@ -80,7 +80,7 @@ source /gpfs/work5/0/gusr0688/fair_stuff/nla-analysis/.venv-sglang/bin/activate
 
 **Verified end-to-end on H100 (2026-06-18):** torch 2.9.1+cu128, sglang 0.5.9, transformers
 4.57.1, flashinfer 0.6.3, sgl_kernel. Full smoke test (load Qwen actor → SGLang `input_embeds`
-→ inject → decode) passes 5/5 English (`smoke_test.slurm`). Imports fine on A100 (sm_80) too.
+→ inject → decode) passes 5/5 English (`scripts/smoke_test.slurm`). Imports fine on A100 (sm_80) too.
 
 **Must use a uv-MANAGED Python, not system `/usr/bin/python3.11`.** The system interpreter ships
 no `Python.h`, so Triton can't JIT-compile its CUDA helper at first GPU use and SGLang dies during

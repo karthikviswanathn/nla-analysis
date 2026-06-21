@@ -6,10 +6,10 @@ Working directory under `fair_stuff/`.
 
 See [SNELLIUS_GPU.md](SNELLIUS_GPU.md) for the full guide (account, partitions,
 offline HF cache, env, known bugs). The repo ships a ready-to-edit
-[job.slurm](job.slurm) template:
+[scripts/job.slurm](scripts/job.slurm) template:
 
 ```bash
-sbatch job.slurm my_script.py 1024   # submit
+sbatch scripts/job.slurm my_script.py 1024   # submit
 squeue --me                          # check status
 tail -f logs/<job>-<id>.out          # follow output
 ```

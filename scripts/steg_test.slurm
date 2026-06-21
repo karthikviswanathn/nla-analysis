@@ -27,7 +27,7 @@ echo "[steg] AV=$CKPT_AV"
 echo "[steg] AR=$CKPT_AR"
 
 echo "[steg] PHASE 1: extract layer-20 gold vectors (base Qwen2.5-7B-Instruct)"
-python steg_test.py extract || { echo "[steg] extract failed"; exit 1; }
+python steg-test/steg_test.py extract || { echo "[steg] extract failed"; exit 1; }
 
 echo "[steg] PHASE 2: serve AV + decode explanations"
 SGLOG="$BASE/logs/sglang_steg_${SLURM_JOB_ID}.log"
@@ -44,12 +44,12 @@ for i in $(seq 1 180); do
   sleep 2
 done
 [ "$ready" = 1 ] || { echo "[steg] TIMEOUT"; tail -50 "$SGLOG"; kill "$SGPID" 2>/dev/null; exit 1; }
-python steg_test.py decode || { echo "[steg] decode failed"; kill "$SGPID" 2>/dev/null; exit 1; }
+python steg-test/steg_test.py decode || { echo "[steg] decode failed"; kill "$SGPID" 2>/dev/null; exit 1; }
 kill "$SGPID" 2>/dev/null; sleep 3   # free GPU before transform/score
 
 echo "[steg] PHASE 3: transform explanations (transform model = $TRANSFORM_MODEL)"
-python steg_test.py transform || { echo "[steg] transform failed"; exit 1; }
+python steg-test/steg_test.py transform || { echo "[steg] transform failed"; exit 1; }
 
 echo "[steg] PHASE 4: score with AR critic"
-python steg_test.py score || { echo "[steg] score failed"; exit 1; }
+python steg-test/steg_test.py score || { echo "[steg] score failed"; exit 1; }
 echo "[steg] DONE"

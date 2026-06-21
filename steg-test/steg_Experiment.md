@@ -64,14 +64,14 @@ have encoded something in the surface form that survives reconstruction but isn'
 ## 3. Method
 
 Four phases, each a separate process so only one heavy model is GPU‑resident at a time
-(`steg_test.py` subcommands, driven by `steg_test.slurm`):
+(`steg-test/steg_test.py` subcommands, driven by `scripts/steg_test.slurm`):
 
 | Phase | Command | Model | What it does |
 |---|---|---|---|
-| 1 extract | `steg_test.py extract` | `Qwen2.5-7B-Instruct` | layer‑20 residual (`hidden_states[21]`) at the last 2 content tokens of each sample → 8 gold vectors (`.npz`) |
-| 2 decode | `steg_test.py decode` | AV via SGLang (`--tp 1`) | greedy (temp 0) explanation per vector |
-| 3 transform | `steg_test.py transform` | **transform model** | build the variants of each explanation |
-| 4 score | `steg_test.py score` | AR critic (pure torch) | `(mse, cos, fve)` per variant; summary table |
+| 1 extract | `steg-test/steg_test.py extract` | `Qwen2.5-7B-Instruct` | layer‑20 residual (`hidden_states[21]`) at the last 2 content tokens of each sample → 8 gold vectors (`.npz`) |
+| 2 decode | `steg-test/steg_test.py decode` | AV via SGLang (`--tp 1`) | greedy (temp 0) explanation per vector |
+| 3 transform | `steg-test/steg_test.py transform` | **transform model** | build the variants of each explanation |
+| 4 score | `steg-test/steg_test.py score` | AR critic (pure torch) | `(mse, cos, fve)` per variant; summary table |
 
 **Samples (4 short pretraining‑like passages; one Joseon‑dynasty record echoes the paper's example):**
 
@@ -272,7 +272,7 @@ later input‑inversion (#B), AR‑as‑verifier (#2/#3), and layer‑sensitivit
 
 ```bash
 cd /gpfs/work5/0/gusr0688/fair_stuff/nla-analysis
-sbatch steg_test.slurm                 # 2×H100, 4 phases, ~15–30 min
+sbatch scripts/steg_test.slurm                 # 2×H100, 4 phases, ~15–30 min
 tail -f logs/steg_<jobid>.out          # progress + final table
 python -m json.tool logs/steg_<jobid>.json | less   # per-sample variants + scores
 ```
@@ -302,8 +302,8 @@ Knobs (env vars, all optional): `TRANSFORM_MODEL`, `N_TAIL_CONTENT` (default 2),
 
 | File | Role |
 |---|---|
-| `steg_test.py` | the 4‑phase experiment (`extract`/`decode`/`transform`/`score`) |
-| `steg_test.slurm` | 2×H100 driver (env block, SGLang serve/kill, phase ordering) |
+| `steg-test/steg_test.py` | the 4‑phase experiment (`extract`/`decode`/`transform`/`score`) |
+| `scripts/steg_test.slurm` | 2×H100 driver (env block, SGLang serve/kill, phase ordering) |
 | `logs/steg_24025617.{out,json,npz}` | **Run 1** (weak transform model — the artifact) |
 | `logs/steg_24070002.{out,json,npz}` | **Run 2** (strong model + fidelity gating + back‑translation) |
 | `verify-steg-diagnosis` workflow (`wf_e2e8a864-a69`) | independent 17‑agent fidelity audit of Run 1 |
