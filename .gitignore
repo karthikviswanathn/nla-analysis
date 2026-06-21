@@ -1,0 +1,25 @@
+# --- Secrets (NEVER commit) ---
+# .env holds AZURE_KEY / OPENAI_API_KEY
+.env
+.env.*
+!.env.example
+# .claude/ contains AZURE_OPENAI.md (live API key) + local settings
+.claude/
+
+# --- Editor config ---
+.vscode/
+
+# --- Environments / caches (huge, machine-specific) ---
+.venv-sglang/
+.uv/
+__pycache__/
+*.pyc
+
+# --- Cloned upstream repo (separate git project) ---
+nla-inference/
+
+# --- Generated experiment outputs ---
+logs/
+*.npz
+*.out
+slurm-*.out
