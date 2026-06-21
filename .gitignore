@@ -15,9 +15,6 @@
 __pycache__/
 *.pyc
 
-# --- Cloned upstream repo (separate git project) ---
-nla-inference/
-
 # --- Generated experiment outputs ---
 logs/
 *.npz
